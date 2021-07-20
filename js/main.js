@@ -14,7 +14,19 @@
   };
   loader();
 
-	
+// 	// Sticky Navbar
+//   $(window).scroll(function () {
+//     if ($(this).scrollTop() > 90) {
+//         $('.nav-bar').addClass('nav-sticky');
+//         $('.carousel, .page-header').css("margin-top", "100px");
+//     } else {
+//         $('.nav-bar').removeClass('nav-sticky');
+//         $('.carousel, .page-header').css("margin-top", "0");
+//     }
+// });
+
+
+
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
 		$this.addClass('show');

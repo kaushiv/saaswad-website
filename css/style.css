@@ -1,6 +1,7 @@
 body {
   background: #fff;
-  font-family: "Niramit", raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  /* font-family: "Niramit", raleway, sans-serif; */
   font-weight: 300;
   font-size: 16px;
   line-height: 1.8;
@@ -15,8 +16,8 @@ a {
     text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
-  color: #000;
-  font-family: "K2D", sans-serif; }
+  color: #dddddd;
+  font-family: 'Raleway', sans-serif;}
 
 .btn, .form-control {
   outline: none;
@@ -152,7 +153,7 @@ h1, h2, h3, h4, h5 {
 
 .nav-bar .navbar {
   height: 100%;
-  background: #000000 !important;
+  background: rgb(0 0 0 / 70%) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -370,11 +371,11 @@ h1, h2, h3, h4, h5 {
 
 .fact .fact-left {
   color: #c42e36;
-  background: #030f27;
+  background: #dddddd;
 }
 
 .fact .fact-right {
-  color: #030f27;
+  color: #dddddd;
   background:#c42e36;
 }
 
