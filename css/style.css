@@ -103,17 +103,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .top-bar .top-bar-text h3 {
+  font-family: 'Montserrat', sans-serif;
   margin: 0 0 5px 0;
   color: #030f27;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .top-bar .top-bar-text p {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   color: #030f27;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 @media (min-width: 992px) {
@@ -146,7 +148,7 @@ h1, h2, h3, h4, h5 {
   position: fixed;
   top: 0;
   width: 100%;
-  max-width: 1366px;
+  max-width: 2000px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
   z-index: 999;
 }
@@ -185,8 +187,8 @@ h1, h2, h3, h4, h5 {
 
 .nav-bar .btn:hover {
   color: #030f27;
-  background: #ff0000;
-  border-color: #ff0000;
+  background: #dc3545;
+  border-color: #dc3545;
 }
 
 @media (min-width: 992px) {
