@@ -541,7 +541,7 @@ h1, h2, h3, h4, h5 {
     display: inline-block; }
 
 .section {
-  padding: 7em 0; }
+      padding: 3em 0; }
 
 .cta-link {
   background: #c42e36
