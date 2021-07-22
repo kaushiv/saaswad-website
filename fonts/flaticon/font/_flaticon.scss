@@ -1,12 +1,13 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 03/01/2018 11:00
+    Creation date: 23/08/2020 07:24
     */
 
     @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -36,16 +37,24 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-blueprint:before { content: "\f100"; }
-.flaticon-building-1:before { content: "\f101"; }
-.flaticon-crane:before { content: "\f102"; }
-.flaticon-helmet:before { content: "\f103"; }
-.flaticon-building:before { content: "\f104"; }
-.flaticon-engineer:before { content: "\f105"; }
+    .flaticon-concrete:before { content: "\f100"; }
+.flaticon-worker:before { content: "\f101"; }
+.flaticon-measure:before { content: "\f102"; }
+.flaticon-building:before { content: "\f103"; }
+.flaticon-brush:before { content: "\f104"; }
+.flaticon-crane:before { content: "\f105"; }
+.flaticon-call:before { content: "\f106"; }
+.flaticon-calendar:before { content: "\f107"; }
+.flaticon-send-mail:before { content: "\f108"; }
+.flaticon-address:before { content: "\f109"; }
     
-    $font-Flaticon-blueprint: "\f100";
-    $font-Flaticon-building-1: "\f101";
-    $font-Flaticon-crane: "\f102";
-    $font-Flaticon-helmet: "\f103";
-    $font-Flaticon-building: "\f104";
-    $font-Flaticon-engineer: "\f105";
+    $font-Flaticon-concrete: "\f100";
+    $font-Flaticon-worker: "\f101";
+    $font-Flaticon-measure: "\f102";
+    $font-Flaticon-building: "\f103";
+    $font-Flaticon-brush: "\f104";
+    $font-Flaticon-crane: "\f105";
+    $font-Flaticon-call: "\f106";
+    $font-Flaticon-calendar: "\f107";
+    $font-Flaticon-send-mail: "\f108";
+    $font-Flaticon-address: "\f109";
