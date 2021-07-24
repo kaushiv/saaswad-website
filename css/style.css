@@ -343,13 +343,13 @@ h1, h2, h3, h4, h5 {
   margin: 0;
   font-size: 60px;
   line-height: 60px;
-  background-image: linear-gradient(#ffffff, #ff0000);
+  background-image: linear-gradient#ff0000, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .fact .fact-right .fact-icon [class^="flaticon-"]::before {
-  background-image: linear-gradient(#ffffff, #030f27);
+  background-image: linear-gradient(#ffffff, #ffffff);
 }
 
 .fact .fact-left,
@@ -688,15 +688,15 @@ h1, h2, h3, h4, h5 {
   padding: 40px; }
 
 .site-footer {
-  padding: 10em 0 5em 0;
+  padding: 5em 0 5em 0;
   background: #f2f2f2;
-  font-size: 13px; }
+  font-size: 14px; }
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer a {
-    color: #c42e36; }
+    color: #ec222c; }
     .site-footer a:hover {
-      color: #c42e36; }
+      color: #f2f2f2; }
   .site-footer h3 {
     font-size: 15px;
     margin-bottom: 20px; }
