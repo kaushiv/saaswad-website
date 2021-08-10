@@ -384,6 +384,13 @@ h1, h2, h3, h4, h5 {
   color: #c42e36;
 }
 
+.application{
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
 
 
 /* Owl Carousel */
