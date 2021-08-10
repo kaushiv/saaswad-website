@@ -388,6 +388,13 @@ p {
   color: #c42e36;
 }
 
+.application{
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
 
 
 /* Owl Carousel */
