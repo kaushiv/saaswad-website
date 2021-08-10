@@ -578,7 +578,8 @@ h1, h2, h3, h4, h5 {
     font-weight: 300; }
 
 .heading {
-  color: #000; }
+  color: #000;
+  font-family: 'Raleway', sans-serif; }
   .heading.border-bottom {
     position: relative;
     padding-bottom: 30px;
