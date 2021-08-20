@@ -881,6 +881,32 @@ p {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+.downs {
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.down {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+
+.downs .down a {
+  color: #6c757d;
+}
+
+.downs .down span {
+  color: #c42e36;
+}
+
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
