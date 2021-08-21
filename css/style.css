@@ -881,6 +881,48 @@ p {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+.downs {
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.down {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  padding-bottom: 2rem;
+}
+
+.downs .down a {
+  color: white;
+}
+
+.downs h5 {
+  display: flex;
+  justify-content: center;
+}
+
+.downs p {
+  text-align: justify;
+}
+
+.downs .down span {
+  color: #c42e36;
+}
+
+.downs .down:hover {
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
