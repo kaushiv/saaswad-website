@@ -25,6 +25,12 @@ body {
   font-style: normal;
 }
 
+
+
+.media-custom:hover .media-body h3 {
+    color:red;
+}
+
 /* line 12, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
@@ -2351,7 +2357,6 @@ h3 {
   font-size: 22px;
   color: #001D38;
   font-weight: 500;
-  margin-bottom: 40px;
 }
 
 /* line 26, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_service_details.scss */
