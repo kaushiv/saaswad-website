@@ -27,7 +27,18 @@ p {
   outline: none;
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
-
+#topbar {
+  margin-top: 10px;
+}
+#icon4 {
+  margin-top: 17px;
+  margin-right:100px;
+}
+#con {
+  height: 50px;
+  width: 120px;
+  padding-top: 13px;
+}
 .btn.btn-primary {
   color: #fff;
   border-width: 2px; }
@@ -136,6 +147,53 @@ p {
 
 /* SEARCH BTN  */
 
+nav .searchbar {
+  position: relative;
+}
+
+/* Styling the search box where the 
+  input would be given */
+nav .searchbar input[type="text"] {
+  border: 0;
+  padding: 0;
+  width: 0px;
+  height: 40px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Styling the search bar icon */
+nav .searchbar .icon {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 100%;
+  background: rgb(219, 22, 22);
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s 0.3s ease;
+}
+
+nav .searchbar .icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+nav .searchbar .icon.active {
+  background: rgb(219, 22, 22);
+  transition: all 0.3s ease;
+}
+
+nav .searchbar input[type="text"].active {
+  width: 300px;
+  padding: 0 10px;
+  transition: all 0.5s 0.2s ease;
+}
 
 /**********************************/
 /*********** Nav Bar CSS **********/
