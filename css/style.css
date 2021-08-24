@@ -134,6 +134,8 @@ p {
   }
 }
 
+/* SEARCH BTN  */
+
 
 /**********************************/
 /*********** Nav Bar CSS **********/
@@ -152,7 +154,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
-  max-width: 2000px;
+  max-width: 3000px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
   z-index: 999;
 }
