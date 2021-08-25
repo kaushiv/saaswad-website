@@ -680,6 +680,13 @@ nav .searchbar input[type="text"].active {
   -webkit-box-shadow: 4px 4px 70px -20px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 70px -20px rgba(0, 0, 0, 0.5); }
 
+.shadow {
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5) !important;
+    /* box-shadow: 5px 5px 5px black ; */
+    background-color: white;  
+  }
+
 .media-feature {
   padding: 30px;
   -webkit-transition: .2s all ease-out;
