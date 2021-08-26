@@ -134,7 +134,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-main, .btn-transparent, .btn-small {
-  background: #c42e36;
+  background: #dc3545;
   color: #fff;
   transition: all 0.2s ease;
 }
