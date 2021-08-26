@@ -27,10 +27,6 @@ body {
 
 
 
-.media-custom:hover .media-body h3 {
-    color:red;
-}
-
 /* line 12, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
