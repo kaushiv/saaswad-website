@@ -687,6 +687,11 @@ nav .searchbar input[type="text"].active {
     background-color: white;  
   }
 
+  ul li::before {
+    content: "" !important;
+    color: #d9534f !important; 
+  }
+
 .media-feature {
   padding: 30px;
   -webkit-transition: .2s all ease-out;
