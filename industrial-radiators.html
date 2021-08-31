@@ -143,6 +143,20 @@
       </div>
     </section>
 
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
 
 
 
@@ -154,7 +168,7 @@
                 <div class="col-lg-4 col-md-4">
                         <div class="service_details_left">
                             <h2 style="margin-bottom: 50px;">Our Products</h2>
-                            <h3>Heat Transfer</h3>
+                            <h3><i><b>Heat Transfer</b></i></h3>
                             <div class="nav nav-pills" id="v-pills-tab" role="tablist"
                                 aria-orientation="vertical">
                                 <a class=" active" id="v-industrial-radiators" data-toggle="pill" href="#industrial-radiators"
@@ -167,7 +181,7 @@
                                     role="tab" aria-controls="v-air-coolers" aria-selected="false">Charge Air Coolers</a>
                                 <br>
                                 <br>
-                                <h3>Air Conditioning</h3>
+                                <h3><i><b>Air Conditioning</b></i></h3>
                                 <a class="" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators"
                                     role="tab" aria-controls="v-bonded-radiators" aria-selected="false">Mechanically Bonded Radiators</a>
                                 <a class="" id="v-generator-radiators" data-toggle="pill" href="#generator-radiators"
@@ -190,9 +204,10 @@
                                             <li>Generation Engines :125 KVA to 1250 KVA</li>
                                             <li>Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
                                         </ul>
-                                        <a href="https://www.youtube.com/watch?v=u9V70mQiabo" target="_blank" class="btn btn-outline-danger" style="margin-left: 5px;">Watch Video</a>
-                                    <a href="#get-quote" class="btn btn-danger">Get Quote</a>
-                                    <a href="#industrial-radiator-brochure" class="btn btn-outline-danger">Download Brochure</a>
+                                        <a href="#get-quote" class="btn btn-danger" style="margin-left: 5px;">Get Quote</a>
+                                        <a href="#" class="btn btn-outline-danger">Download Brochure</a>
+                                        <a href="#" target="_blank" class="btn btn-outline-danger">Watch Video</a>
+                                  
                                 </div>
                                 <div class="service_thumb">
                                     <img class="img-fluid" src="img/1.jpg" alt="" style="height: 400px;width: 400px;">
@@ -272,7 +287,10 @@
                                         <li>Optional galvanized steel and heat exchanger coatings for enhanced corrosion protection
                                         </li>
                                     </ul>
-                                    
+                                    <a href="#get-quote" class="btn btn-danger" style="margin-left: 5px;" onclick="openForm()">Get Quote</a>
+                                        <a href="#industrial-radiator-brochure" class="btn btn-outline-danger">Download Brochure</a>
+
+                                        <a href="" target="_blank" class="btn btn-outline-danger">Watch Video</a>
                                 </div>
                                 <div class="service_thumb">
                                     <img class="img-fluid" src="img/2.jpg" alt="" style="height: 400px;width: 400px;">
@@ -336,20 +354,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="download_brochure d-flex align-items-center justify-content-between" id="">
-                                    <div class="download_left d-flex align-items-center">
-                                        <div class="icon">
-                                            <img src="img/svg_icon/download.svg" alt="" style="color: red;">
-                                        </div>
-                                        <div class="download_text">
-                                            <h3>Download Our Brochure</h3>
-                                            <p>Esteem spirit temper too say adieus who direct.</p>
-                                        </div>
-                                    </div>
-                                    <div class="download_right">
-                                        <a class="boxed-btn3-line" href="#">Download Now</a>
-                                    </div>
-                                </div>
+        
                             </div>
 
 
@@ -366,6 +371,10 @@
                                         <li>Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures etc.</li>
                                         <li>Industrial Power Generation Engines: 250 KVA - 2000 KVA</li>
                                     </ul>
+                                    <a href="#get-quote" class="btn btn-danger" style="margin-left: 5px;" onclick="openForm()">Get Quote</a>
+                                        <a href="#industrial-radiator-brochure" class="btn btn-outline-danger">Download Brochure</a>
+
+                                        <a href="" target="_blank" class="btn btn-outline-danger">Watch Video</a>
                                 </div>
                                 <div class="service_thumb">
                                     <img class="img-fluid" src="img/3.jpg" alt="" style="height: 400px;width: 400px;">
@@ -429,20 +438,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="download_brochure d-flex align-items-center justify-content-between">
-                                    <div class="download_left d-flex align-items-center">
-                                        <div class="icon">
-                                            <img src="img/svg_icon/download.svg" alt="">
-                                        </div>
-                                        <div class="download_text">
-                                            <h3>Download Our Brochure</h3>
-                                            <p>Esteem spirit temper too say adieus who direct.</p>
-                                        </div>
-                                    </div>
-                                    <div class="download_right">
-                                        <a class="boxed-btn3-line" href="#">Download Now</a>
-                                    </div>
-                                </div>
+                                
                             </div>
 
 
@@ -459,6 +455,10 @@
                                     <li>Off-Road / Construction Equipment Backhoe Loaders, Dumpers, Dozers and Concrete Mixtures, Locomotives, DG Sets etc.</li>
                                     <li>Industrial Power Generation Engines: 125 KVA-3000 KVA</li>
                                 </ul>
+                                <a href="#get-quote" class="btn btn-danger" style="margin-left: 5px;" onclick="openForm()">Get Quote</a>
+                                        <a href="#industrial-radiator-brochure" class="btn btn-outline-danger">Download Brochure</a>
+
+                                        <a href="" target="_blank" class="btn btn-outline-danger">Watch Video</a>
                             </div>
                             <div class="service_thumb">
                                 <img class="img-fluid" src="img/4.jpg" alt="" style="height: 400px;width: 400px;">
@@ -522,20 +522,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="download_brochure d-flex align-items-center justify-content-between">
-                                <div class="download_left d-flex align-items-center">
-                                    <div class="icon">
-                                        <img src="img/svg_icon/download.svg" alt="">
-                                    </div>
-                                    <div class="download_text">
-                                        <h3>Download Our Brochure</h3>
-                                        <p>Esteem spirit temper too say adieus who direct.</p>
-                                    </div>
-                                </div>
-                                <div class="download_right">
-                                    <a class="boxed-btn3-line" href="#">Download Now</a>
-                                </div>
-                            </div>
+                          
                         </div>
 
 
@@ -554,6 +541,10 @@
                                 <li>Industrial Power Generation Engines :125 KVA to 1250 KVA</li>
                                 <li>Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
                             </ul>
+                            <a href="#get-quote" class="btn btn-danger" style="margin-left: 5px;" onclick="openForm()">Get Quote</a>
+                                        <a href="#industrial-radiator-brochure" class="btn btn-outline-danger">Download Brochure</a>
+
+                                        <a href="" target="_blank" class="btn btn-outline-danger">Watch Video</a>
                         </div>
                         <div class="service_thumb">
                             <img class="img-fluid" src="img/5.jpg" alt="" style="height: 400px;width: 400px;">
@@ -617,20 +608,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="download_brochure d-flex align-items-center justify-content-between">
-                            <div class="download_left d-flex align-items-center">
-                                <div class="icon">
-                                    <img src="img/svg_icon/download.svg" alt="">
-                                </div>
-                                <div class="download_text">
-                                    <h3>Download Our Brochure</h3>
-                                    <p>Esteem spirit temper too say adieus who direct.</p>
-                                </div>
-                            </div>
-                            <div class="download_right">
-                                <a class="boxed-btn3-line" href="#">Download Now</a>
-                            </div>
-                        </div>
+                        
                     </div>
 
 
@@ -648,6 +626,10 @@
                             <li>Generation Engines :125 KVA to 1250 KVA</li>
                             <li>Locomotive Engine : 1350 HP TO 4500 HP Generator Radiators</li>
                         </ul>
+                        <a href="#get-quote" class="btn btn-danger" style="margin-left: 5px;" onclick="openForm()">Get Quote</a>
+                                        <a href="#industrial-radiator-brochure" class="btn btn-outline-danger">Download Brochure</a>
+
+                                        <a href="" target="_blank" class="btn btn-outline-danger">Watch Video</a>
                     </div>
                     <div class="service_thumb">
                         <img class="img-fluid" src="img/6.jpg" alt="" style="height: 400px;width: 400px;">
@@ -711,20 +693,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="download_brochure d-flex align-items-center justify-content-between">
-                        <div class="download_left d-flex align-items-center">
-                            <div class="icon">
-                                <img src="img/svg_icon/download.svg" alt="">
-                            </div>
-                            <div class="download_text">
-                                <h3>Download Our Brochure</h3>
-                                <p>Esteem spirit temper too say adieus who direct.</p>
-                            </div>
-                        </div>
-                        <div class="download_right">
-                            <a class="boxed-btn3-line" href="#">Download Now</a>
-                        </div>
-                    </div>
                 </div>
                         </div>
                     </div>
@@ -733,55 +701,6 @@
 </div>
 
 
-<!-- service_details_start  -->
-
-<!-- Estimate_area start  -->
-<div class="Estimate_area overlay" style="background-color: #ddd;" id="get-quote">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-5">
-                <div class="Estimate_info">
-                    <h3>Get free Estimate</h3>
-                    <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                        placing.</p>
-                    <a href="#" class="boxed-btn3">+91 9336116247</a>
-                </div>
-            </div>
-            <div class="col-xl-8 col-lg-8 col-md-7">
-                <div class="form">
-                    <form action="#">
-                        <div class="row">
-                            <div class="col-xl-6">
-                                <div class="input_field">
-                                    <input type="text" placeholder="Your name">
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="input_field">
-                                    <input type="email" placeholder="Email">
-                                </div>
-                            </div>
-                            
-                            <div class="col-xl-12">
-                                <div class="input_field">
-                                    <textarea placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-xl-12">
-                                <div class="input_field">
-                                    <button class="boxed-btn3-line" type="submit">Call Us</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-</div>
-<!-- Estimate_area end  -->
 
 
 <!-- END section -->
