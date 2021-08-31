@@ -581,12 +581,7 @@ nav .searchbar input[type="text"].active {
   color: #c42e36;
 }
 
-.application{
-  width: 50%;
-  margin: 100px auto 100px;
-  text-align: left;
-  line-height: 2;
-}
+
 
 
 
@@ -1081,10 +1076,69 @@ nav .searchbar input[type="text"].active {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+/* .application{
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+  } */
 
-.application .blog:hover {
-  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+.app-text:hover {
+  -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.app-text-alter:hover {
+  -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.application img:hover {
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.applications {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+  gap: 2rem;
+}
+
+.application {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  background-color: whitesmoke;
+  /* background-color: #d9534f; */
+  -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.app-text {
+  position: relative;
+  text-align: justify;
+  padding: 3rem;
+  margin-right: -7rem;
+  margin-top: 10rem;
+  width: 400px;
+  height: fit-content;
+  background-color: white;
+}
+
+.app-text-alter {
+  position: relative;
+  text-align: justify;
+  padding: 3rem;
+  margin-left: -7rem;
+  margin-top: 10rem;
+  width: 400px;
+  height: fit-content;
+  background-color: white;
 }
 
 .downs {
