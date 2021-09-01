@@ -8,6 +8,7 @@ body {
   color: #6c757d; }
 
 
+
 .my-card:hover #title{
   color: red;
 }
