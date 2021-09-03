@@ -3243,7 +3243,10 @@ input[type="button"].btn-block {
   border-bottom: 1px solid #dee2e6;
   display: flex;
   align-items: center;
-  flex-direction:inherit; }
+  flex-direction:inherit;
+  justify-content: center;
+  padding-left: 0%;
+  font-size: 19px; }
   .nav-tabs .nav-item {
     margin-bottom: -1px; }
   .nav-tabs .nav-link {
