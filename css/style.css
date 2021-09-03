@@ -7,8 +7,119 @@ body {
   line-height: 1.8;
   color: #6c757d; }
 
+/*Contact Us CSS*/
+.map-section {
+    position: relative;
+    padding: 115px 0 110px
+}
 
+.map-section .container {
+    position: relative;
+    z-index: 5;
+    top: 30px
+}
 
+.map-info {
+    max-width: 293px;
+    padding: 79px 25px 75px;
+    background: #dc3545;
+    position: relative;
+    top: 30px
+}
+
+.map-info::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -17px;
+    border-left: 27px solid #dc3545;
+    border-top: 0 solid transparent;
+    border-bottom: 17px solid transparent
+}
+
+.map-info img {
+    margin-bottom: 45px
+}
+
+.map-info p {
+    color: #fff
+}
+
+.map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0
+}
+
+.map iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0
+}
+
+.team-member {
+  margin-top: 35px;
+  position: relative;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-box-shadow: 0 0 200px transparent;
+  box-shadow: 0 0 200px transparent
+}
+
+.team-member:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: 2px solid #000;
+  opacity: 1;
+  -webkit-transition: all .3s;
+  transition: all .3s
+}
+
+.team-member img {
+  position: relative;
+  z-index: 2
+}
+
+.team-member .member-info {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px 47px;
+  z-index: 3;
+  margin-bottom: 100px;
+}
+
+.team-member .member-info h3 {
+  font-size: 20px
+}
+
+.team-member .member-info p {
+  margin-bottom: 20px
+}
+
+.team-member .member-info .site-btn {
+  min-width: 127px
+}
+
+.team-member:hover {
+  -webkit-box-shadow: 0 26px 49px rgba(0, 0, 0, .17);
+  box-shadow: 0 26px 49px rgba(0, 0, 0, .17)
+}
+
+.team-member:hover:after {
+  opacity: 0
+}
+
+ul {
+  list-style-type: none;
+}
 
 
 
