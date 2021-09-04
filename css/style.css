@@ -1554,17 +1554,18 @@ nav .searchbar input[type="text"].active {
 
 .applications {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 5rem auto;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .application {
   display: flex;
   flex-direction: row;
-  padding: 3rem;
+  padding: 1rem;
   background-color: whitesmoke;
   /* background-color: #d9534f; */
   -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
@@ -1574,22 +1575,22 @@ nav .searchbar input[type="text"].active {
 .app-text {
   position: relative;
   text-align: justify;
-  padding: 3rem;
+  padding: 1rem;
   margin-right: -7rem;
   margin-top: 10rem;
-  width: 400px;
-  height: fit-content;
+  width: 350px;
+  height: 370px;
   background-color: white;
 }
 
 .app-text-alter {
   position: relative;
   text-align: justify;
-  padding: 3rem;
+  padding: 1rem;
   margin-left: -7rem;
   margin-top: 10rem;
-  width: 400px;
-  height: fit-content;
+  width: 350px;
+  height: 370px;
   background-color: white;
 }
 
