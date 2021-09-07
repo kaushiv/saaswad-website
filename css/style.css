@@ -1528,14 +1528,9 @@ nav .searchbar input[type="text"].active {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
-/* .application{
-    width: 50%;
-    margin: 100px auto 100px;
-    text-align: left;
-    line-height: 2;
-  } */
 
-.app-text:hover {
+
+/* .app-text:hover {
   -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
     box-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
@@ -1550,7 +1545,7 @@ nav .searchbar input[type="text"].active {
   z-index: 1;
   -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
     box-shadow: 1px 1px 2px rgb(0, 0, 0);
-}
+} */
 
 .applications {
   display: flex;
@@ -1558,41 +1553,33 @@ nav .searchbar input[type="text"].active {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 5rem auto;
-  gap: 4rem;
+  margin-bottom: 5rem;
+  /* gap: 3rem; */
 }
 
 .application {
+  position: relative;
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  padding: 1rem;
-  background-color: whitesmoke;
-  /* background-color: #d9534f; */
-  -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
-    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+  flex-direction: column;
 }
 
-.app-text {
-  position: relative;
-  text-align: justify;
-  padding: 1rem;
-  margin-right: -7rem;
-  margin-top: 10rem;
-  width: 350px;
-  height: 370px;
-  background-color: white;
+.application img {
+ width: 40vw;
+  height: 25rem;
 }
 
-.app-text-alter {
-  position: relative;
-  text-align: justify;
-  padding: 1rem;
-  margin-left: -7rem;
-  margin-top: 10rem;
-  width: 350px;
-  height: 370px;
-  background-color: white;
+.application .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 40vw;
+  padding: 20px;
 }
+
+
 
 .downs {
   margin: 5rem auto;
