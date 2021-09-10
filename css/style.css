@@ -1580,8 +1580,8 @@ nav .searchbar input[type="text"].active {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
+  background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+  color: #fff;
   padding: 20px;
   height: 100%;
 }
