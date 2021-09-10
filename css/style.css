@@ -268,7 +268,10 @@ body {
   box-sizing: border-box;
 }
 
-
+.fh {color: #c42e36;}
+.fh:hover{
+  color: white;
+}
 
 .sectionClass {
   padding: 0px 0px 50px 0px;
@@ -832,7 +835,7 @@ nav .searchbar input[type="text"].active {
 
 .main-timeline .date-outer:before {
   background: #fff;
-  border: 2px solid #232323;
+  border: 2px solid #e90202;
   left: -6px
 }
 
@@ -866,7 +869,7 @@ nav .searchbar input[type="text"].active {
   display: block;
   font-size: 30px;
   font-weight: 700;
-  color: #232323;
+  color: #d11818;
   line-height: 36px
 }
 
@@ -878,6 +881,7 @@ nav .searchbar input[type="text"].active {
 
 .main-timeline .title {
   font-size: 19px;
+  
   font-weight: 700;
   line-height: 24px;
   margin: 0 0 15px 0
