@@ -1582,8 +1582,8 @@ nav .searchbar input[type="text"].active {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
   color: #fff;
-  padding: 20px;
-  height: 100%;
+  margin: 10px;
+  height: 95%;
 }
 
 
