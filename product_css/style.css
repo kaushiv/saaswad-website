@@ -114,53 +114,7 @@ label {
 }
 
 /* line 74, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-*::-moz-selection {
-  background: #444;
-  color: #fff;
-  text-shadow: none;
-}
 
-/* line 79, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-::-moz-selection {
-  background: #444;
-  color: #fff;
-  text-shadow: none;
-}
-
-/* line 84, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-::selection {
-  background: #444;
-  color: #fff;
-  text-shadow: none;
-}
-
-/* line 89, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-*::-webkit-input-placeholder {
-  color: #cccccc;
-  font-size: 14px;
-  opacity: 1;
-}
-
-/* line 94, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-*:-ms-input-placeholder {
-  color: #cccccc;
-  font-size: 14px;
-  opacity: 1;
-}
-
-/* line 99, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-*::-ms-input-placeholder {
-  color: #cccccc;
-  font-size: 14px;
-  opacity: 1;
-}
-
-/* line 104, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-*::placeholder {
-  color: #cccccc;
-  font-size: 14px;
-  opacity: 1;
-}
 
 /* line 110, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
 h3 {
