@@ -1533,60 +1533,81 @@ nav .searchbar input[type="text"].active {
   stroke-linecap: round; }
 
 
+  .applications {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
 
-/* .app-text:hover {
-  -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
-    box-shadow: 1px 1px 2px rgb(0, 0, 0);
-}
+  .flip-card {
+    
+    
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
 
-.app-text-alter:hover {
-  -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
-    box-shadow: 1px 1px 2px rgb(0, 0, 0);
-}
+  .flip-card-inner img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
 
-.application img:hover {
-  position: relative;
-  z-index: 1;
-  -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0);
-    box-shadow: 1px 1px 2px rgb(0, 0, 0);
-} */
+  .flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: whitesmoke;
+    color: white;
+    transform: rotateY(180deg);
+  }
 
-.applications {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5rem;
-  gap: 3rem;
-}
+  .flip-card-back h1 {
+    color: #d9534f;
+  }
 
-.application {
-  position: relative;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  height: 400px;
-}
-
-.application img {
- width: 100%;
- height: 100%;
- object-fit: cover;
-}
-
-.application .content {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
-  color: #fff;
-  margin: 10px;
-  height: 95%;
-}
-
-
+  .flip-card-back p {
+    color: #333;
+  }
 
 .downs {
   margin: 5rem auto;
