@@ -241,14 +241,11 @@
             <form action="/">
               <h2>Get Quote</h2>
               <div>
-                <input class="fname" type="text" name="name" placeholder="Full name" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;">
-                <input type="text" name="name" placeholder="Email" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;">
-                <input type="text" name="name" placeholder="Phone number" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;">
+                <input class="fname" type="text" name="name" placeholder="Full name" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
+                <input type="text" name="name" placeholder="Email" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
+                <input type="text" name="name" placeholder="Phone number" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
               </div>
-              <span>Message</span>
-              <div>
-                <textarea rows="4" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;"></textarea>
-              </div>
+              
               <a href="/" class="btn btn-danger">Submit</a>
             </form>
           </div>
@@ -261,9 +258,9 @@
             <form action="/">
               <h2>Download Brochure</h2>
               <div>
-                <input class="fname" type="text" name="name" placeholder="Full name" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;">
-                <input type="text" name="name" placeholder="Email" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;">
-                <input type="text" name="name" placeholder="Phone number" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;">
+                <input class="fname" type="text" name="name" placeholder="Full name" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
+                <input type="text" name="name" placeholder="Email" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
+                <input type="text" name="name" placeholder="Phone number" style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
                 
               </div>
               <a href="/" class="btn btn-danger">Download</a>
@@ -279,39 +276,41 @@
 <div class="service_details_area">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4">
-                <div class="service_details_left">
-                    <h2 style="margin-bottom: 50px; color: black;">Our Products</h2>
-                    <h3><i><b>Heat Transfer</b></i></h3>
-                    <div class="nav nav-pills" id="v-pills-tab" role="tablist"
-                        aria-orientation="vertical">
-                        <a class="" id="v-industrial-radiators" data-toggle="pill" href="#industrial-radiators"
-                            role="tab" aria-controls="v-industrial-radiators" aria-selected="true">Industrial Radiators</a>
-                        <a class="" id="v-heat-exchangers" data-toggle="pill" href="#heat-exchangers"
-                            role="tab" aria-controls="v-heat-exchangers" aria-selected="false">Customized Heat Exchangers</a>
-                        <a class="" id="v-oil-coolers" data-toggle="pill" href="#oil-coolers"
-                            role="tab" aria-controls="v-oil-coolers" aria-selected="false">Oil Coolers</a>
-                            <a class="" id="v-air-coolers" data-toggle="pill" href="#air-coolers"
-                            role="tab" aria-controls="v-air-coolers" aria-selected="false">Charge Air Coolers</a>
-                        <br>
-                        <br>
-                        <h3><i><b>Air Conditioning</b></i></h3>
-                        <a class="active" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators"
-                            role="tab" aria-controls="v-bonded-radiators" aria-selected="false">Mechanically Bonded Radiators</a>
-                        <a class="" id="v-generator-radiators" data-toggle="pill" href="#generator-radiators"
-                            role="tab" aria-controls="v-generator-radiators" aria-selected="false">Generator Radiators</a>  
+                <div class="col-lg-4 col-md-4">
+                        <div class="service_details_left">
+                            <h2 style="margin-bottom: 50px; color: black;">Our Products</h2>
+                            <h3><i><b>Heat Transfer</b></i></h3>
+                            <div class="nav nav-pills" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <a class="" id="v-industrial-radiators" data-toggle="pill" href="#industrial-radiators"
+                                    role="tab" aria-controls="v-industrial-radiators" aria-selected="true">Radiators</a>
+                                <a class="" id="v-heat-exchangers" data-toggle="pill" href="#heat-exchangers"
+                                    role="tab" aria-controls="v-heat-exchangers" aria-selected="false">Heat Exchangers</a>
+                                <a class="" id="v-oil-coolers" data-toggle="pill" href="#oil-coolers"
+                                    role="tab" aria-controls="v-oil-coolers" aria-selected="false">Oil Coolers</a>
+                                    <a class="" id="v-air-coolers" data-toggle="pill" href="#air-coolers"
+                                    role="tab" aria-controls="v-air-coolers" aria-selected="false">Charge Air Coolers</a>
+                                <br>
+                                <br>
+                                <h3><i><b>Air Conditioning</b></i></h3>
+                                <a class="active" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators"
+                                    role="tab" aria-controls="v-bonded-radiators" aria-selected="false">Mechanically Bonded Radiators</a>
+                                <a class="" id="v-generator-radiators" data-toggle="pill" href="#generator-radiators"
+                                    role="tab" aria-controls="v-generator-radiators" aria-selected="false">Generator Radiators</a>  
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
                     <div class="col-lg-8 col-md-8">
                         <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show" id="industrial-radiators" role="tabpanel"
+                            <div class="tab-pane fade" id="industrial-radiators" role="tabpanel"
                                 aria-labelledby="v-industrial-radiators">
                                 <div class="service_details_info">
-                                    <h3>Industrial Radiators</h3>
-                                    <p>We introduce ourselves as one of the Leading Manufacturers of Radiators in India since 1987. We are known for manufacturing quality products and providing complete products through technical expertise and after-sales service to our customers.
+                                    <h3>Radiators</h3>
+                                    <p>We introduce ourselves as one of the Leading Manufacturers of Radiators in India since 1987. We are known for manufacturing quality products and providing complete products through technical expertise and after-sales service to our customers. With required emission specifications,we at SAASWAD produce radiators that are the most efficient and optimised design for a compact frontal area. We have proven products for non automotive applications. The material we use in building Radiators is Aluminium and copper brass. We have different variations of different capacities ranging 125 Kva to 1250 Kva. Which can also be customized according to the customer's requirement.
+                                        <div class="service_thumb">
+                                            <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
+                                        </div>  
                                     </p>
-                                    <p>With required emission specifications,we at SAASWAD produce radiators that are the most efficient and optimised design for a compact frontal area. We have proven products for non automotive applications. The material we use in building Radiators is Almunium and copper brass. We have different variations of different capacity ranging 125 Kva to 1250 Kva. Which can also be customized according to the customer's requirement.</p>
                                         <ul>
                                             <li>Material: Aluminum & Copper Brass</li>
                                             <li>Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</li>
@@ -320,11 +319,58 @@
                                         </ul>
                                         <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get Quote</a>
                                         <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download Brochure</a>
-                                        <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
+                                        <a href="https://www.youtube.com/watch?v=u9V70mQiabo" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
                                   
                                 </div>
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
+                                
+
+                                <div class="service_details_info">
+                                    <p>We manufacture premium quality radiator assembly and radiator core with our two state-of-art-facilities and skilled experts. Following the industry-defined standards and norms, our radiator assembly is made with superlative excellence ensuring premium quality material. Having a strong client base over the seas, our radiator assembly is used in diverse applications in various industries. We are known as one of the leading manufacturers of radiator as we manufacture irreprochable designs and remarkable quality.
+                                    </p>
+                                   <br>
+                                    <div class="card element-animate media d-block media-custom text-left">
+                                        <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                            <b>Locomotive Radiator</b>
+                                        </div>
+                                        <div class="card-body">
+                                          <blockquote class="blockquote mb-0">
+                                            <p>We take immense pleasure and satisfaction that currently more than 3000 Locos are running on tracks with our products. Indian Railways, the governmental entity under the Ministry of Railways which operates India's National Railway System. We at SHTE are proud to supply Radiator for Locomotive Application (1350 HP, 3100 HP, 4000 HP and 4500 HP) to them. We also supply them with Charge Air Cooler ( also known as Intercooler ) of capacity 3100 HP Alco design and also of capacity of 4000 HP and 4500 HP especially for EMD 710 and 645 Engines.</p>
+                                          </blockquote>
+                                        </div>
+                                      </div>
+                                  
+                                      <div class="card element-animate media d-block media-custom text-left">
+                                        <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                            <b>Generator Radiator</b>
+                                        </div>
+                                        <div class="card-body">
+                                          <blockquote class="blockquote mb-0">
+                                            <p>We are OEM for some of the world leading manufacturers of Generator. We serve them with our world class heat transfer solution. We are proud to supply to some of the leading Generator manufacturers in the world like Kirloskar, Cummins, Greaves Cotton, and many more. The power capacity of the application for which we provide radiator is above 125 kvA.</p>
+                                          </blockquote>
+                                        </div>
+                                      </div>
+                                    
+                                    <div class="card element-animate media d-block media-custom text-left">
+                                        <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                            <b>Heavy Duty Radiator</b>
+                                        </div>
+                                        <div class="card-body">
+                                          <blockquote class="blockquote mb-0">
+                                            <p>We also manufacture radiators for heavy duty equipment like excavators, backhoe, loader, bulldozer, etc. These applications need to be built with good quality material. The material which we use to manufacture these equipment is copper and brass. These materials are guaranteed the long-life of these products apart from the material with paint these applications with a special type to paint as these applications works in some tough climate.</p>
+                                          </blockquote>
+                                        </div>
+                                      </div>
+                                      <div class="card element-animate media d-block media-custom text-left">
+                                        <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                            <b>Some other applications</b>
+                                        </div>
+                                        <div class="card-body">
+                                          <blockquote class="blockquote mb-0">
+                                            <p>Apart from these applications, we also manufacture radiators for other applications like agricultural equipment, cranes, off-shore, and many more.</p>
+                                          </blockquote>
+                                        </div>
+                                      </div>
+                            
                                 </div>
                                 <div class="accordion_area" id="industrial-radiator-brochure">
                                     <div class="faq_ask">
@@ -386,14 +432,15 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade show" id="heat-exchangers" role="tabpanel"
+                            <div class="tab-pane fade" id="heat-exchangers" role="tabpanel"
                                 aria-labelledby="v-heat-exchangers">
                                 <div class="service_details_info">
-                                    <h3>Customized Heat Exchangers</h3>
-                                    <p>We introduce ourselves as one of the Leading Manufacturers of Heat exchangers in India since 1987. We are known for manufacturing quality products and providing complete products through technical expertise and after-sales service to our customers. We at SAASWAD have proven capabilities and expertise to provide customized engine cooling systems that consist of multiple heat exchangers and auxiliary components such as tan shrouds, re-circulation shields, and DE Beration tanks.
+                                    <h3>Heat Exchangers</h3>
+                                    <p>We introduce ourselves as one of the Leading Manufacturers of Heat Exchangers in India since 1987. We are known for manufacturing quality products and providing complete products through technical expertise and after-sales service to our customers. We at SAASWAD have proven capabilities and expertise to provide customized engine cooling systems that consist of multiple heat exchangers and auxiliary components such as tan shrouds, re-circulation shields, and DE Beration tanks. The designs we provide have multiple mounting options to meet diverse engine types and performance parameters and can be directly installed on the engine assembly lines.The material we use in building Heat exchangers is Aluminium and copper brass. We have different variations. Which can also be customized according to the customer's requirement.
                                     </p>
-                                    <p>The designs we provide have multiple mounting options to meet diverse engine types and performance parameters and can be directly installed on the engine assembly lines.The material we use in building Heat exchangers is Almunium and copper brass. We have different variations. Which can also be customized according to the customer's requirement.</p>
-                                   <br>
+                                    <div class="service_thumb">
+                                        <img class="img-fluid" src="img/heat-exchanger.png" alt="" style="height: 400px;width: 400px;">
+                                    </div>
                                     <ul style="list-style-type: square;">
                                         <li>The custom manufactured engine cooling systems include all components, as listed below, needed to install and connect the heat exchanger to respective engines</li>
                                         <li>Drive kit with premium belts, pulleys, and stub shaft</li>
@@ -405,8 +452,41 @@
                                         <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download Brochure</a>
                                         <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
                                 </div>
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/heat-exchanger.png" alt="" style="height: 400px;width: 400px;">
+                            
+                                <div class="service_details_info">
+                                    <div class="card element-animate media d-block media-custom text-left">
+                                        <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                            <b>Custom Designed Heat Exchanger</b>
+                                        </div>
+                                        <div class="card-body">
+                                          <blockquote class="blockquote mb-0">
+                                            <p>Our highest priority is always quality Manufacturing. We believe in giving the best quality product to our customers. SHTE can also design and manufacture products based on the requirements of customers, Thanks to the experts, the creative spirit and the research Department, which enables the company to deliver more and more new products like Custom Designed Heat Exchanger. Our highest priority is always quality Manufacturing.Our company is counted amongst one of the most trusted names in the industry for manufacturing and supplying a wide range of Heat Exchangers. These heat exchangers are safe to use and do not require much effort for the maintenance. We make sure that our range complies with the industry quality norms.</p>
+                                          </blockquote>
+                                        </div>
+                                      </div>
+
+                                      <div class="card element-animate media d-block media-custom text-left">
+                                        <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                            <b>Industrial Heat Exchangers</b>
+                                        </div>
+                                        <div class="card-body">
+                                          <blockquote class="blockquote mb-0">
+                                            <p>Industrial operations almost always need temperature regulation of some sort. Accordingly, heat exchangers are frequently an important piece of equipment at industrial sites. At SHTE, we have been passionate about heat exchange since 1987. We design, manufacture, and install highly innovative Heat Exchangers for the various industries. Further to this, we support our customers to optimize and extend their existing or new process equipment. We offer elaborating solutions and designs to all kinds of customers worldwide.</p>
+                                          </blockquote>
+                                        </div>
+                                      </div>
+
+                                      <div class="card element-animate media d-block media-custom text-left">
+                                        <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                            <b>Copper Heat Exchanger</b>
+                                        </div>
+                                        <div class="card-body">
+                                          <blockquote class="blockquote mb-0">
+                                            <p>Our Heat Exchangers made of copper are better in performance, as they have better serving life and ability to withstand harsh conditions. SHTE is one of the trusted Copper Heat Exchanger Manufacturers in India. Offering heat exchangers have a huge demand in various industries because of their high thermal conductivity and other features. We ensure high-quality, as they get manufactured at our in-house facility implementing the right method and materials.</p>
+                                          </blockquote>
+                                        </div>
+                                      </div>
+                                                                    
                                 </div>
                                 <div class="accordion_area">
                                     <div class="faq_ask">
@@ -476,8 +556,10 @@
                                 <div class="service_details_info">
                                     <h3>Oil Coolers</h3>
                                     <p>We introduce ourselves as one of the Leading Manufacturers of Oil coolers in India since 1987. We at Saaswad, make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type. They are efficient for reducing high oil temperature. The designs we provide are compact, lightweight, high performance with required cooling under demanding engine conditions.
-                                    </p>
-                                    <p>TThe material we use in building Oil coolers is Aluminium and copper brass. We have different variations of different capacities ranging 250 Kva to 2000 Kva. Which can also be customized according to the customer's requirement.</p>
+                                    The material we use in building Oil coolers is Aluminium and copper brass. We have different variations of different capacities ranging 250 Kva to 2000 Kva. Which can also be customized according to the customer's requirement.</p>
+                                    <div class="service_thumb">
+                                        <img class="img-fluid" src="img/oil-cooler.png" alt="" style="height: 400px;width: 400px;">
+                                    </div>
                                     <ul>
                                         <li>Material: Aluminum</li>
                                         <li>Design Types: Fin & Tube / Bar & Plate</li>
@@ -488,15 +570,42 @@
                                         <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download Brochure</a>
                                         <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
                                 </div>
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/oil-cooler.png" alt="" style="height: 400px;width: 400px;">
+                                <p>SHTE has a wide range of high quality oil coolers for the cooling of oil and hydraulic fluids. SHTE oil coolers are engineered to meet high specifications and technical requirements of our clients. SHTE offers an extensive range of nearly 50 oil coolers for application in a variety of products. SHTE is constantly expanding their oil cooler range to cover the demand in the market.
+                                    Oil is without doubt one of the most crucial fluids contained within an engine, because it lubricates the moving parts of the engine and absorbs a lot of heat. Oil coolers are used to cool oil and hydraulic fluids for engines.. The oil cooler receives the lubricant’s heat and is cooled down by the ambient air or the radiator coolant. In some applications, the oil cooler is built into the radiator water tank. In modern vehicles, an automatic gearbox oil cooler is often designed as a stand-alone unit, mounted separately in the engine compartment or on the engine block.
+                                    </p>
+                                    <br>
+ 
+                                <div class="service_details_info">
+                                    
+                                        <div class="card element-animate media d-block media-custom text-left">
+                                            <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                                <b>Industrial Oil Cooler</b>
+                                            </div>
+                                            <div class="card-body">
+                                              <blockquote class="blockquote mb-0">
+                                                <p>The Industrial Oil Coolers manufactured by us are made using best quality raw materials. These coolers are made under the strict guidance of skilled workers using modern technology. They can also be customized as per the requisite demands of the clients. The Industrial Oil Cooler that we manufacture finds their usage in various industries. Further, they are also tested by our quality assurance team to ensure they are free from defects.</p>
+                                              </blockquote>
+                                            </div>
+                                          </div>
+
+                                          <div class="card element-animate media d-block media-custom text-left">
+                                            <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                                                <b>Other Applications</b>
+                                            </div>
+                                            <div class="card-body">
+                                              <blockquote class="blockquote mb-0">
+                                                <p>We at SHTE, are known as a reliable manufacturer and supplier of a wide range of oil coolers. The gamut we bring-forth comprises Shell Oil Cooler, Hydraulic Oil Cooler, Air Oil Cooler, Compressor Cooler,  Crane Oil Cooler, etc. These oil coolers are utilized in different industries such as locomotives, construction, agriculture, etc. Our oil coolers are manufactured using top grade raw material which is responsible for the durability and high tensile strength of our products. We have adopted modern production techniques owing to which we have been able to create and supply a flawless array.</p>
+                                              </blockquote>
+                                            </div>
+                                          </div>
+                                    
                                 </div>
                                 <div class="accordion_area">
                                     <div class="faq_ask">
                                         <h3>Frequently ask</h3>
                                         <div id="accordion">
                                             <div class="card">
-                                                <div class="card-header" id="headingTwoa">
+                                                <div class="card-header" id="headingTwo">
                                                     <h5 class="mb-0">
                                                         <button class="btn btn-link collapsed" data-toggle="collapse"
                                                             data-target="#collapseTwoa" aria-expanded="false"
@@ -558,9 +667,10 @@
                             aria-labelledby="v-air-coolers">
                             <div class="service_details_info">
                                 <h3>Charge Air Coolers</h3>
-                                <p>We introduce ourselves as one of the Leading Manufacturers of Charge Air Cooler in India since 1987. The material we use in building Charge Air Cooler is Aluminium and copper brass. We have different variations of different capacities ranging 250 Kva to 2000 Kva. Which can also be customized according to the customer's requirement. SAASWAD’S range of Charge air coolers (CAC)/After coolers or Intercoolers have proved very successful in cooling engine intake of air for increased power, improved fuel economy and emission.
-                                </p>
-                                <p>The CACS manufactured at SAASWAD with controlled atmosphere brazing processes as well as Mechanical bonded process in following categories :-</p>
+                                <p>We introduce ourselves as one of the Leading Manufacturers of Charge Air Cooler in India since 1987. The material we use in building Charge Air Cooler is Aluminium and copper brass. We have different variations of different capacities ranging 250 Kva to 2000 Kva. Which can also be customized according to the customer's requirement. SAASWAD’S range of Charge air coolers (CAC)/After coolers or Intercoolers have proved very successful in cooling engine intake of air for increased power, improved fuel economy and emission. The CACS manufactured at SAASWAD with controlled atmosphere brazing processes as well as Mechanical bonded process in following categories :-</p>
+                                <div class="service_thumb">
+                                    <img class="img-fluid" src="img/charge-air-cooler.png" alt="" style="height: 400px;width: 400px;">
+                                </div>
                                 <ul>
                                     <li>Material: Aluminum & Copper brass</li>
                                     <li>Design Types: Fin & Tube / Bar & Plate</li>
@@ -571,8 +681,11 @@
                                         <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download Brochure</a>
                                         <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
                             </div>
-                            <div class="service_thumb">
-                                <img class="img-fluid" src="img/charge-air-cooler.png" alt="" style="height: 400px;width: 400px;">
+                            
+                            <div class="service_details_info">
+                                <p>We manufacture premium quality charge air coolers with our two state-of-art-facilities and skilled experts. Following the industry-defined standards and norms, our charge air cooler assembly is made with superlative excellence ensuring premium quality material. Having a strong client base over the seas, our charge air cooler  is used in diverse applications in various industries. We are known as one of the leading manufacturers of charge air coolers as we manufacture irreprochable designs and remarkable quality.
+                                    With our world class facilities we provide charge air coolers and other heat transfer solution according to our customer requirement for any climate and any industries.
+                                    </p>
                             </div>
                             <div class="accordion_area">
                                 <div class="faq_ask">
@@ -646,6 +759,9 @@
                             </p>
                             <p>We have proven products for non automotive applications. The material we use in building MB Radiators is Almunium and copper brass. We have different variations of different HP ranging 250 HP to 4500 HP. Which can also be customized according to the customer's requirement.
                             </p>
+                            <div class="service_thumb">
+                                <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
+                            </div>
                             <ul>
                                 <li>Material: Aluminum & Copper Brass</li>
                                 <li>Design Types Fin & Tube/Bar & Plate</li>
@@ -656,9 +772,7 @@
                                         <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download Brochure</a>
                                         <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
                         </div>
-                        <div class="service_thumb">
-                            <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
-                        </div>
+                        
                         <div class="accordion_area">
                             <div class="faq_ask">
                                 <h3>Frequently ask</h3>
@@ -727,9 +841,11 @@
                     <div class="service_details_info">
                         <h3>Generator Radiators</h3>
                         <p>We introduce ourselves as one of the Leading Manufacturers of Generator Radiators in India since 1987. We are known for manufacturing quality products and providing complete products through technical expertise and after-sales service to our customers. With required emission specifications,we at SAASWAD produce Generator Radiators that are the most efficient and optimised design for a compact frontal area. 
+                        We have proven products for non automotive applications. The material we use in building Generator Radiators is Almunium and copper brass. We have different variations of different capacity ranging 125 Kva to 1250 Kva. Which can also be customized according to the customer's requirement.
                         </p>
-                        <p>We have proven products for non automotive applications. The material we use in building Generator Radiators is Almunium and copper brass. We have different variations of different capacity ranging 125 Kva to 1250 Kva. Which can also be customized according to the customer's requirement.
-                        </p>
+                        <div class="service_thumb">
+                            <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
+                        </div>
                         <ul>
                             <li>Material: Aluminum & Copper Brass</li>
                             <li>Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</li>
@@ -740,9 +856,7 @@
                                         <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download Brochure</a>
                                         <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
                     </div>
-                    <div class="service_thumb">
-                        <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
-                    </div>
+                    
                     <div class="accordion_area">
                         <div class="faq_ask">
                             <h3>Frequently ask</h3>
