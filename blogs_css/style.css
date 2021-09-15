@@ -220,9 +220,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background-repeat: repeat-x;
 }
 
-.section {
-  padding: 100px 0;
-}
+
 
 .section-sm {
   padding: 70px 0;
