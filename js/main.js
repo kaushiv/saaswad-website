@@ -24,15 +24,19 @@ $.fn.jQuerySimpleCounter = function( options ) {
     var mathCount = Math.ceil(this.count);
     thisElement.text(mathCount);
   },
-  complete: settings.complete
+  complete: function() {
+    var mathCount = this.count > settings.maxNumber ? settings.maxNumber + '+' : this.count;
+    thisElement.text(mathCount);
+  }
 });
 };
 
 
-$('#number1').jQuerySimpleCounter({end: 12,duration: 4000});
-$('#number2').jQuerySimpleCounter({end: 55,duration: 4000});
-$('#number3').jQuerySimpleCounter({end: 359,duration: 4000});
-$('#number4').jQuerySimpleCounter({end: 246,duration: 3500});
+
+$('#number1').jQuerySimpleCounter({end: 150,duration: 4000});
+$('#number2').jQuerySimpleCounter({end: 2000,duration: 4000});
+$('#number3').jQuerySimpleCounter({end: 5500,duration: 4000});
+$('#number4').jQuerySimpleCounter({end: 300,duration: 3500});
 
 
 
