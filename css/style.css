@@ -738,7 +738,7 @@ nav .searchbar input[type="text"].active {
 }
 
 .main-timeline .timeline {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   position: relative
 }
 
@@ -774,7 +774,7 @@ nav .searchbar input[type="text"].active {
 
 .main-timeline .icon:before {
   background: #fff;
-  border: 2px solid #232323;
+  border: 2px solid #d30808;
   left: -3px
 }
 
