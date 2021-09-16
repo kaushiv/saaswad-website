@@ -1194,6 +1194,32 @@ nav .searchbar input[type="text"].active {
     text-align: center;
     display: inline-block; }
 
+
+/* section above footer */
+.cta-overlap {
+  margin-bottom: -4em;
+  margin-top: -4em;
+  position: relative;
+  z-index: 100; }
+  .cta-overlap .text {
+    background: #dc3545;
+    padding: 3em 2em;
+    -webkit-box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 30px -4px rgba(0, 0, 0, 0.2); }
+    @media (max-width: 991.98px) {
+      .cta-overlap .text {
+        padding: 30px 15px;
+        display: block !important;
+        text-align: center; } }
+    .cta-overlap .text h2 {
+      margin-bottom: 0;
+      color: #fff; }
+      @media (max-width: 991.98px) {
+        .cta-overlap .text h2 {
+          margin-bottom: 20px;
+          font-size: 26px; } }
+/* end */
+
 .section {
       padding: 3em 0; }
 
@@ -1356,7 +1382,7 @@ nav .searchbar input[type="text"].active {
   padding: 40px; }
 
 .site-footer {
-  padding: 5em 0 5em 0;
+  padding: 8em 0 5em 0;
   background: #f2f2f2;
   font-size: 14px; }
   .site-footer p:last-child {
