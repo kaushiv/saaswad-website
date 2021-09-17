@@ -1418,7 +1418,7 @@ nav .searchbar input[type="text"].active {
   padding: 40px; }
 
 .site-footer {
-  padding: 8em 0 5em 0;
+  padding: 8em 0 0.5em 0;
   background: #f2f2f2;
   font-size: 14px; }
   .site-footer p:last-child {
