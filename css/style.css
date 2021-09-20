@@ -1619,7 +1619,7 @@ nav .searchbar input[type="text"].active {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
   }
 
   .flip-card {
@@ -1705,6 +1705,7 @@ nav .searchbar input[type="text"].active {
   justify-content: space-between;
   padding: 0rem 1rem;
   padding-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .downs .down a {
