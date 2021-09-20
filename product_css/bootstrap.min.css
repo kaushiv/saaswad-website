@@ -3500,7 +3500,7 @@ tbody.collapse.show {
 }
 
 .dropdown-menu.show {
-    display: block
+    display: block;
 }
 
 .dropdown-header {

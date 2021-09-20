@@ -495,11 +495,15 @@ a:focus {
   -webkit-transition: all .2s ease-in, visibility 0s linear .2s, -webkit-transform .2s linear;
   -o-transition: all .2s ease-in, visibility 0s linear .2s, -o-transform .2s linear;
   -ms-transition: all .2s ease-in, visibility 0s linear .2s, -ms-transform .2s linear;
-  width: 250px;
+  width: 200px;
   margin-top: 15px;
   padding: 0px;
   border-radius: 0px;
   display: block;
+}
+
+#dd{
+  width: 300px;
 }
 
 .dropdown-toggle::after {
