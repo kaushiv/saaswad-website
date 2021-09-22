@@ -38,7 +38,9 @@
     <link rel="stylesheet" href="blogs_css/style.css">
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     
 
 
@@ -187,19 +189,25 @@
   <!-- Nav Bar End -->
 
     
-    <section class="inner-page">
-      <div class="slider-item py-5" style="background-image: url('img/slider-2.jpg');">
-        
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center text-center">
-            <div class="col-md-7 col-sm-12 element-animate">
-              <h1 class="text-white">Company</h1>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
+  <section class="page-top-section" style="
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), 
+    url(img/slider2.jpg);
+  background-size: cover;
+  height: 500px;
+  ">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-7">
+    
+  </div>
+  </div>
+  </div>
+  <h1 style="position: relative; top: 20rem; color: white; font-size: 10vh; padding-left: 5%; font-weight: 900; margin-left: 3rem;opacity: 0.7;">Our Company</h1>
+  </section>
     
   <!-- TABS -->
   <ul class="nav nav-tabs" id="myTab" role="tablist" style="padding-top: 1%;">
@@ -458,7 +466,8 @@
               <div class="col-md-1 order-lg-2"></div>
               <div class="col-md-5 order-lg-1">
                 <h2 class="text-uppercase heading mb-4">Managing Director's Remarks</h2>
-                <p class="mb-3">"We want to grow and look to develop new products to meet domestic as well as international markets.We are ready to serve our customers with world-class products"</p>
+                <p class="mb-3" id="fontq" style="font-family: 'Sacramento', cursive; font-size: 38px; line-height: 40px;"><i class="fa fa-quote-left" aria-hidden="true"></i>We want to grow and look to develop new products to meet domestic as well as international markets.We are ready to serve our customers with world-class products. 
+                  <i class="fa fa-quote-right" aria-hidden="true"></i> </p> 
     
                 <ul class="list-unstyled ">
                   <li style="font-weight: bold;">Mr. Rai Ashwani Kumar
@@ -477,105 +486,58 @@
         <section class="section bg-light">
           <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center">
-              <h2 class="text-uppercase heading border-bottom mb-4">Pune Unit</h2>
+              <h2 class="text-uppercase heading border-bottom mb-4" style=" font-family: 'Montserrat', sans-serif;">An ISO 9001:2015 Certified Company
+                </h2>
+                <p>SHTE is an integrated manufacturer. By controlling every step of the manufacturing process, <br> we produce heat transfer products that are performance matched for optimum cooling. </p>
             </div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 element-animate">
-                <div class="media d-block media-custom text-left">
-                  <img src="img/cp1.jpg" alt="Image Placeholder" class="img-fluid">
-                  <div class="media-body">
-                    <!-- <span class="meta-post">January 7, 2018</span> -->
-                    <h3 class="mt-0 text-black"><a href="#" class="text-black">ISO CERTIFIED 9001:2015</a></h3>
-                    <p class="clearfix">
-                      <!-- <a href="#" class="float-left">Read more</a>
-                      <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a> -->
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 element-animate">
-                <div class="media d-block media-custom text-left">
-                  <img src="img/cp2.jpg" alt="Image Placeholder" class="img-fluid">
-                  <div class="media-body">
-                    <!-- <span class="meta-post">January 7, 2018</span> -->
-                    <h3 class="mt-0 text-black"><a href="#" class="text-black">ISO CERTIFIED 9001:2015</a></h3>
-                    <p class="clearfix">
-                      <!-- <a href="#" class="float-left">Read more</a>
-                      <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a> -->
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 element-animate">
-                <div class="media d-block media-custom text-left">
-                  <img src="img/cp1.jpg" alt="Image Placeholder" class="img-fluid">
-                  <div class="media-body">
-                    <!-- <span class="meta-post">January 7, 2018</span> -->
-                    <h3 class="mt-0 text-black"><a href="#" class="text-black">ISO CERTIFIED 9001:2015</a></h3>
-                    <p class="clearfix">
-                      <!-- <a href="#" class="float-left">Read more</a>
-                      <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a> -->
-                    </p>
-                  </div>
-                </div>
-              </div>
+          <div class="row justify-content-center mb-5 element-animate" style="margin-left: 5%;">
+            
+               <div class="row justify-content-center mb-5 element-animate">
+                <div class="row">
+                  <!-- Trigger the Modal -->
+                    <img id="myImg" src="img/cp1.jpg" alt="Pune Unit" style="width:100%;max-width:380px">
 
-              </div>
-            </div>
-            <div class="row justify-content-center mb-5 element-animate">
-              <div class="col-md-8 text-center">
-                <h2 class="text-uppercase heading border-bottom mb-4">Varanasi Unit</h2>
-              </div>
-            </div>
-            <div class="container">
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- The Close Button -->
+                      <span class="close">&times;</span>
+
+                      <!-- Modal Content (The Image) -->
+                      <img class="modal-content" id="img01">
+
+                      <!-- Modal Caption (Image Text) -->
+                      <div id="caption">Pune Unit</div>
+                    </div>
+                    <h3 style="margin-left: 33%; margin-bottom: 5%;">Pune Unit</h2>
+                    </div>  
+               </div>             
+                   
+                  
+            <div>
               <div class="row">
-                <div class="col-lg-4 col-md-6 element-animate">
-                  <div class="media d-block media-custom text-left">
-                    <img src="img/cv1.jpg" alt="Image Placeholder" class="img-fluid">
-                    <div class="media-body">
-                      <!-- <span class="meta-post">January 7, 2018</span> -->
-                      <h3 class="mt-0 text-black"><a href="#" class="text-black">ISO CERTIFIED 9001:2015</a></h3>
-                      <p class="clearfix">
-                        <!-- <a href="#" class="float-left">Read more</a>
-                        <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a> -->
-                      </p>
-                    </div>
+                     <!-- Trigger the Modal -->
+                     <img id="myImag" src="img/cv1.jpg" alt="Varanasi Unit " style="width:100%;max-width:380px">
+
+                     <!-- The Modal -->
+                     <div id="myMoodal" class="moodal">
+   
+                       <!-- The Close Button -->
+                       <span class="closee">&times;</span>
+   
+                       <!-- Modal Content (The Image) -->
+                       <img class="moodal-content" id="img02" src="img/cv1.jpg">
+   
+                       <!-- Modal Caption (Image Text) -->
+                       <div id="captionn">Varanasi Unit</div>
+                     </div>
+                     <h3 style="margin-left: 27%;">Varanasi Unit</h2>
                   </div>
-                </div>
-                <div class="col-lg-4 col-md-6 element-animate">
-                  <div class="media d-block media-custom text-left">
-                    <img src="img/cv2.jpg" alt="Image Placeholder" class="img-fluid">
-                    <div class="media-body">
-                      <!-- <span class="meta-post">January 7, 2018</span> -->
-                      <h3 class="mt-0 text-black"><a href="#" class="text-black">ISO CERTIFIED 9001:2015</a></h3>
-                      <p class="clearfix">
-                        <!-- <a href="#" class="float-left">Read more</a>
-                        <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a> -->
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 element-animate">
-                  <div class="media d-block media-custom text-left">
-                    <img src="img/cv1.jpg" alt="Image Placeholder" class="img-fluid">
-                    <div class="media-body">
-                      <!-- <span class="meta-post">January 7, 2018</span> -->
-                      <h3 class="mt-0 text-black"><a href="#" class="text-black">ISO CERTIFIED 9001:2015</a></h3>
-                      <p class="clearfix">
-                        <!-- <a href="#" class="float-left">Read more</a>
-                        <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a> -->
-                      </p>
-                    </div>
-                  </div>
-                </div>
-      
-                
-              
-               
-              </div>
             </div>
+
+            </div>
+            
           </div>
         
         </section>
@@ -699,6 +661,53 @@
     <!-- Linking the Jquery script -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   
+<script>
+  // cert
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+
+// Get the modal
+var moodal = document.getElementById("myMoodal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var imag = document.getElementById("myImag");
+var moodalImag = document.getElementById("img02");
+var captionnText = document.getElementById("captionn");
+imag.onclick = function(){
+  moodal.style.display = "block";
+  moodalImag.src = this.src;
+  captionnText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var spann = document.getElementsByClassName("closee")[0];
+
+// When the user clicks on <span> (x), close the modal
+spann.onclick = function() {
+  moodal.style.display = "none";
+}
+</script>
+
     <script>
         $(document).ready(function() {
             $(".fa-search").click(function() {
