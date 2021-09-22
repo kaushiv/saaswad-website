@@ -64,7 +64,7 @@ ul.dropdown-menu li {
 .map-info {
     max-width: 293px;
     padding: 79px 25px 75px;
-    background: #dc3545;
+    background: #e60000;
     position: relative;
     top: 30px
 }
@@ -74,7 +74,7 @@ ul.dropdown-menu li {
     content: "";
     left: 0;
     bottom: -17px;
-    border-left: 27px solid #dc3545;
+    border-left: 27px solid #e60000;
     border-top: 0 solid transparent;
     border-bottom: 17px solid transparent
 }
