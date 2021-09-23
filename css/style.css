@@ -1692,7 +1692,7 @@ display: inline-block;
     -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2); }
   .media-custom .media-body {
-    padding: 30px; }
+    padding: 10px; }
     .media-custom .media-body h3 {
       font-size: 20px; }
     .media-custom .media-body p:last-child {
