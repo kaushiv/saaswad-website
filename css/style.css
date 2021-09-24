@@ -1918,6 +1918,18 @@ display: inline-block;
     margin-bottom: 7rem;
   }
 
+  .applications2 {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 7rem;
+    width: 80vw;
+  }
+
   .flip-card {
     
     
@@ -1928,6 +1940,7 @@ display: inline-block;
     perspective: 1000px; 
   }
   
+
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
