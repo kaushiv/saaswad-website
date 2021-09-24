@@ -8,6 +8,10 @@ body {
   color: #6c757d; 
 }
 
+.aa:hover{
+ color: #c42e36 ;
+}
+
 .dropdown-menu {
   visibility: hidden;
   filter: alpha(opacity=0);
