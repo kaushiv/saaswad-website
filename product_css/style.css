@@ -381,63 +381,6 @@ h3 {
   margin-bottom: 50px !important;
 }
 
-/* line 302, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 999;
-  background-color: #000;
-}
-
-/* line 314, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-.custom_search_pop .modal-content .serch_form {
-  position: relative;
-}
-
-/* line 316, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-.custom_search_pop .modal-content .serch_form input {
-  width: 100%;
-  height: 50px;
-  background: #fff;
-  color: #fff;
-  border: none;
-  padding-left: 20px;
-  color: #000;
-  font-size: 15px;
-  padding-right: 120px;
-}
-
-/* line 326, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-.custom_search_pop .modal-content .serch_form input:placeholder {
-  color: #000;
-  font-size: 15px;
-}
-
-/* line 330, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-.custom_search_pop .modal-content .serch_form input:focus {
-  outline: none;
-}
-
-/* line 334, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
-.custom_search_pop .modal-content .serch_form button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 16px;
-  height: 100%;
-  padding: 20px;
-  color: #fff;
-  background: #C52E37;
-  display: inline-block;
-  border: none;
-  line-height: 50px;
-  height: 50px;
-  padding: 0 30px;
-  cursor: pointer;
-}
 
 /* line 1, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_btn.scss */
 .boxed-btn {
