@@ -8,6 +8,10 @@ body {
   color: #6c757d; 
 }
 
+#dd{
+  width: 300px;
+}
+
 /* section above footer */
 .cta-overlap {
   margin-bottom: -5em;
