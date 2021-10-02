@@ -1188,9 +1188,9 @@ nav .searchbar input[type="text"].active {
       height: calc(50vh - 117px);
       min-height: 500px; }
   .owl-carousel.home-slider .owl-dots {
-    position: absolute;
+    /* position: absolute;
     bottom: 150px;
-    width: 100%; }
+    width: 100%; } */}
     .owl-carousel.home-slider .owl-dots .owl-dot {
       width: 18px;
       height: 18px;
