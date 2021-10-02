@@ -1940,6 +1940,14 @@ display: inline-block;
 }
 
 
+.top-bar-item .top-bar-icon a {
+  color: #d1323a;
+}
+
+.top-bar-item .top-bar-icon a:hover {
+  color: white;
+}
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
