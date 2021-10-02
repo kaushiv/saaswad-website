@@ -242,7 +242,7 @@
                   required>
                 <input class="form-control" style="margin-bottom: 20px;" type="text" name="name"
                   placeholder="Phone number" required>
-                  <select class="form-select" aria-label="Default select example" style="margin-bottom: 20px;">
+                  <select class="form-select"  style="margin-bottom: 20px;">
                     <option selected>Select Product</option>
                     <option value="1">Radiator</option>
                     <option value="2">Heat Exchanger</option>
@@ -283,7 +283,7 @@
                   required>
                 <input class="form-control" style="margin-bottom: 20px;" type="text" name="name"
                   placeholder="Phone number" required>
-                  <select class="form-select" aria-label="Default select example" style="margin-bottom: 20px;" id="product-type">
+                  <select class="form-select"  style="margin-bottom: 20px;" id="product-type">
                     <option selected>Select Product</option>
                     <option value="1">Radiator</option>
                     <option value="2">Heat Exchanger</option>
@@ -293,7 +293,7 @@
                     <option value="6">Generator Radiator</option>
                   </select>
               </div>
-              <a href="" type="submit" class="btn btn-danger" download target="_blank" onclick="checkProduct()">Submit</a>
+              <a href="/" type="submit" class="btn btn-danger" onclick="checkProduct()" target="_blank">Submit</a>
 
             </div>
           </form>
@@ -303,7 +303,7 @@
     </div>
   </div>
 
-  <!-- View Video Modal -->
+  <!-- Video Modal -->
   <div class="modal fade" id="radiator-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -322,6 +322,7 @@
     </div>
   </div>
 
+
   <div class="modal fade" id="heatExchanger-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -333,13 +334,83 @@
           </button>
         </div>
         <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
-          <iframe width="460" height="315" src="https://www.youtube.com/watch?v=oar3krIutYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oar3krIutYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
 
       </div>
     </div>
   </div>
 
+
+  <div class="modal fade" id="oilCooler-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zsCuhoopweY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="airCooler-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/u3xITtvk9Lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="mbRadiator-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wP3rf2vFWN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="generatorRadiator-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8GYgaXmvA7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
 
 <!-- service_details_start  -->
 <div class="service_details_area">
@@ -397,8 +468,6 @@
               <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
               <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#radiator-Modal"
                 style="margin: 3px;">Watch Video</a>
-              
-
 
             </div>
 
@@ -554,12 +623,13 @@
                   corrosion protection
                 </li>
               </ul>
-              
+
               <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
               <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
-              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#radiator-Modal"
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#heatExchanger-Modal"
                 style="margin: 3px;">Watch Video</a>
-                <p>&nbsp;</p>
+
+            </div>
 
             <div class="service_details_info">
               <div class="card element-animate media d-block media-custom text-left">
@@ -698,7 +768,7 @@
 
               <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
               <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
-              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="radiator-Modal"
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#oilCooler-Modal"
                 style="margin: 3px;">Watch Video</a>
 
             </div>
@@ -831,10 +901,12 @@
                   and Concrete Mixtures, Locomotives, DG Sets etc.</li>
                 <li style="list-style-type: square;">Industrial Power Generation Engines: 125 KVA-3000 KVA</li>
               </ul>
-              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get Quote</a>
-              <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download
-                Brochure</a>
-              <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
+
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#airCooler-Modal"
+                style="margin: 3px;">Watch Video</a>
+
             </div>
 
             <div class="service_details_info">
@@ -933,10 +1005,14 @@
                 <li style="list-style-type: square;">Industrial Power Generation Engines :125 KVA to 1250 KVA</li>
                 <li style="list-style-type: square;">Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
               </ul>
-              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get Quote</a>
-              <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download
-                Brochure</a>
-              <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
+
+              
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#mbRadiator-Modal"
+                style="margin: 3px;">Watch Video</a>
+
+
             </div>
 
             <div class="accordion_area">
@@ -1021,10 +1097,14 @@
                 <li style="list-style-type: square;">Generation Engines :125 KVA to 1250 KVA</li>
                 <li style="list-style-type: square;">Locomotive Engine : 1350 HP TO 4500 HP Generator Radiators</li>
               </ul>
-              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get Quote</a>
-              <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo" style="margin: 3px;">Download
-                Brochure</a>
-              <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
+
+              
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#generatorRadiator-Modal"
+                style="margin: 3px;">Watch Video</a>
+
+
             </div>
 
             <div class="accordion_area">
@@ -1212,16 +1292,13 @@
     });
   });
 
- function checkProduct(){
+  function checkProduct(){
   var productValue = $('#product-type').find(":selected").val();
 
   if(productValue === '1'){
     window.open('pdfs/industrial-radiator.pdf');
   } 
-
-   
-  
- }
+  }
 
   
 </script>
