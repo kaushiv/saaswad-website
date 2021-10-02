@@ -1107,6 +1107,8 @@ nav .searchbar input[type="text"].active {
 }
 
 
+.slider-item
+
 
 
 
@@ -1169,6 +1171,8 @@ nav .searchbar input[type="text"].active {
       .owl-carousel.home-slider .slider-item .slider-text h1 {
         font-size: 3rem;
         color: #fff;
+        padding: 10vh 5vw;
+        text-align: center;
         line-height: 1.2;
         font-weight: 800 !important;
         text-transform: uppercase; }
@@ -1967,3 +1971,10 @@ display: inline-block;
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    @media only screen and (max-width: 450px) {
+      .slider-item h1 {
+        font-size: 2rem;
+      }
+    }
