@@ -70,7 +70,19 @@
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-
+.modall {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
@@ -78,7 +90,12 @@
   width: 80%;
   max-width: 700px;
 }
-
+.modall-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
 .moodal-content {
   margin: auto;
   display: block;
@@ -87,6 +104,17 @@
 }
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#captions {
   margin: auto;
   display: block;
   width: 80%;
@@ -113,6 +141,13 @@
   animation-name: zoom;
   animation-duration: 0.6s;
 }
+
+/* Add Animation - Zoom in the Modal */
+.modall-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
 
 /* Add Animation - Zoom in the Modal */
 .moodal-content, #caption {
@@ -143,6 +178,25 @@
   cursor: pointer;
 }
 
+/* The Close Button */
+.closes {
+  margin-top: 5%;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.closes:hover,
+.closes:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .closee {
   margin-top: 5%;
   position: absolute;
@@ -165,6 +219,13 @@
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
+    width: 100%;
+  }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modall-content {
     width: 100%;
   }
 }
@@ -671,7 +732,28 @@
                     </div>
                     <h3 style="margin-left: 33%; margin-bottom: 5%;">Pune Unit</h2>
                     </div>  
-               </div>             
+               </div>    
+               
+              
+                <div class="row">
+                  <!-- Trigger the Modal -->
+                    <img id="myImgg" src="img/cp3.jpg" alt="Pune Unit" style="width:100%;max-width:380px">
+
+                    <!-- The Modal -->
+                    <div id="myModall" class="modall">
+
+                      <!-- The Close Button -->
+                      <span class="closes">&times;</span>
+
+                      <!-- Modal Content (The Image) -->
+                      <img class="modall-content" id="img03">
+
+                      <!-- Modal Caption (Image Text) -->
+                      <div id="captions">Pune Unit</div>
+                    </div>
+                    <h3 style="margin-left: 33%; margin-bottom: 5%;">Pune Unit</h2>
+                    </div>  
+              
                    
                   
             <div>
@@ -843,6 +925,27 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+
+// Get the modal
+var modall = document.getElementById("myModall");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var imgg = document.getElementById("myImgg");
+var modallImgg = document.getElementById("img03");
+var captionsText = document.getElementById("captions");
+imgg.onclick = function(){
+  modall.style.display = "block";
+  modallImgg.src = this.src;
+  captionsText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("closes")[0];
+
+// When the user clicks on <span> (x), close the modal
+spans.onclick = function() {
+  modall.style.display = "none";
+}
 
 
 // Get the modal
