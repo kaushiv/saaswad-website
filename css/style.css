@@ -41,7 +41,7 @@ body {
  color: #c42e36 ;
 }
 
-.dropdown-menu {
+/* .dropdown-menu {
   visibility: hidden;
   filter: alpha(opacity=0);
   opacity: 0;
@@ -81,7 +81,7 @@ body {
 
 ul.dropdown-menu li {
   padding-left: 0px !important;
-}
+} */
 /*Contact Us CSS*/
 .map-section {
     position: relative;
@@ -1808,11 +1808,9 @@ display: inline-block;
   }
 
   .flip-card {
-    
-    
     background-color: transparent;
     width: 300px;
-    height: 300px;
+    height: 350px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; 
   }
@@ -1830,7 +1828,7 @@ display: inline-block;
 
   .flip-card-inner img {
     width: 300px;
-    height: 300px;
+    /* height: 300px; */
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -1864,6 +1862,7 @@ display: inline-block;
     background-color: whitesmoke;
     color: white;
     transform: rotateY(180deg);
+    padding: 0 4px;
   }
 
   .flip-card-back h1 {
