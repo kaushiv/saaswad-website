@@ -2,1241 +2,1320 @@
 <html lang="en">
 
 <head>
-    <title>Our Products</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Our Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
-    <link href="https://fonts.googleapis.com/css?family=K2D:400,700|Niramit:300,700" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css?family=K2D:400,700|Niramit:300,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="product_fonts/flaticon.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="product_fonts/flaticon.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-    <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="product_css/style.css">
+  <!-- Theme Style -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="product_css/style.css">
 
 
-    <style>
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 8;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgb(0, 0, 0);
-            background-color: rgba(0, 0, 0, 0.4);
-        }
 
-        .modal-content {
-            margin: 50px auto;
-            border: 1px solid #999;
-            width: 60%;
-        }
+  <style>
+    li {
+      list-style-type: none;
+    }
 
-        h2,
-        p {
-            margin: 0 0 20px;
-            font-weight: 400;
-            color: #999;
-        }
+    @media (max-width:320px) {
+      .dropdown-menu {
+        display: none;
+      }
+    }
 
-        form {
-            padding: 25px 0px 25px 60px;
-            margin: 25px;
-            box-shadow: 0 2px 5px #f5f5f5;
-            background: #eee;
-        }
+    @media (max-width:480px) {
+      .dropdown-menu {
+        display: none;
+      }
+    }
 
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-    </style>
+    @media (min-width:321px) and (max-width:768px) {
+      .dropdown-menu {
+        display: none;
+      }
+    }
+  </style>
 
 </head>
 
 <body>
 
-    <!-- Top Bar Start -->
-    <div class="top-bar">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-md-12">
-                    <div class="logo">
-                        <a href="index.html">
-                            <!-- <h1>Builderz</h1> -->
-                            <img src="img/logo.jpg" alt="Logo">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-7 d-none d-lg-block">
-                    <div class="row">
-                        <div class="col-2">
-
-                        </div>
-
-                        <div class="col-3" id="topbar">
-                            <div class="top-bar-item">
-                                <div class="top-bar-icon">
-                                    <!-- <i class="flaticon-call"></i> -->
-                                    <a href="tel:+91 9336116247"><img src="./img/call_icon.jpeg" width="50vw"
-                                            alt=""></a>
-                                </div>
-                                <div class="top-bar-text">
-                                    <a href="tel:+91 9336116247">
-                                        <h3 style="color: #c42e36;"><b>Call Us</b></h3>
-                                    </a>
-                                    <a href="tel:+91 9336116247">
-                                        <p>+91 9336116247</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3" id="topbar">
-                            <div class="top-bar-item">
-                                <div class="top-bar-icon">
-                                    <!-- <i class="flaticon-send-mail"></i> -->
-                                    <a href="mailto:info@saaswad.com"><img src="./img/mail_icon.jpeg" width="50vw"
-                                            alt=""></a>
-                                </div>
-                                <div class="top-bar-text">
-                                    <a href="mailto:info@saaswad.com">
-                                        <h3 style="color: #c42e36;"><b>Email Us</b></h3>
-                                    </a>
-                                    <a href="mailto:info@saaswad.com">
-                                        <p>info@saaswad.com</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-4">
-                            <div class="top-bar-item">
-                                <div class="top-bar-icon">
-                                    <ul class="list-unstyled footer-link d-flex footer-social" id="icon4">
-                                        <li style="list-style-type: none;"><a href="#" class="p-2"><span
-                                                    class="fa fa-twitter"></span></a></li>
-                                        <li style="list-style-type: none;"><a href="#" class="p-2"><span
-                                                    class="fa fa-facebook"></span></a></li>
-                                        <li style="list-style-type: none;"><a href="#" class="p-2"><span
-                                                    class="fa fa-linkedin"></span></a></li>
-                                        <li style="list-style-type: none;"><a href="#" class="p-2"><span
-                                                    class="fa fa-instagram"></span></a></li>
-                                    </ul>
-                                </div>
-                                <div class="top-bar-text">
-                                    <a class="btn btn-danger" id="con" href="contact.html">Contact Us</a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Top Bar Start -->
+  <div class="top-bar">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-12">
+          <div class="logo">
+            <a href="index.html">
+              <!-- <h1>Builderz</h1> -->
+              <img src="img/logo.jpg" alt="Logo">
+            </a>
+          </div>
         </div>
-    </div>
-    <!-- Top Bar End -->
+        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+          <div class="row">
+            <div class="col-2">
 
-    <!-- Nav Bar Start -->
-    <div class="nav-bar">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <a href="#" class="navbar-brand">MENU</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav mr-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <div class="nav-item dropdown">
-                            <a href="company.html" class="nav-link dropdown-toggle">Company</a>
-                            <div class="dropdown-menu">
-                                <a href="company.html" class="dropdown-item">About Us</a>
-                                <a href="cert.html" class="dropdown-item">Certifications</a>
-                                <a href="achiev.html" class="dropdown-item">Achievements</a>
-                            </div>
-                        </div>
-                        <a href="products.html" class="nav-item nav-link active">Products</a>
-                        <a href="application.html" class="nav-item nav-link">Applications</a>
-                        <a href="expertise.html" class="nav-item nav-link">Expertise</a>
-
-                        <div class="nav-item dropdown">
-                            <a href="people.html" class="nav-link dropdown-toggle">People</a>
-                            <div class="dropdown-menu">
-                                <a href="people.html" class="dropdown-item">Our Team</a>
-                                <a href="career.html" class="dropdown-item">Career</a>
-                                <a href="ws.html" class="dropdown-item">Workspace</a>
-                            </div>
-                        </div>
-                        <a href="blogs.html" class="nav-item nav-link">Blogs</a>
-
-                        <a href="downloads.html" class="nav-item nav-link">Downloads</a>
-
-                    </div>
-                    <div class="ml-auto">
-                        <div class="searchbar">
-                            <div class="container">
-
-                                <div class="dropdown">
-                                    <input class="form-control" id="myInput" type="text" placeholder="search"
-                                        data-toggle="dropdown">
-
-                                    <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" id="dd">
-                                        <li><a href="company.html" class="dropdown-item">About Us</a></li>
-                                        <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
-                                        <li><a href="achiev.html" class="dropdown-item">Achievements</a></li>
-                                        <li><a href="industrial-radiators.html" class="dropdown-item">Industrial
-                                                Radiators</a></li>
-                                        <li><a href="heat-exchangers.html" class="dropdown-item">Customized Heat
-                                                Exchangers</a></li>
-                                        <li><a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a></li>
-                                        <li><a href="air-coolers.html" class="dropdown-item">Charge Air Coolers</a></li>
-                                        <li><a href="bonded-radiators.html" class="dropdown-item">Mechanically Bonded
-                                                Radiators</a></li>
-                                        <li><a href="generator-radiators.html" class="dropdown-item">Generator
-                                                Radiators</a></li>
-                                        <li><a href="application-1.html" class="dropdown-item">Oil cooling</a></li>
-                                        <li><a href="#" class="dropdown-item">Radiators for crane</a></li>
-                                        <li><a href="#" class="dropdown-item">Locomotive and Power generation</a></li>
-                                        <li><a href="people.html" class="dropdown-item">Our Team</a></li>
-                                        <li><a href="career.html" class="dropdown-item">Career</a></li>
-                                        <li><a href="ws.html" class="dropdown-item">Workspace</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="icon">
-                                <i class="fa fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <!-- Nav Bar End -->
-
-
-    <section class="inner-page">
-        <div class="slider-item py-5" style="background-image: url('img/slider-2.jpg');">
-
-            <div class="container">
-                <div class="row slider-text align-items-center justify-content-center text-center">
-                    <div class="col-md-7 col-sm-12 element-animate">
-                        <h1 class="text-white">Our Products</h1>
-                    </div>
-                </div>
             </div>
 
+            <div class="col-3" id="topbar">
+            <div class="top-bar-item">
+              <div class="top-bar-icon">
+                <!-- <i class="flaticon-call"></i> -->
+                <a href="tel:+91 9336116247"><img src="./img/call_icon.jpeg" width="50vw" alt=""></a>
+              </div>
+              <div class="top-bar-text">
+                <a href="tel:+91 9336116247">
+                <h3 style="color: #c42e36;"><b>Call Us</b></h3>
+              </a>
+                <a href="tel:+91 9336116247">
+                <p>+91 9336116247</p>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3" id="topbar">
+            <div class="top-bar-item">
+              <div class="top-bar-icon">
+                <!-- <i class="flaticon-send-mail"></i> -->
+                <a href="mailto:info@saaswad.com"><img src="./img/mail_icon.jpeg" width="50vw" alt=""></a>
+              </div>
+              <div class="top-bar-text">
+                <a href="mailto:info@saaswad.com">
+                  <h3 style="color: #c42e36;"><b>Email Us</b></h3>
+                </a>
+                <a href="mailto:info@saaswad.com">
+                  <p>info@saaswad.com</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-4">
+              <div class="top-bar-item">
+                <div class="top-bar-icon">
+                  <ul class="list-unstyled footer-link d-flex footer-social" id="icon4">
+                    <li><a href="https://twitter.com/saaswadheat?lang=en" target="blank" class="p-2"><span class="fa fa-twitter"></span></a></li>
+                    <li><a href="https://www.facebook.com/SaaswadHeatTransfer" target="blank" class="p-2"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" target="blank" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+                    <li><a href="https://www.instagram.com/saaswadheattransfer/" target="blank" class="p-2"><span class="fa fa-instagram"></span></a></li>
+                  </ul>
+                </div>
+                <div class="top-bar-text">
+                  <a class="btn btn-danger" id="con" href="contact.html">Contact Us</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <!-- Top Bar End -->
+
+  <!-- Nav Bar Start -->
+  <div class="nav-bar">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <a href="#" class="navbar-brand">MENU</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="navbar-nav mr-auto">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <div class="nav-item dropdown" style="outline: none;">
+              <a href="company.html" class="nav-link dropdown-toggle">Company</a>
+              <div class="dropdown-menu">
+                <a href="company.html" class="dropdown-item">About Us</a>
+                <a href="cert.html" class="dropdown-item">Certifications</a>
+              </div>
+            </div>
+            <a href="products.html" class="nav-item nav-link active">Products</a>
+            <a href="application.html" class="nav-item nav-link">Applications</a>
+            <a href="expertise.html" class="nav-item nav-link">Expertise</a>
+
+            <div class="nav-item dropdown">
+              <a href="people.html" class="nav-link dropdown-toggle">People</a>
+              <div class="dropdown-menu">
+                <a href="people.html" class="dropdown-item">Our Team</a>
+                <a href="career.html" class="dropdown-item">Career</a>
+                <a href="ws.html" class="dropdown-item">Workspace</a>
+              </div>
+            </div>
+            <a href="blogs.html" class="nav-item nav-link">Blogs</a>
+            <a href="downloads.html" class="nav-item nav-link">Downloads</a>
+
+          </div>
+          <div class="ml-auto">
+            <div class="searchbar">
+              <div class="container">
+
+                <div class="dropdown">
+                  <input class="form-control" id="myInput" type="text" placeholder="search" data-toggle="dropdown">
+
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" id="dd">
+                    <li><a href="company.html" class="dropdown-item">About Us</a></li>
+                    <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
+                    <li><a href="achiev.html" class="dropdown-item">Achievements</a></li>
+                    <li><a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a></li>
+                    <li><a href="heat-exchangers.html" class="dropdown-item">Customized Heat Exchangers</a></li>
+                    <li><a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a></li>
+                    <li><a href="air-coolers.html" class="dropdown-item">Charge Air Coolers</a></li>
+                    <li><a href="bonded-radiators.html" class="dropdown-item">Mechanically Bonded Radiators</a></li>
+                    <li><a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a></li>
+                    <li><a href="application-1.html" class="dropdown-item">Oil cooling</a></li>
+                    <li><a href="#" class="dropdown-item">Radiators for crane</a></li>
+                    <li><a href="#" class="dropdown-item">Locomotive and Power generation</a></li>
+                    <li><a href="people.html" class="dropdown-item">Our Team</a></li>
+                    <li><a href="career.html" class="dropdown-item">Career</a></li>
+                    <li><a href="ws.html" class="dropdown-item">Workspace</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Nav Bar End -->
+
+
+  <section class="page-top-section" style="
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(img/products_cover.jpg);
+  background-size: cover;
+  height: 500px;
+  ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+  
+          </div>
+        </div>
+      </div>
+      <h1
+        style="position: relative; top: 20rem; color: white; font-size: 10vh; padding-left: 5%; font-weight: 900; margin-left: 3rem;opacity: 0.5;">
+        Our Products</h1>
     </section>
 
-    <div id="modalOne" class="modal">
-        <div class="modal-content">
-            <div class="contact-form">
-                <a class="close" style="padding: 5px;">&times;</a>
-                <form action="/">
-                    <h2>Get Quote</h2>
-                    <div>
-                        <input class="fname" type="text" name="name" placeholder="Full name"
-                            style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
-                        <input type="text" name="name" placeholder="Email"
-                            style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
-                        <input type="text" name="name" placeholder="Phone number"
-                            style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
-                    </div>
 
-                    <a href="/" class="btn btn-danger">Submit</a>
-                </form>
-            </div>
+  <!-- Get Quote Modal -->
+  <div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Get Quote</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <div class="modal-body">
+          <form action="/">
+            <div class="form-group">
+              <div>
+                <input class="fname form-control" style="margin-bottom: 20px;" type="text" name="name"
+                  placeholder="Full name" required>
+                <input class="form-control" style="margin-bottom: 20px;" type="text" name="name" placeholder="Email"
+                  required>
+                <input class="form-control" style="margin-bottom: 20px;" type="text" name="name"
+                  placeholder="Phone number" required>
+                  <select class="form-select"  style="margin-bottom: 20px;">
+                    <option selected>Select Product</option>
+                    <option value="1">Radiator</option>
+                    <option value="2">Heat Exchanger</option>
+                    <option value="3">Oil Coolers</option>
+                    <option value="4">Air Coolers</option>
+                    <option value="5">Mechanically Bonded Radiator</option>
+                    <option value="6">Generator Radiator</option>
+                  </select>
+              </div>
+              <a href="/" type="submit" class="btn btn-danger">Submit</a>
+
+            </div>
+          </form>
+        </div>
+
+      </div>
     </div>
-    <div id="modalTwo" class="modal">
-        <div class="modal-content">
-            <div class="contact-form">
-                <span class="close" style="padding: 5px;">&times;</span>
-                <form action="/">
-                    <h2>Download Brochure</h2>
-                    <div>
-                        <input class="fname" type="text" name="name" placeholder="Full name"
-                            style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
-                        <input type="text" name="name" placeholder="Email"
-                            style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
-                        <input type="text" name="name" placeholder="Phone number"
-                            style="width: 90%; padding: 10px; margin-bottom: 20px; outline: none;" required>
+  </div>
 
-                    </div>
-                    <a href="/" class="btn btn-danger">Download</a>
-                </form>
-            </div>
+  <!-- Download Modal -->
+  <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Download Brochure</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <div class="modal-body">
+          <form action="/">
+            <div class="form-group">
+              <div>
+                <input class="fname form-control" style="margin-bottom: 20px;" type="text" name="name"
+                  placeholder="Full name" required>
+                <input class="form-control" style="margin-bottom: 20px;" type="text" name="name" placeholder="Email"
+                  required>
+                <input class="form-control" style="margin-bottom: 20px;" type="text" name="name"
+                  placeholder="Phone number" required>
+                  <select class="form-select"  style="margin-bottom: 20px;" id="product-type">
+                    <option selected>Select Product</option>
+                    <option value="1">Radiator</option>
+                    <option value="2">Heat Exchanger</option>
+                    <option value="3">Oil Coolers</option>
+                    <option value="4">Air Coolers</option>
+                    <option value="5">Mechanically Bonded Radiator</option>
+                    <option value="6">Generator Radiator</option>
+                  </select>
+              </div>
+              <a href="/" type="submit" class="btn btn-danger" onclick="checkProduct()" target="_blank">Submit</a>
+
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div class="modal fade" id="radiator-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="460" height="315" src="https://www.youtube.com/embed/u9V70mQiabo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="heatExchanger-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oar3krIutYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="oilCooler-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zsCuhoopweY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="airCooler-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/u3xITtvk9Lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="mbRadiator-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wP3rf2vFWN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="generatorRadiator-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Watch Video</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9 yt-video"">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8GYgaXmvA7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- service_details_start  -->
+<div class="service_details_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <div class="service_details_left">
+          <h2 style="margin-bottom: 50px; color: black;">Our Products</h2>
+          <h3><b>Heat Transfer</b></h3>
+          <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="" id="v-industrial-radiators" data-toggle="pill" href="#industrial-radiators" role="tab"
+              aria-controls="v-industrial-radiators" aria-selected="true">Radiators</a>
+            <a class="" id="v-heat-exchangers" data-toggle="pill" href="#heat-exchangers" role="tab"
+              aria-controls="v-heat-exchangers" aria-selected="false">Heat Exchangers</a>
+            <a class="" id="v-oil-coolers" data-toggle="pill" href="#oil-coolers" role="tab"
+              aria-controls="v-oil-coolers" aria-selected="false">Oil Coolers</a>
+            <a class="active" id="v-air-coolers" data-toggle="pill" href="#air-coolers" role="tab"
+              aria-controls="v-air-coolers" aria-selected="false">Charge Air Coolers</a>
+            <br>
+            <br>
+            <h3><b>Air Conditioning</b></i></h3>
+            <a class="" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators" role="tab"
+              aria-controls="v-bonded-radiators" aria-selected="false">Mechanically Bonded Radiators</a>
+            <a class="" id="v-generator-radiators" data-toggle="pill" href="#generator-radiators" role="tab"
+              aria-controls="v-generator-radiators" aria-selected="false">Generator Radiators</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-8">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade" id="industrial-radiators" role="tabpanel"
+            aria-labelledby="v-industrial-radiators">
+            <div class="service_details_info">
+              <h3><u>Radiators</u></h3>
+              <div class="service_thumb">
+                <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
+              </div>
+              <p>We introduce ourselves as one of the Leading Manufacturers of Radiators in India since 1987. We are
+                known for manufacturing quality products and providing complete products through technical expertise and
+                after-sales service to our customers. With required emission specifications,we at SAASWAD produce
+                radiators that are the most efficient and optimised design for a compact frontal area. We have proven
+                products for non automotive applications. The material we use in building Radiators is Aluminium and
+                copper brass. We have different variations of different capacities ranging 125 Kva to 1250 Kva. Which
+                can also be customized according to the customer's requirement.
+
+              </p>
+              <ul>
+                <li style="list-style-type: square;">Material: Aluminum & Copper Brass</li>
+                <li style="list-style-type: square;">Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power
+                </li>
+                <li style="list-style-type: square;">Generation Engines :125 KVA to 1250 KVA</li>
+                <li style="list-style-type: square;">Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
+              </ul>
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#radiator-Modal"
+                style="margin: 3px;">Watch Video</a>
+
+            </div>
+
+
+            <div class="service_details_info">
+              <p>We manufacture premium quality radiator assembly and radiator core with our two state-of-art-facilities
+                and skilled experts. Following the industry-defined standards and norms, our radiator assembly is made
+                with superlative excellence ensuring premium quality material. Having a strong client base over the
+                seas, our radiator assembly is used in diverse applications in various industries. We are known as one
+                of the leading manufacturers of radiator as we manufacture irreprochable designs and remarkable quality.
+              </p>
+              <br>
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Locomotive Radiator</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>We take immense pleasure and satisfaction that currently more than 3000 Locos are running on
+                      tracks with our products. Indian Railways, the governmental entity under the Ministry of Railways
+                      which operates India's National Railway System. We at SHTE are proud to supply Radiator for
+                      Locomotive Application (1350 HP, 3100 HP, 4000 HP and 4500 HP) to them. We also supply them with
+                      Charge Air Cooler ( also known as Intercooler ) of capacity 3100 HP Alco design and also of
+                      capacity of 4000 HP and 4500 HP especially for EMD 710 and 645 Engines.</p>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Generator Radiator</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>We are OEM for some of the world leading manufacturers of Generator. We serve them with our world
+                      class heat transfer solution. We are proud to supply to some of the leading Generator
+                      manufacturers in the world like Kirloskar, Cummins, Greaves Cotton, and many more. The power
+                      capacity of the application for which we provide radiator is above 125 kvA.</p>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Heavy Duty Radiator</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>We also manufacture radiators for heavy duty equipment like excavators, backhoe, loader,
+                      bulldozer, etc. These applications need to be built with good quality material. The material which
+                      we use to manufacture these equipment is copper and brass. These materials are guaranteed the
+                      long-life of these products apart from the material with paint these applications with a special
+                      type to paint as these applications works in some tough climate.</p>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Some other applications</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>Apart from these applications, we also manufacture radiators for other applications like
+                      agricultural equipment, cranes, off-shore, and many more.</p>
+                  </blockquote>
+                </div>
+              </div>
+
+            </div>
+            <div class="accordion_area">
+              <div class="faq_ask">
+                <h3>Frequently ask</h3>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                          aria-expanded="false" aria-controls="collapseTwo">
+                          Adieus who direct esteem <span>It esteems
+                            luckily?</span>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
+                          aria-expanded="false" aria-controls="collapseOne">
+                          Who direct esteem It esteems?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                          aria-expanded="false" aria-controls="collapseThree">
+                          Duis consectetur feugiat auctor?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="heat-exchangers" role="tabpanel" aria-labelledby="v-heat-exchangers">
+            <div class="service_details_info">
+              <h3><u>Heat Exchangers</u></h3>
+              <div class="service_thumb">
+                <img class="img-fluid" src="img/heat-exchanger.png" alt="" style="height: 400px;width: 400px;">
+              </div>
+
+              <p>We introduce ourselves as one of the Leading Manufacturers of Heat Exchangers in India since 1987. We
+                are known for manufacturing quality products and providing complete products through technical expertise
+                and after-sales service to our customers. We at SAASWAD have proven capabilities and expertise to
+                provide customized engine cooling systems that consist of multiple heat exchangers and auxiliary
+                components such as tan shrouds, re-circulation shields, and DE Beration tanks. The designs we provide
+                have multiple mounting options to meet diverse engine types and performance parameters and can be
+                directly installed on the engine assembly lines.The material we use in building Heat exchangers is
+                Aluminium and copper brass. We have different variations. Which can also be customized according to the
+                customer's requirement.
+              </p>
+
+              <ul style="list-style-type: square;">
+                <li style="list-style-type: square;">The custom manufactured engine cooling systems include all
+                  components, as listed below, needed to install and connect the heat exchanger to respective engines
+                </li>
+                <li style="list-style-type: square;">Drive kit with premium belts, pulleys, and stub shaft</li>
+                <li style="list-style-type: square;">Pipe kit with custom-formed pipes to interface with engine
+                  specifications > Radiator base designed to interface with specific engine rail</li>
+                <li style="list-style-type: square;">Optional galvanized steel and heat exchanger coatings for enhanced
+                  corrosion protection
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#heatExchanger-Modal"
+                style="margin: 3px;">Watch Video</a>
+
+            </div>
+
+            <div class="service_details_info">
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Custom Designed Heat Exchanger</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>Our highest priority is always quality Manufacturing. We believe in giving the best quality
+                      product to our customers. SHTE can also design and manufacture products based on the requirements
+                      of customers, Thanks to the experts, the creative spirit and the research Department, which
+                      enables the company to deliver more and more new products like Custom Designed Heat Exchanger. Our
+                      highest priority is always quality Manufacturing.Our company is counted amongst one of the most
+                      trusted names in the industry for manufacturing and supplying a wide range of Heat Exchangers.
+                      These heat exchangers are safe to use and do not require much effort for the maintenance. We make
+                      sure that our range complies with the industry quality norms.</p>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Industrial Heat Exchangers</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>Industrial operations almost always need temperature regulation of some sort. Accordingly, heat
+                      exchangers are frequently an important piece of equipment at industrial sites. At SHTE, we have
+                      been passionate about heat exchange since 1987. We design, manufacture, and install highly
+                      innovative Heat Exchangers for the various industries. Further to this, we support our customers
+                      to optimize and extend their existing or new process equipment. We offer elaborating solutions and
+                      designs to all kinds of customers worldwide.</p>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Copper Heat Exchanger</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>Our Heat Exchangers made of copper are better in performance, as they have better serving life
+                      and ability to withstand harsh conditions. SHTE is one of the trusted Copper Heat Exchanger
+                      Manufacturers in India. Offering heat exchangers have a huge demand in various industries because
+                      of their high thermal conductivity and other features. We ensure high-quality, as they get
+                      manufactured at our in-house facility implementing the right method and materials.</p>
+                  </blockquote>
+                </div>
+              </div>
+
+            </div>
+            <div class="accordion_area">
+              <div class="faq_ask">
+                <h3>Frequently ask</h3>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingTwo1">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo1"
+                          aria-expanded="false" aria-controls="collapseTwo">
+                          Adieus who direct esteem <span>It esteems
+                            luckily?</span>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingOne2">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne2"
+                          aria-expanded="false" aria-controls="collapseOne">
+                          Who direct esteem It esteems?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree3">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree3"
+                          aria-expanded="false" aria-controls="collapseThree">
+                          Duis consectetur feugiat auctor?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="tab-pane fade" id="oil-coolers" role="tabpanel" aria-labelledby="v-oil-coolers">
+            <div class="service_details_info">
+              <h3><u>Oil Coolers</u></h3>
+
+              <div class="service_thumb">
+                <img class="img-fluid" src="img/oil-cooler.png" alt="" style="height: 400px;width: 400px;">
+              </div>
+
+              <p>We introduce ourselves as one of the Leading Manufacturers of Oil coolers in India since 1987. We at
+                Saaswad, make oil coolers of aluminium controlled atmosphere brazed type and Mechanical bonded type.
+                They are efficient for reducing high oil temperature. The designs we provide are compact, lightweight,
+                high performance with required cooling under demanding engine conditions.
+                The material we use in building Oil coolers is Aluminium and copper brass. We have different variations
+                of different capacities ranging 250 Kva to 2000 Kva. Which can also be customized according to the
+                customer's requirement.</p>
+
+              <ul>
+                <li style="list-style-type: square;">Material: Aluminum</li>
+                <li style="list-style-type: square;">Design Types: Fin & Tube / Bar & Plate</li>
+                <li style="list-style-type: square;">Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers
+                  and Concrete Mixtures etc.</li>
+                <li style="list-style-type: square;">Industrial Power Generation Engines: 250 KVA - 2000 KVA</li>
+              </ul>
+
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#oilCooler-Modal"
+                style="margin: 3px;">Watch Video</a>
+
+            </div>
+            <p>SHTE has a wide range of high quality oil coolers for the cooling of oil and hydraulic fluids. SHTE oil
+              coolers are engineered to meet high specifications and technical requirements of our clients. SHTE offers
+              an extensive range of nearly 50 oil coolers for application in a variety of products. SHTE is constantly
+              expanding their oil cooler range to cover the demand in the market.
+              Oil is without doubt one of the most crucial fluids contained within an engine, because it lubricates the
+              moving parts of the engine and absorbs a lot of heat. Oil coolers are used to cool oil and hydraulic
+              fluids for engines.. The oil cooler receives the lubricant’s heat and is cooled down by the ambient air or
+              the radiator coolant. In some applications, the oil cooler is built into the radiator water tank. In
+              modern vehicles, an automatic gearbox oil cooler is often designed as a stand-alone unit, mounted
+              separately in the engine compartment or on the engine block.
+            </p>
+            <br>
+
+            <div class="service_details_info">
+
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Industrial Oil Cooler</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>The Industrial Oil Coolers manufactured by us are made using best quality raw materials. These
+                      coolers are made under the strict guidance of skilled workers using modern technology. They can
+                      also be customized as per the requisite demands of the clients. The Industrial Oil Cooler that we
+                      manufacture finds their usage in various industries. Further, they are also tested by our quality
+                      assurance team to ensure they are free from defects.</p>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div class="card element-animate media d-block media-custom text-left">
+                <div class="card-header media d-block media-custom text-left" style="margin: 0px; color: black;">
+                  <b>Other Applications</b>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>We at SHTE, are known as a reliable manufacturer and supplier of a wide range of oil coolers. The
+                      gamut we bring-forth comprises Shell Oil Cooler, Hydraulic Oil Cooler, Air Oil Cooler, Compressor
+                      Cooler, Crane Oil Cooler, etc. These oil coolers are utilized in different industries such as
+                      locomotives, construction, agriculture, etc. Our oil coolers are manufactured using top grade raw
+                      material which is responsible for the durability and high tensile strength of our products. We
+                      have adopted modern production techniques owing to which we have been able to create and supply a
+                      flawless array.</p>
+                  </blockquote>
+                </div>
+              </div>
+
+            </div>
+            <div class="accordion_area">
+              <div class="faq_ask">
+                <h3>Frequently ask</h3>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoa"
+                          aria-expanded="false" aria-controls="collapseTwo">
+                          Adieus who direct esteem <span>It esteems
+                            luckily?</span>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneb"
+                          aria-expanded="false" aria-controls="collapseOneb">
+                          Who direct esteem It esteems?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreev"
+                          aria-expanded="false" aria-controls="collapseThree">
+                          Duis consectetur feugiat auctor?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="tab-pane fade show active" id="air-coolers" role="tabpanel" aria-labelledby="v-air-coolers">
+            <div class="service_details_info">
+              <h3><u>Charge Air Coolers</u></h3>
+              <div class="service_thumb">
+                <img class="img-fluid" src="img/charge-air-cooler.png" alt="" style="height: 400px;width: 400px;">
+              </div>
+              <p>We introduce ourselves as one of the Leading Manufacturers of Charge Air Cooler in India since 1987.
+                The material we use in building Charge Air Cooler is Aluminium and copper brass. We have different
+                variations of different capacities ranging 250 Kva to 2000 Kva. Which can also be customized according
+                to the customer's requirement. SAASWAD’S range of Charge air coolers (CAC)/After coolers or Intercoolers
+                have proved very successful in cooling engine intake of air for increased power, improved fuel economy
+                and emission. The CACS manufactured at SAASWAD with controlled atmosphere brazing processes as well as
+                Mechanical bonded process in following categories :-</p>
+
+              <ul>
+                <li style="list-style-type: square;">Material: Aluminum & Copper brass</li>
+                <li style="list-style-type: square;">Design Types: Fin & Tube / Bar & Plate</li>
+                <li style="list-style-type: square;">Off-Road / Construction Equipment Backhoe Loaders, Dumpers, Dozers
+                  and Concrete Mixtures, Locomotives, DG Sets etc.</li>
+                <li style="list-style-type: square;">Industrial Power Generation Engines: 125 KVA-3000 KVA</li>
+              </ul>
+
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#airCooler-Modal"
+                style="margin: 3px;">Watch Video</a>
+
+            </div>
+
+            <div class="service_details_info">
+              <p>We manufacture premium quality charge air coolers with our two state-of-art-facilities and skilled
+                experts. Following the industry-defined standards and norms, our charge air cooler assembly is made with
+                superlative excellence ensuring premium quality material. Having a strong client base over the seas, our
+                charge air cooler is used in diverse applications in various industries. We are known as one of the
+                leading manufacturers of charge air coolers as we manufacture irreprochable designs and remarkable
+                quality.
+                With our world class facilities we provide charge air coolers and other heat transfer solution according
+                to our customer requirement for any climate and any industries.
+              </p>
+            </div>
+            <div class="accordion_area">
+              <div class="faq_ask">
+                <h3>Frequently ask</h3>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingTwoa">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoa"
+                          aria-expanded="false" aria-controls="collapseTwo">
+                          Adieus who direct esteem <span>It esteems
+                            luckily?</span>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneb"
+                          aria-expanded="false" aria-controls="collapseOneb">
+                          Who direct esteem It esteems?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreev"
+                          aria-expanded="false" aria-controls="collapseThree">
+                          Duis consectetur feugiat auctor?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="tab-pane fade" id="bonded-radiators" role="tabpanel" aria-labelledby="v-bonded-radiators">
+            <div class="service_details_info">
+              <h3><u>Mechanically Bonded Radiators</u></h3>
+
+              <div class="service_thumb">
+                <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
+              </div>
+
+              <p>We introduce ourselves as one of the Leading Manufacturers of MB Radiators in India since 1987. We are
+                known for manufacturing quality products and providing complete products through technical expertise and
+                after-sales service to our customers. With required emission specifications,we at SAASWAD produce
+                radiators that are the most efficient and optimised design for a compact frontal area.
+              </p>
+              <p>We have proven products for non automotive applications. The material we use in building MB Radiators
+                is Almunium and copper brass. We have different variations of different HP ranging 250 HP to 4500 HP.
+                Which can also be customized according to the customer's requirement.
+              </p>
+
+              <ul>
+                <li style="list-style-type: square;">Material: Aluminum & Copper Brass</li>
+                <li style="list-style-type: square;">Design Types Fin & Tube/Bar & Plate</li>
+                <li style="list-style-type: square;">Industrial Power Generation Engines :125 KVA to 1250 KVA</li>
+                <li style="list-style-type: square;">Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
+              </ul>
+
+              
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#mbRadiator-Modal"
+                style="margin: 3px;">Watch Video</a>
+
+
+            </div>
+
+            <div class="accordion_area">
+              <div class="faq_ask">
+                <h3>Frequently ask</h3>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingTwoa">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoa"
+                          aria-expanded="false" aria-controls="collapseTwo">
+                          Adieus who direct esteem <span>It esteems
+                            luckily?</span>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneb"
+                          aria-expanded="false" aria-controls="collapseOneb">
+                          Who direct esteem It esteems?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreev"
+                          aria-expanded="false" aria-controls="collapseThree">
+                          Duis consectetur feugiat auctor?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="tab-pane fade" id="generator-radiators" role="tabpanel" aria-labelledby="v-generator-radiators">
+            <div class="service_details_info">
+              <h3><u>Generator Radiators</u></h3>
+              <div class="service_thumb">
+                <img class="img-fluid" src="img/industrial-radiator.png" alt="" style="height: 400px;width: 400px;">
+              </div>
+              <p>We introduce ourselves as one of the Leading Manufacturers of Generator Radiators in India since 1987.
+                We are known for manufacturing quality products and providing complete products through technical
+                expertise and after-sales service to our customers. With required emission specifications,we at SAASWAD
+                produce Generator Radiators that are the most efficient and optimised design for a compact frontal area.
+                We have proven products for non automotive applications. The material we use in building Generator
+                Radiators is Almunium and copper brass. We have different variations of different capacity ranging 125
+                Kva to 1250 Kva. Which can also be customized according to the customer's requirement.
+              </p>
+
+              <ul>
+                <li style="list-style-type: square;">Material: Aluminum & Copper Brass</li>
+                <li style="list-style-type: square;">Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power
+                </li>
+                <li style="list-style-type: square;">Generation Engines :125 KVA to 1250 KVA</li>
+                <li style="list-style-type: square;">Locomotive Engine : 1350 HP TO 4500 HP Generator Radiators</li>
+              </ul>
+
+              
+              <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+              <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
+              <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#generatorRadiator-Modal"
+                style="margin: 3px;">Watch Video</a>
+
+
+            </div>
+
+            <div class="accordion_area">
+              <div class="faq_ask">
+                <h3>Frequently ask</h3>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingTwoa">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoa"
+                          aria-expanded="false" aria-controls="collapseTwo">
+                          Adieus who direct esteem <span>It esteems
+                            luckily?</span>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneb"
+                          aria-expanded="false" aria-controls="collapseOneb">
+                          Who direct esteem It esteems?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreev"
+                          aria-expanded="false" aria-controls="collapseThree">
+                          Duis consectetur feugiat auctor?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev" data-parent="#accordion"
+                      style="">
+                      <div class="card-body">Esteem spirit temper too say adieus who
+                        direct esteem esteems luckily or picture placing drawing.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>&nbsp;</p>
+
+<section class="container cta-overlap">
+  <div class="text d-flex">
+    <h2 class="h3">Contact Us or Get a Quotation</h2>
+    <div class="ml-auto btn-wrap">
+      <a href="get-quote.html" class="btn-cta btn btn-outline-white">Get A Quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- END section -->
+
+<footer class="site-footer" role="contentinfo" style="background-color: #000000b3;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="text-white" style="font-size: large;"><b>Saaswad Heat Transfer And Engineering Pvt. Ltd.</b></h3>
+        <p class="text-white" style="line-height: 1.6;">
+          We introduce ourselves as one of the Leading Manufacturers of Industrial Radiators, Oil Coolers, Heat
+          Exchangers and Charge Air Coolers in India since 1987. We are known for manufacturing quality products and
+          providing complete solutions through technical expertise and after-sales service to our customers.
+        </p>
+
+        <ul class="list-unstyled footer-link d-flex footer-social">
+          <li><a href="https://twitter.com/saaswadheat?lang=en" class="p-2" target="_blank"><span
+                class="fa fa-twitter"></span></a></li>
+          <li><a href="https://www.facebook.com/SaaswadHeatTransfer" class="p-2" target="_blank"><span
+                class="fa fa-facebook"></span></a></li>
+          <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" class="p-2"
+              target="_blank"><span class="fa fa-linkedin"></span></a></li>
+          <li><a href="https://www.instagram.com/saaswadheattransfer/" class="p-2" target="_blank"><span
+                class="fa fa-instagram"></span></a></li>
+        </ul>
+
+      </div>
+
+      <div class="col-md-3">
+        <h3 class="text-white" style="font-size: large;">Our Products</h3>
+        <ul class="list-unstyled footer-link">
+          <li><a href="industrial-radiators.html">Industrial Radiators</a></li>
+          <li><a href="heat-exchangers.html">Customized Heat Exchangers</a></li>
+          <li><a href="oil-coolers.html">Oil Coolers</a></li>
+          <li><a href="air-coolers.html">Charge Air Coolers</a></li>
+          <li><a href="bonded-radiators.html">Mechanically Bonded Radiators</a></li>
+          <li><a href="generator-radiators.html">Generator Radiators</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h3 class="text-white" style="font-size: large;">Quick Links</h3>
+        <ul class="list-unstyled footer-link">
+          <li><a href="company.html">Company</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="application.html">Applications</a></li>
+          <li><a href="expertise.html">Expertise</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="downloads.html">Downloads</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3 class="text-white" style="font-size: large;">Contact Us</h3>
+        <ul class="list-unstyled footer-link">
+          <li><span class="mr-3 d-block">Address:</span><span class="text-white"
+              style="font-family: Montserrat;">B-38/47 PR,Tulsipur Mahmoorganj,Varanasi Uttar
+              Pradesh,India-221010</span></li>
+          <li><span class="mr-3 d-block">Phone:</span><span class="text-white" style="font-family: Montserrat;">+91
+              9336116247</span></li>
+          <li><span class="mr-3 d-block">E-mail:</span><span class="text-white">info@saaswad.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-12 col-lg-12" style="padding-top: 25px;">
+      <p class="text-center">
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
+        </a>
+      </p>
     </div>
 
+  </div>
 
 
 
-    <!-- service_details_start  -->
-    <div class="service_details_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="service_details_left">
-                        <h2 style="margin-bottom: 50px; color: black;">Our Products</h2>
-                        <h3><i><b>Heat Transfer</b></i></h3>
-                        <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="" id="v-industrial-radiators" data-toggle="pill" href="#industrial-radiators"
-                                role="tab" aria-controls="v-industrial-radiators" aria-selected="true">Radiators</a>
-                            <a class="" id="v-heat-exchangers" data-toggle="pill" href="#heat-exchangers" role="tab"
-                                aria-controls="v-heat-exchangers" aria-selected="false">Heat Exchangers</a>
-                            <a class="" id="v-oil-coolers" data-toggle="pill" href="#oil-coolers" role="tab"
-                                aria-controls="v-oil-coolers" aria-selected="false">Oil Coolers</a>
-                            <a class="active" id="v-air-coolers" data-toggle="pill" href="#air-coolers" role="tab"
-                                aria-controls="v-air-coolers" aria-selected="false">Charge Air Coolers</a>
-                            <br>
-                            <br>
-                            <h3><i><b>Air Conditioning</b></i></h3>
-                            <a class="" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators" role="tab"
-                                aria-controls="v-bonded-radiators" aria-selected="false">Mechanically Bonded
-                                Radiators</a>
-                            <a class="" id="v-generator-radiators" data-toggle="pill" href="#generator-radiators"
-                                role="tab" aria-controls="v-generator-radiators" aria-selected="false">Generator
-                                Radiators</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-8">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade" id="industrial-radiators" role="tabpanel"
-                            aria-labelledby="v-industrial-radiators">
-                            <div class="service_details_info">
-                                <h3>Radiators</h3>
-                                <p>We introduce ourselves as one of the Leading Manufacturers of Radiators in India
-                                    since 1987. We are known for manufacturing quality products and providing complete
-                                    products through technical expertise and after-sales service to our customers. With
-                                    required emission specifications,we at SAASWAD produce radiators that are the most
-                                    efficient and optimised design for a compact frontal area. We have proven products
-                                    for non automotive applications. The material we use in building Radiators is
-                                    Aluminium and copper brass. We have different variations of different capacities
-                                    ranging 125 Kva to 1250 Kva. Which can also be customized according to the
-                                    customer's requirement.
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/industrial-radiator.png" alt=""
-                                        style="height: 400px;width: 400px;">
-                                </div>
-                                </p>
-                                <ul>
-                                    <li>Material: Aluminum & Copper Brass</li>
-                                    <li>Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</li>
-                                    <li>Generation Engines :125 KVA to 1250 KVA</li>
-                                    <li>Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
-                                </ul>
-                                <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get
-                                    Quote</a>
-                                <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo"
-                                    style="margin: 3px;">Download Brochure</a>
-                                <a href="https://www.youtube.com/watch?v=u9V70mQiabo" target="_blank"
-                                    class="btn btn-outline-danger" style="margin: 3px;">Watch Video</a>
+</footer>
+<!-- END footer -->
 
-                            </div>
+<!-- loader -->
+<div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+    <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+    <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" />
+    </svg></div>
 
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/main.js"></script>
 
-                            <div class="service_details_info">
-                                <p>We manufacture premium quality radiator assembly and radiator core with our two
-                                    state-of-art-facilities and skilled experts. Following the industry-defined
-                                    standards and norms, our radiator assembly is made with superlative excellence
-                                    ensuring premium quality material. Having a strong client base over the seas, our
-                                    radiator assembly is used in diverse applications in various industries. We are
-                                    known as one of the leading manufacturers of radiator as we manufacture
-                                    irreprochable designs and remarkable quality.
-                                </p>
-                                <br>
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Locomotive Radiator</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>We take immense pleasure and satisfaction that currently more than 3000
-                                                Locos are running on tracks with our products. Indian Railways, the
-                                                governmental entity under the Ministry of Railways which operates
-                                                India's National Railway System. We at SHTE are proud to supply Radiator
-                                                for Locomotive Application (1350 HP, 3100 HP, 4000 HP and 4500 HP) to
-                                                them. We also supply them with Charge Air Cooler ( also known as
-                                                Intercooler ) of capacity 3100 HP Alco design and also of capacity of
-                                                4000 HP and 4500 HP especially for EMD 710 and 645 Engines.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
 
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Generator Radiator</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>We are OEM for some of the world leading manufacturers of Generator. We
-                                                serve them with our world class heat transfer solution. We are proud to
-                                                supply to some of the leading Generator manufacturers in the world like
-                                                Kirloskar, Cummins, Greaves Cotton, and many more. The power capacity of
-                                                the application for which we provide radiator is above 125 kvA.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
+  $(document).ready(function () {
+    $(".fa-search").click(function () {
+      $(".icon").toggleClass("active");
+      $("input[type='text']").toggleClass("active");
+    });
+  });
 
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Heavy Duty Radiator</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>We also manufacture radiators for heavy duty equipment like excavators,
-                                                backhoe, loader, bulldozer, etc. These applications need to be built
-                                                with good quality material. The material which we use to manufacture
-                                                these equipment is copper and brass. These materials are guaranteed the
-                                                long-life of these products apart from the material with paint these
-                                                applications with a special type to paint as these applications works in
-                                                some tough climate.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Some other applications</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>Apart from these applications, we also manufacture radiators for other
-                                                applications like agricultural equipment, cranes, off-shore, and many
-                                                more.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
+  function checkProduct(){
+  var productValue = $('#product-type').find(":selected").val();
 
-                            </div>
-                            <div class="accordion_area" id="industrial-radiator-brochure">
-                                <div class="faq_ask">
-                                    <h3>Frequently ask</h3>
-                                    <div id="accordion">
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwo">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        Adieus who direct esteem <span>It esteems
-                                                            luckily?</span>
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        Who direct esteem It esteems?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        Duis consectetur feugiat auctor?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="heat-exchangers" role="tabpanel"
-                            aria-labelledby="v-heat-exchangers">
-                            <div class="service_details_info">
-                                <h3>Heat Exchangers</h3>
-                                <p>We introduce ourselves as one of the Leading Manufacturers of Heat Exchangers in
-                                    India since 1987. We are known for manufacturing quality products and providing
-                                    complete products through technical expertise and after-sales service to our
-                                    customers. We at SAASWAD have proven capabilities and expertise to provide
-                                    customized engine cooling systems that consist of multiple heat exchangers and
-                                    auxiliary components such as tan shrouds, re-circulation shields, and DE Beration
-                                    tanks. The designs we provide have multiple mounting options to meet diverse engine
-                                    types and performance parameters and can be directly installed on the engine
-                                    assembly lines.The material we use in building Heat exchangers is Aluminium and
-                                    copper brass. We have different variations. Which can also be customized according
-                                    to the customer's requirement.
-                                </p>
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/heat-exchanger.png" alt=""
-                                        style="height: 400px;width: 400px;">
-                                </div>
-                                <ul style="list-style-type: square;">
-                                    <li>The custom manufactured engine cooling systems include all components, as listed
-                                        below, needed to install and connect the heat exchanger to respective engines
-                                    </li>
-                                    <li>Drive kit with premium belts, pulleys, and stub shaft</li>
-                                    <li>Pipe kit with custom-formed pipes to interface with engine specifications >
-                                        Radiator base designed to interface with specific engine rail</li>
-                                    <li>Optional galvanized steel and heat exchanger coatings for enhanced corrosion
-                                        protection
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get
-                                    Quote</a>
-                                <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo"
-                                    style="margin: 3px;">Download Brochure</a>
-                                <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch
-                                    Video</a>
-                            </div>
+  if(productValue === '1'){
+    window.open('pdfs/industrial-radiator.pdf');
+  } else if(productValue === '2'){
+    window.open('pdfs/company-brochure-shte-comp.pdf')
+  }
+  }
 
-                            <div class="service_details_info">
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Custom Designed Heat Exchanger</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>Our highest priority is always quality Manufacturing. We believe in
-                                                giving the best quality product to our customers. SHTE can also design
-                                                and manufacture products based on the requirements of customers, Thanks
-                                                to the experts, the creative spirit and the research Department, which
-                                                enables the company to deliver more and more new products like Custom
-                                                Designed Heat Exchanger. Our highest priority is always quality
-                                                Manufacturing.Our company is counted amongst one of the most trusted
-                                                names in the industry for manufacturing and supplying a wide range of
-                                                Heat Exchangers. These heat exchangers are safe to use and do not
-                                                require much effort for the maintenance. We make sure that our range
-                                                complies with the industry quality norms.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Industrial Heat Exchangers</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>Industrial operations almost always need temperature regulation of some
-                                                sort. Accordingly, heat exchangers are frequently an important piece of
-                                                equipment at industrial sites. At SHTE, we have been passionate about
-                                                heat exchange since 1987. We design, manufacture, and install highly
-                                                innovative Heat Exchangers for the various industries. Further to this,
-                                                we support our customers to optimize and extend their existing or new
-                                                process equipment. We offer elaborating solutions and designs to all
-                                                kinds of customers worldwide.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Copper Heat Exchanger</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>Our Heat Exchangers made of copper are better in performance, as they
-                                                have better serving life and ability to withstand harsh conditions. SHTE
-                                                is one of the trusted Copper Heat Exchanger Manufacturers in India.
-                                                Offering heat exchangers have a huge demand in various industries
-                                                because of their high thermal conductivity and other features. We ensure
-                                                high-quality, as they get manufactured at our in-house facility
-                                                implementing the right method and materials.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="accordion_area">
-                                <div class="faq_ask">
-                                    <h3>Frequently ask</h3>
-                                    <div id="accordion">
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwo1">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseTwo1" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        Adieus who direct esteem <span>It esteems
-                                                            luckily?</span>
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne2">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseOne2" aria-expanded="false"
-                                                        aria-controls="collapseOne">
-                                                        Who direct esteem It esteems?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree3">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseThree3" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        Duis consectetur feugiat auctor?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                        <div class="tab-pane fade" id="oil-coolers" role="tabpanel" aria-labelledby="v-oil-coolers">
-                            <div class="service_details_info">
-                                <h3>Oil Coolers</h3>
-                                <p>We introduce ourselves as one of the Leading Manufacturers of Oil coolers in India
-                                    since 1987. We at Saaswad, make oil coolers of aluminium controlled atmosphere
-                                    brazed type and Mechanical bonded type. They are efficient for reducing high oil
-                                    temperature. The designs we provide are compact, lightweight, high performance with
-                                    required cooling under demanding engine conditions.
-                                    The material we use in building Oil coolers is Aluminium and copper brass. We have
-                                    different variations of different capacities ranging 250 Kva to 2000 Kva. Which can
-                                    also be customized according to the customer's requirement.</p>
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/oil-cooler.png" alt=""
-                                        style="height: 400px;width: 400px;">
-                                </div>
-                                <ul>
-                                    <li>Material: Aluminum</li>
-                                    <li>Design Types: Fin & Tube / Bar & Plate</li>
-                                    <li>Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers and Concrete
-                                        Mixtures etc.</li>
-                                    <li>Industrial Power Generation Engines: 250 KVA - 2000 KVA</li>
-                                </ul>
-                                <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get
-                                    Quote</a>
-                                <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo"
-                                    style="margin: 3px;">Download Brochure</a>
-                                <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch
-                                    Video</a>
-                            </div>
-                            <p>SHTE has a wide range of high quality oil coolers for the cooling of oil and hydraulic
-                                fluids. SHTE oil coolers are engineered to meet high specifications and technical
-                                requirements of our clients. SHTE offers an extensive range of nearly 50 oil coolers for
-                                application in a variety of products. SHTE is constantly expanding their oil cooler
-                                range to cover the demand in the market.
-                                Oil is without doubt one of the most crucial fluids contained within an engine, because
-                                it lubricates the moving parts of the engine and absorbs a lot of heat. Oil coolers are
-                                used to cool oil and hydraulic fluids for engines.. The oil cooler receives the
-                                lubricant’s heat and is cooled down by the ambient air or the radiator coolant. In some
-                                applications, the oil cooler is built into the radiator water tank. In modern vehicles,
-                                an automatic gearbox oil cooler is often designed as a stand-alone unit, mounted
-                                separately in the engine compartment or on the engine block.
-                            </p>
-                            <br>
-
-                            <div class="service_details_info">
-
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Industrial Oil Cooler</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>The Industrial Oil Coolers manufactured by us are made using best quality
-                                                raw materials. These coolers are made under the strict guidance of
-                                                skilled workers using modern technology. They can also be customized as
-                                                per the requisite demands of the clients. The Industrial Oil Cooler that
-                                                we manufacture finds their usage in various industries. Further, they
-                                                are also tested by our quality assurance team to ensure they are free
-                                                from defects.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-
-                                <div class="card element-animate media d-block media-custom text-left">
-                                    <div class="card-header media d-block media-custom text-left"
-                                        style="margin: 0px; color: black;">
-                                        <b>Other Applications</b>
-                                    </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>We at SHTE, are known as a reliable manufacturer and supplier of a wide
-                                                range of oil coolers. The gamut we bring-forth comprises Shell Oil
-                                                Cooler, Hydraulic Oil Cooler, Air Oil Cooler, Compressor Cooler, Crane
-                                                Oil Cooler, etc. These oil coolers are utilized in different industries
-                                                such as locomotives, construction, agriculture, etc. Our oil coolers are
-                                                manufactured using top grade raw material which is responsible for the
-                                                durability and high tensile strength of our products. We have adopted
-                                                modern production techniques owing to which we have been able to create
-                                                and supply a flawless array.</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="accordion_area">
-                                <div class="faq_ask">
-                                    <h3>Frequently ask</h3>
-                                    <div id="accordion">
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwo">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseTwoa" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        Adieus who direct esteem <span>It esteems
-                                                            luckily?</span>
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseOneb" aria-expanded="false"
-                                                        aria-controls="collapseOneb">
-                                                        Who direct esteem It esteems?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseThreev" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        Duis consectetur feugiat auctor?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                        <div class="tab-pane fade show active" id="air-coolers" role="tabpanel"
-                            aria-labelledby="v-air-coolers">
-                            <div class="service_details_info">
-                                <h3>Charge Air Coolers</h3>
-                                <p>We introduce ourselves as one of the Leading Manufacturers of Charge Air Cooler in
-                                    India since 1987. The material we use in building Charge Air Cooler is Aluminium and
-                                    copper brass. We have different variations of different capacities ranging 250 Kva
-                                    to 2000 Kva. Which can also be customized according to the customer's requirement.
-                                    SAASWAD’S range of Charge air coolers (CAC)/After coolers or Intercoolers have
-                                    proved very successful in cooling engine intake of air for increased power, improved
-                                    fuel economy and emission. The CACS manufactured at SAASWAD with controlled
-                                    atmosphere brazing processes as well as Mechanical bonded process in following
-                                    categories :-</p>
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/charge-air-cooler.png" alt=""
-                                        style="height: 400px;width: 400px;">
-                                </div>
-                                <ul>
-                                    <li>Material: Aluminum & Copper brass</li>
-                                    <li>Design Types: Fin & Tube / Bar & Plate</li>
-                                    <li>Off-Road / Construction Equipment Backhoe Loaders, Dumpers, Dozers and Concrete
-                                        Mixtures, Locomotives, DG Sets etc.</li>
-                                    <li>Industrial Power Generation Engines: 125 KVA-3000 KVA</li>
-                                </ul>
-                                <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get
-                                    Quote</a>
-                                <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo"
-                                    style="margin: 3px;">Download Brochure</a>
-                                <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch
-                                    Video</a>
-                            </div>
-
-                            <div class="service_details_info">
-                                <p>We manufacture premium quality charge air coolers with our two
-                                    state-of-art-facilities and skilled experts. Following the industry-defined
-                                    standards and norms, our charge air cooler assembly is made with superlative
-                                    excellence ensuring premium quality material. Having a strong client base over the
-                                    seas, our charge air cooler is used in diverse applications in various industries.
-                                    We are known as one of the leading manufacturers of charge air coolers as we
-                                    manufacture irreprochable designs and remarkable quality.
-                                    With our world class facilities we provide charge air coolers and other heat
-                                    transfer solution according to our customer requirement for any climate and any
-                                    industries.
-                                </p>
-                            </div>
-                            <div class="accordion_area">
-                                <div class="faq_ask">
-                                    <h3>Frequently ask</h3>
-                                    <div id="accordion">
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwoa">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseTwoa" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        Adieus who direct esteem <span>It esteems
-                                                            luckily?</span>
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseOneb" aria-expanded="false"
-                                                        aria-controls="collapseOneb">
-                                                        Who direct esteem It esteems?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseThreev" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        Duis consectetur feugiat auctor?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="tab-pane fade" id="bonded-radiators" role="tabpanel"
-                            aria-labelledby="v-bonded-radiators">
-                            <div class="service_details_info">
-                                <h3>Mechanically Bonded Radiators</h3>
-                                <p>We introduce ourselves as one of the Leading Manufacturers of MB Radiators in India
-                                    since 1987. We are known for manufacturing quality products and providing complete
-                                    products through technical expertise and after-sales service to our customers. With
-                                    required emission specifications,we at SAASWAD produce radiators that are the most
-                                    efficient and optimised design for a compact frontal area.
-                                </p>
-                                <p>We have proven products for non automotive applications. The material we use in
-                                    building MB Radiators is Almunium and copper brass. We have different variations of
-                                    different HP ranging 250 HP to 4500 HP. Which can also be customized according to
-                                    the customer's requirement.
-                                </p>
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/industrial-radiator.png" alt=""
-                                        style="height: 400px;width: 400px;">
-                                </div>
-                                <ul>
-                                    <li>Material: Aluminum & Copper Brass</li>
-                                    <li>Design Types Fin & Tube/Bar & Plate</li>
-                                    <li>Industrial Power Generation Engines :125 KVA to 1250 KVA</li>
-                                    <li>Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
-                                </ul>
-                                <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get
-                                    Quote</a>
-                                <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo"
-                                    style="margin: 3px;">Download Brochure</a>
-                                <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch
-                                    Video</a>
-                            </div>
-
-                            <div class="accordion_area">
-                                <div class="faq_ask">
-                                    <h3>Frequently ask</h3>
-                                    <div id="accordion">
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwoa">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseTwoa" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        Adieus who direct esteem <span>It esteems
-                                                            luckily?</span>
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseOneb" aria-expanded="false"
-                                                        aria-controls="collapseOneb">
-                                                        Who direct esteem It esteems?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseThreev" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        Duis consectetur feugiat auctor?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                        <div class="tab-pane fade" id="generator-radiators" role="tabpanel"
-                            aria-labelledby="v-generator-radiators">
-                            <div class="service_details_info">
-                                <h3>Generator Radiators</h3>
-                                <p>We introduce ourselves as one of the Leading Manufacturers of Generator Radiators in
-                                    India since 1987. We are known for manufacturing quality products and providing
-                                    complete products through technical expertise and after-sales service to our
-                                    customers. With required emission specifications,we at SAASWAD produce Generator
-                                    Radiators that are the most efficient and optimised design for a compact frontal
-                                    area.
-                                    We have proven products for non automotive applications. The material we use in
-                                    building Generator Radiators is Almunium and copper brass. We have different
-                                    variations of different capacity ranging 125 Kva to 1250 Kva. Which can also be
-                                    customized according to the customer's requirement.
-                                </p>
-                                <div class="service_thumb">
-                                    <img class="img-fluid" src="img/industrial-radiator.png" alt=""
-                                        style="height: 400px;width: 400px;">
-                                </div>
-                                <ul>
-                                    <li>Material: Aluminum & Copper Brass</li>
-                                    <li>Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</li>
-                                    <li>Generation Engines :125 KVA to 1250 KVA</li>
-                                    <li>Locomotive Engine : 1350 HP TO 4500 HP Generator Radiators</li>
-                                </ul>
-                                <a href="#" class="btn btn-danger button" style="margin: 3px;" data-modal="modalOne">Get
-                                    Quote</a>
-                                <a href="#" class="btn btn-outline-danger button" data-modal="modalTwo"
-                                    style="margin: 3px;">Download Brochure</a>
-                                <a href="#" target="_blank" class="btn btn-outline-danger" style="margin: 3px;">Watch
-                                    Video</a>
-                            </div>
-
-                            <div class="accordion_area">
-                                <div class="faq_ask">
-                                    <h3>Frequently ask</h3>
-                                    <div id="accordion">
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwoa">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseTwoa" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        Adieus who direct esteem <span>It esteems
-                                                            luckily?</span>
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseOneb" aria-expanded="false"
-                                                        aria-controls="collapseOneb">
-                                                        Who direct esteem It esteems?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                        data-target="#collapseThreev" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        Duis consectetur feugiat auctor?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev"
-                                                data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who
-                                                    direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!-- END section -->
-
-    <footer class="site-footer" role="contentinfo" style="background-color: #000000b3;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3 class="text-white" style="font-size: large;"><b>Saaswad Heat Transfer And Engineering</b></h3>
-                    <p class="text-white">
-                        We introduce ourselves as one of the Leading Manufacturers of Industrial Radiators, Oil Coolers,
-                        Heat Exchangers and Charge Air Coolers in India since 1987. We are known for manufacturing
-                        quality products and providing complete solutions through technical expertise and after-sales
-                        service to our customers.
-                    </p>
-
-                    <ul class="list-unstyled footer-link d-flex footer-social">
-                        <li style="list-style-type: none;"><a href="#" class="p-2"><span
-                                    class="fa fa-twitter"></span></a></li>
-                        <li style="list-style-type: none;"><a href="#" class="p-2"><span
-                                    class="fa fa-facebook"></span></a></li>
-                        <li style="list-style-type: none;"><a href="#" class="p-2"><span
-                                    class="fa fa-linkedin"></span></a></li>
-                        <li style="list-style-type: none;"><a href="#" class="p-2"><span
-                                    class="fa fa-instagram"></span></a></li>
-                    </ul>
-
-                    <p>
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> | Saaswad
-                        </a>
-                    </p>
-                </div>
-
-                <div class="col-md-3">
-                    <h3 class="text-white" style="font-size: large;">Our Products</h3>
-                    <ul class="list-unstyled footer-link">
-                        <li style="list-style-type: none;"><a href="industrial-radiators.html">Industrial Radiators</a>
-                        </li>
-                        <li style="list-style-type: none;"><a href="heat-exchangers.html">Customized Heat Exchangers</a>
-                        </li>
-                        <li style="list-style-type: none;"><a href="oil-coolers.html">Oil Coolers</a></li>
-                        <li style="list-style-type: none;"><a href="air-coolers.html">Charge Air Coolers</a></li>
-                        <li style="list-style-type: none;"><a href="bonded-radiators.html">Mechanically Bonded
-                                Radiators</a></li>
-                        <li style="list-style-type: none;"><a href="generator-radiators.html">Generator Radiators</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-3">
-                    <h3 class="text-white" style="font-size: large;">Quick Links</h3>
-                    <ul class="list-unstyled footer-link">
-                        <li style="list-style-type: none;"><a href="company.html">Company</a></li>
-                        <li style="list-style-type: none;"><a href="products.html">Products</a></li>
-                        <li style="list-style-type: none;"><a href="application.html">Applications</a></li>
-                        <li style="list-style-type: none;"><a href="expertise.html">Expertise</a></li>
-                        <li style="list-style-type: none;"><a href="people.html">People</a></li>
-                        <li style="list-style-type: none;"><a href="blogs.html">Blogs</a></li>
-                        <li style="list-style-type: none;"><a href="downloads.html">Downloads</a></li>
-                        <li style="list-style-type: none;"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h3 class="text-white" style="font-size: large;">Contact Us</h3>
-                    <ul class="list-unstyled footer-link">
-                        <li style="list-style-type: none;"><span class="mr-3 d-block">Address:</span><span
-                                class="text-white" style="font-family: Montserrat;">B-38/47 PR,Tulsipur
-                                Mahmoorganj,Varanasi Uttar Pradesh,India-221010</span></li>
-                        <li style="list-style-type: none;"><span class="mr-3 d-block">Phone:</span><span
-                                class="text-white" style="font-family: Montserrat;">+91 9336116247</span></li>
-                        <li style="list-style-type: none;"><span class="mr-3 d-block">E-mail:</span><span
-                                class="text-white">info@saaswad.com</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- END footer -->
-
-
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-                stroke="#f4b214" />
-        </svg></div>
-
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        let modalBtns = [...document.querySelectorAll(".button")];
-        modalBtns.forEach(function (btn) {
-            btn.onclick = function () {
-                let modal = btn.getAttribute('data-modal');
-                document.getElementById(modal)
-                    .style.display = "block";
-            }
-        });
-        let closeBtns = [...document.querySelectorAll(".close")];
-        closeBtns.forEach(function (btn) {
-            btn.onclick = function () {
-                let modal = btn.closest('.modal');
-                modal.style.display = "none";
-            }
-        });
-        window.onclick = function (event) {
-            if (event.target.className === "modal") {
-                event.target.style.display = "none";
-            }
-        }
-    </script>
+  
+</script>
 </body>
 
 </html>
