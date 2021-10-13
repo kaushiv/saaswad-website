@@ -41,7 +41,7 @@ body {
  color: #c42e36 ;
 }
 
-/* .dropdown-menu {
+.dropdown-menu {
   visibility: hidden;
   filter: alpha(opacity=0);
   opacity: 0;
@@ -81,7 +81,7 @@ body {
 
 ul.dropdown-menu li {
   padding-left: 0px !important;
-} */
+}
 /*Contact Us CSS*/
 .map-section {
     position: relative;
