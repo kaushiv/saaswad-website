@@ -70,7 +70,19 @@
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-
+.modall {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
@@ -78,7 +90,12 @@
   width: 80%;
   max-width: 700px;
 }
-
+.modall-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
 .moodal-content {
   margin: auto;
   display: block;
@@ -87,6 +104,17 @@
 }
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#captions {
   margin: auto;
   display: block;
   width: 80%;
@@ -113,6 +141,13 @@
   animation-name: zoom;
   animation-duration: 0.6s;
 }
+
+/* Add Animation - Zoom in the Modal */
+.modall-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
 
 /* Add Animation - Zoom in the Modal */
 .moodal-content, #caption {
@@ -143,6 +178,25 @@
   cursor: pointer;
 }
 
+/* The Close Button */
+.closes {
+  margin-top: 5%;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.closes:hover,
+.closes:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .closee {
   margin-top: 5%;
   position: absolute;
@@ -165,6 +219,13 @@
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
+    width: 100%;
+  }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modall-content {
     width: 100%;
   }
 }
@@ -721,7 +782,7 @@ height: 500px;
         <div class="container">
           <div class="row mb-5">
             <div class="col-md-6 order-lg-3 mb-5">
-              <img src="img/slider-1.jpg" alt="Image placeholder" class="img-fluid">
+              <img src="img/c5.jpg" alt="Image placeholder" class="img-fluid">
             </div>
             <div class="col-md-1 order-lg-2"></div>
             <div class="col-md-5 order-lg-1">
@@ -738,12 +799,12 @@ height: 500px;
     </div>
     <div class="row">
       <div class="col-md-6 order-lg-1 mb-5">
-        <img src="img/slider-2.jpg" alt="Image placeholder" class="img-fluid">
+        <img src="img/c3.png" alt="Image placeholder" class="img-fluid">
       </div>
       <div class="col-md-1 order-lg-2"></div>
       <div class="col-md-5 order-lg-3">
         <h2 class="text-uppercase heading mb-4">A Client Centric Company</h2>
-        <p class="mb-3">We at Saaswad aim to meet or exceed our customer’s expectations for performance, quality, delivery, and cost. Our departments of design and development have mastered the procedure of co-creating and performance as an extended team of clients. Our facilities are supported by some advanced and modern tools for designing, manufacturing and testing our products. Our assured operation, environment-friendly manufacturing methods, flawless automation, and systematic inspection certify high levels of quality and awareness.</p>
+        <p class="mb-3"  style="padding-bottom: 10%;">We at Saaswad aim to meet or exceed our customer’s expectations for performance, quality, delivery, and cost. Our departments of design and development have mastered the procedure of co-creating and performance as an extended team of clients. Our facilities are supported by some advanced and modern tools for designing, manufacturing and testing our products. Our assured operation, environment-friendly manufacturing methods, flawless automation, and systematic inspection certify high levels of quality and awareness.</p>
 
         <!-- <ul class="list-unstyled bullet">
           <li>Saaswad ISO Certified facilities provide both standard and custom engineered products supported by extensive R & D, Engineering, and Manufacturing Operations with designs based upon:</li></ul>
@@ -770,7 +831,7 @@ height: 500px;
 
       </div>
        
-      <div class="tab-pane fade show" id="certification" role="tabpanel" aria-labelledby="certification-tab">
+      <div class="tab-pane fade" id="certification" role="tabpanel" aria-labelledby="certification-tab">
         
         <section class="section bg-light">
           <div class="row justify-content-center mb-5 element-animate">
@@ -780,10 +841,10 @@ height: 500px;
                 <p>SHTE is an integrated manufacturer. By controlling every step of the manufacturing process, <br> we produce heat transfer products that are performance matched for optimum cooling. </p>
             </div>
           </div>
-          <div class="row justify-content-center mb-5 element-animate" style="margin-left: 5%;">
+          <div class="row justify-content-center mb-5 element-animate" style="margin-left: 5%; align-content: space-between; justify-content: center;">
             
-               <div class="row justify-content-center mb-5 element-animate">
-                <div class="row">
+               <div>
+                <div class="row" style="    align-content: space-between;justify-content: center;">
                   <!-- Trigger the Modal -->
                     <img id="myImg" src="img/cp1.jpg" alt="Pune Unit" style="width:100%;max-width:380px">
 
@@ -799,13 +860,34 @@ height: 500px;
                       <!-- Modal Caption (Image Text) -->
                       <div id="caption">Pune Unit</div>
                     </div>
-                    <h3 style="margin-left: 33%; margin-bottom: 10%;">Pune Unit</h2>
+                    <h3 style="margin-left: 3%; margin-bottom: 5%;">Pune Unit</h2>
                     </div>  
-               </div>             
+               </div>    
+               
+              
+                <div class="row" style="    align-content: space-between;justify-content: center;">
+                  <!-- Trigger the Modal -->
+                    <img id="myImgg" src="img/cp3.jpg" alt="Pune Unit" style="width:100%;max-width:380px">
+
+                    <!-- The Modal -->
+                    <div id="myModall" class="modall">
+
+                      <!-- The Close Button -->
+                      <span class="closes">&times;</span>
+
+                      <!-- Modal Content (The Image) -->
+                      <img class="modall-content" id="img03">
+
+                      <!-- Modal Caption (Image Text) -->
+                      <div id="captions">Pune Unit</div>
+                    </div>
+                    <h3 style="margin-left: 2%; margin-bottom: 5%;">Indiamart Trustseal Certificate</h2>
+                    </div>  
+              
                    
                   
             <div>
-              <div class="row">
+              <div class="row" style="    align-content: space-between;justify-content: center;">
                      <!-- Trigger the Modal -->
                      <img id="myImag" src="img/cv1.jpg" alt="Varanasi Unit " style="width:100%;max-width:380px">
 
@@ -821,14 +903,13 @@ height: 500px;
                        <!-- Modal Caption (Image Text) -->
                        <div id="captionn">Varanasi Unit</div>
                      </div>
-                     <h3 style="margin-left: 27%;">Varanasi Unit</h2>
+                     <h3 style="margin-left: 7%;">Varanasi Unit</h2>
                   </div>
             </div>
 
             </div>
             
           </div>
-         
           <div class="tab-pane fade show" id="facilities" role="tabpanel" aria-labelledby="facilities-tab">
         
             ...
@@ -977,6 +1058,27 @@ height: 500px;
       modal.style.display = "none";
     }
     
+    
+    // Get the modal
+    var modall = document.getElementById("myModall");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgg = document.getElementById("myImgg");
+    var modallImgg = document.getElementById("img03");
+    var captionsText = document.getElementById("captions");
+    imgg.onclick = function(){
+      modall.style.display = "block";
+      modallImgg.src = this.src;
+      captionsText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var spans = document.getElementsByClassName("closes")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    spans.onclick = function() {
+      modall.style.display = "none";
+    }
     
     
     // Get the modal
