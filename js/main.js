@@ -58,10 +58,10 @@ $.fn.jQuerySimpleCounter = function( options ) {
 
 
 
-$('#number1').jQuerySimpleCounter({end: 150,duration: 4000});
-$('#number2').jQuerySimpleCounter({end: 2000,duration: 4000});
-$('#number3').jQuerySimpleCounter({end: 5500,duration: 4000});
-$('#number4').jQuerySimpleCounter({end: 300,duration: 3500});
+$('#number1').jQuerySimpleCounter({end: 75,duration: 4000});
+$('#number2').jQuerySimpleCounter({end: 350,duration: 4000});
+$('#number3').jQuerySimpleCounter({end: 800,duration: 4000});
+$('#number4').jQuerySimpleCounter({end: 15,duration: 3000});
 
 
 
