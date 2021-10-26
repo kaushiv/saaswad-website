@@ -1527,6 +1527,7 @@ display: inline-block;
   }
 
 .media-feature {
+  height: 18rem;
   padding: 30px;
   -webkit-transition: .2s all ease-out;
   -o-transition: .2s all ease-out;
@@ -1835,6 +1836,9 @@ display: inline-block;
   
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
     width: 100%;
     height: 100%;
