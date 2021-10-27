@@ -1986,3 +1986,66 @@ display: inline-block;
         font-size: 2rem;
       }
     }
+
+
+
+
+
+
+
+
+
+
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      /* background: #d1323a; */
+    }
+    
+    ul li {
+      display: block;
+      position: relative;
+      float: left;
+      font-size: 14px;
+      /* background: white; */
+    }
+    li ul { display: none;
+      background-color: white;
+    }
+    
+    ul li a {
+      display: block;
+      padding: 0.8em;
+      text-decoration: none;
+      white-space: nowrap;
+      color: #fff;
+    }
+    
+    /* ul li a:hover { background: #d1323a; } */
+    li:hover > ul {
+      display: block;
+      position: absolute;
+    }
+  
+    
+    li:hover li { float: none; }
+    
+    li ul:hover a { background: white; }
+    
+    li:hover li a:hover { background: #c42e36; }
+    
+    .main-navigation li ul li { border-top: 0; }
+    
+    ul ul ul {
+      left: 100%;
+      top: 0;
+    }
+    ul:before,
+    ul:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+    }
+    
+    ul:after { clear: both; }
