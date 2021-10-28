@@ -41,7 +41,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
 
+<style>
+  
+.teambtn{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+}
 
+.btn:hover {
+ 
+  box-shadow: 0 10px 20px rgba(204, 5, 5, 0.925);
+}
+
+.btn:active {
+ 
+  box-shadow: 0 5px 10px rgba(219, 3, 3, 0.918);
+}
+
+.btn-white {
+  background-color: rgb(192, 11, 11);
+  color: rgb(255, 254, 254);
+}
+
+</style>
 
   </head>
   <body>
@@ -141,8 +167,37 @@
                         </div>
                     </div>
                       <a href="products.html" class="nav-item nav-link">Products</a>
-                      <a href="application.html" class="nav-item nav-link">Applications</a>
-                      <a href="expertise.html" class="nav-item nav-link">Expertise</a>
+                      <ul class="main-navigation dropdown">
+                <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
+                  <ul>
+                    <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
+                      <ul>
+                        <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
+                        <li><a href="construction.html" class="dropdown-item">Construction</a></li>
+                        <li><a href="defence.html" class="dropdown-item">Defence</a></li>
+                        <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
+                        <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
+                      <ul>
+                        <li><a href="railway.html" class="dropdown-item">Railway</a></li>
+                        <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="nav-item dropdown">
+                <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
+                <div class="dropdown-menu">
+                  <a href="expertise.html" class="dropdown-item">Designing</a>
+                  <a href="eng.html" class="dropdown-item">Engineering</a>
+                  <a href="man.html" class="dropdown-item">Manufacturings</a>
+                  <a href="afs.html" class="dropdown-item">After Sales Support</a>
+                  <a href="otf.html" class="dropdown-item">Our testing Facility</a>
+                </div>
+              </div>
                      
                       <div class="nav-item dropdown">
                         <a href="people.html" class="nav-link dropdown-toggle active">People</a>
@@ -289,7 +344,7 @@
     <h2 class="text-uppercase heading border-bottom mb-4">Employees Speak!</h2>
     <div class="demo">
       <div class="container">
-          <div class="row">
+          <div class="row" style="justify-content: center;">
           
             <!-- TESTIMONIALS -->
 <section class="testimonials" style="padding-bottom: 3%;">
