@@ -138,7 +138,7 @@
   <!-- Top Bar End -->
 
   <!-- Nav Bar Start -->
-   <div class="nav-bar">
+  <div class="nav-bar">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <a href="#" class="navbar-brand">MENU</a>
@@ -148,7 +148,7 @@
 
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <div class="navbar-nav mr-auto">
-            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="index.html" class="nav-item nav-link active">Home</a>
             <div class="nav-item dropdown" style="outline: none;">
               <a href="company.html" class="nav-link dropdown-toggle">Company</a>
               <div class="dropdown-menu">
@@ -158,7 +158,20 @@
                 
               </div>
             </div>
-            <a href="products.html" class="nav-item nav-link">Products</a>
+
+            <div class="nav-item dropdown">
+              <a href="products.html" class="nav-link dropdown-toggle">Products</a>
+              <div class="dropdown-menu">
+                <a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a>
+                <a href="heat-exchangers.html" class="dropdown-item">Heat Exchangers</a>
+                <a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a>
+                <a href="air-coolers.html" class="dropdown-item">Air Coolers</a>
+                <a href="bonded-radiators.html" class="dropdown-item">MB Radiators</a>
+                <a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a>
+              </div>
+            </div> 
+           
+
             <ul class="main-navigation dropdown">
                 <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
                   <ul>
@@ -180,16 +193,19 @@
                   </ul>
                 </li>
               </ul>
-              <div class="nav-item dropdown">
-                <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
-                <div class="dropdown-menu">
-                  <a href="expertise.html" class="dropdown-item">Designing</a>
-                  <a href="eng.html" class="dropdown-item">Engineering</a>
-                  <a href="man.html" class="dropdown-item">Manufacturings</a>
-                  <a href="afs.html" class="dropdown-item">After Sales Support</a>
-                  <a href="otf.html" class="dropdown-item">Our testing Facility</a>
-                </div>
+            
+            <div class="nav-item dropdown">
+              <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
+              <div class="dropdown-menu">
+                <a href="expertise.html" class="dropdown-item">Designing</a>
+                <a href="eng.html" class="dropdown-item">Engineering</a>
+                <a href="man.html" class="dropdown-item">Manufacturings</a>
+                <a href="afs.html" class="dropdown-item">After Sales Support</a>
+                <a href="otf.html" class="dropdown-item">Our testing Facility</a>
               </div>
+            </div>
+            
+
             <div class="nav-item dropdown">
               <a href="people.html" class="nav-link dropdown-toggle">People</a>
               <div class="dropdown-menu">
@@ -199,7 +215,7 @@
               </div>
             </div>
             <a href="blogs.html" class="nav-item nav-link">Blogs</a>
-            <a href="downloads.html" class="nav-item nav-link active">Downloads</a>
+            <a href="downloads.html" class="nav-item nav-link">Downloads</a>
 
           </div>
           <div class="ml-auto">
@@ -242,91 +258,94 @@
   <!-- Nav Bar End -->
 
 
-  <section class="inner-page">
-    <div class="slider-item py-5" style="background-image: url('img/slider-2.jpg');">
+  <section class="page-top-section" style="
+background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url(img/download.jpg);
+background-size: cover;
+background-position: center;
+height: 500px;
+">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
 
-      <div class="container">
-        <div class="row slider-text align-items-center justify-content-center text-center">
-          <div class="col-md-7 col-sm-12 element-animate">
-            <h1 class="text-white">Downloads</h1>
-          </div>
         </div>
       </div>
 
     </div>
+    <h1
+      style="position: relative; top: 20rem; color: white; font-size: 10vh; font-weight: 900; margin-left: 3rem;opacity: 0.6;">
+      Downloads</h1>
   </section>
 
 
 
 
-  <section style=" display: flex; margin: 0rem 10%; margin-top: 5rem;">
-    <div class="brochure1" style="display: flex; flex-direction: column; padding: 0rem 2rem;">
-      <div class="text-cont"
-        style="display: flex; justify-content: center; align-items: center;background-color: whitesmoke;">
-        <div class="text-center" style="padding: 0rem 2rem;">
-          <h2 class="text-uppercase heading border-bottom mb-4" style="color: #343a40;">Brochure request</h2>
-          <div class="row justify-content-center mb-5 element-animate" style="visibility: visible;">
-            <div>
-              <p class="mb-3 lead">Thank you for taking interest in our products, you can view or download a copy of our
-                brochure ...</p>
-            </div>
-          </div>
-          <ul>
-            <li><a href="./pdfs/company-brochure-shte-comp.pdf" target="blank"> View</a> our entire brochure online</li>
-            <li><a href="./pdfs/company-brochure-shte-comp.pdf" target="blank"> Download</a> a copy</li>
-          </ul>
-        </div>
+
+
+  <section class="section bg-light" style="padding-top: 2%; padding-bottom: 2%;">
+    <div class="row justify-content-center mb-5 element-animate">
+      <div class="col-md-8 text-center">
+        <h2 class="text-uppercase heading border-bottom mb-4">Brochure Download</h2>
+        <p>Thankyou for showing your interest in our products. We Will be gald to have you on board. You can download out brochure from here.
+       </p>
+       <div class="text-box">
+        <a href="pdfs/company-brochure-shte-comp.pdf" class="btn btn-white btn-danger animate teambtn">Click to Download!</a>
+    </div>
       </div>
     </div>
-    <div class="brochure2" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-      <h2 class="text-uppercase heading border-bottom mb-4" style="color: #343a40;">Brochure</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis consequuntur, nulla commodi odit voluptatibus
-        reprehenderit molestias debitis ullam a dolor atque dicta quasi dolores at architecto? Laboriosam iste cum
-        adipisci?</p>
-      <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header text-center">
-              <h4 class="modal-title w-100 fw-bold" style="color: #d9534f;">Join Us</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <form action="./pdfs/company-brochure-shte-comp.pdf" method="get" target="blank">
-              <div class="modal-body mx-3" style="display: flex; flex-direction: column; gap: 2rem;color: #d9534f;">
-                <div class="md-form mb-5"
-                  style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
-                  <i class="fas fa-user-circle" style="font-size: 24px;"></i>
-                  <input type="name" id="defaultForm-name" class="form-control validate" placeholder="Your name"
-                    required="true" style="width: 100%;">
-                  <!-- <label data-error="wrong" data-success="right" for="defaultForm-email">Your name</label> -->
-                </div>
-
-                <div class="md-form mb-5"
-                  style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
-                  <i class="fas fa-envelope" style="font-size: 24px;"></i>
-                  <input type="email" id="defaultForm-email" class="form-control validate" placeholder="Your email"
-                    required="true">
-                  <!-- <label data-error="wrong" data-success="right" for="defaultForm-pass">Your email</label> -->
-                </div>
-
-              </div>
-              <div class="modal-footer d-flex justify-content-center">
-                <button class="btn btn-danger btn-default">Submit</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div class="text-center">
-        <a href="" class="btn btn-default btn-danger btn-rounded mb-4" data-toggle="modal"
-          data-target="#modalLoginForm">Download</a>
-      </div>
-    </div>
-
+    
+    
   </section>
+
+
+  <!-- <div class="brochure2" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h2 class="text-uppercase heading border-bottom mb-4" style="color: #343a40;">Brochure</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis consequuntur, nulla commodi odit voluptatibus
+      reprehenderit molestias debitis ullam a dolor atque dicta quasi dolores at architecto? Laboriosam iste cum
+      adipisci?</p>
+    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 fw-bold" style="color: #d9534f;">Join Us</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form action="./pdfs/company-brochure-shte-comp.pdf" method="get" target="blank">
+            <div class="modal-body mx-3" style="display: flex; flex-direction: column; gap: 2rem;color: #d9534f;">
+              <div class="md-form mb-5"
+                style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+                <i class="fas fa-user-circle" style="font-size: 24px;"></i>
+                <input type="name" id="defaultForm-name" class="form-control validate" placeholder="Your name"
+                  required="true" style="width: 100%;">
+                <label data-error="wrong" data-success="right" for="defaultForm-email">Your name</label> -->
+              <!-- </div>
+
+              <div class="md-form mb-5"
+                style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+                <i class="fas fa-envelope" style="font-size: 24px;"></i>
+                <input type="email" id="defaultForm-email" class="form-control validate" placeholder="Your email"
+                  required="true">
+                
+              </div>
+
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button class="btn btn-danger btn-default">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>  -->
+
+
 
   <!--  <section>
     <div class="downs">
@@ -356,32 +375,37 @@
       </div>
     </div>
   </section> -->
+  <!-- <div class="text-center">
+    <a href="" class="btn btn-default btn-danger btn-rounded mb-4" data-toggle="modal"
+      data-target="#modalLoginForm">Download</a>
+  </div>
+</div> -->
 
 
   <section>
     <div class="downs">
       <div class="down">
-        <a href="./pdfs/Content required for the week.pdf" target="blank">PRODUCT CATALOGUE</a>
+        <a href="./pdfs/Content required for the week.pdf" target="blank">SAASWAD HEAT TRANSFER - PRODUCT CATALOGUE</a>
         <a href="./pdfs/Content required for the week.pdf"> <span class="fa fa-file-pdf-o"></span></a>
       </div>
       <div class="down">
-        <a href="./pdfs/Website_Layout.pdf" target="blank">INDUSTRIAL RADIATORS</a>
+        <a href="./pdfs/Website_Layout.pdf" target="blank">SAASWAD HEAT TRANSFER - INDUSTRIAL RADIATORS</a>
         <a href="./pdfs/Website_Layout.pdf"> <span class="fa fa-file-pdf-o"></span></a>
       </div>
       <div class="down">
-        <a href="./pdfs/Content required for the week.pdf" target="blank">CUSTOMIZED HEAT EXCHANGERS</a>
+        <a href="./pdfs/Content required for the week.pdf" target="blank">SAASWAD HEAT TRANSFER - CUSTOMIZED HEAT EXCHANGERS</a>
         <a href="./pdfs/Content required for the week.pdf"> <span class="fa fa-file-pdf-o"></span></a>
       </div>
       <div class="down">
-        <a href="./pdfs/Website_Layout.pdf" target="blank">OIL COOLERS</a>
+        <a href="./pdfs/Website_Layout.pdf" target="blank">SAASWAD HEAT TRANSFER - OIL COOLERS</a>
         <a href="./pdfs/Website_Layout.pdf"> <span class="fa fa-file-pdf-o"></span></a>
       </div>
       <div class="down">
-        <a href="./pdfs/Content required for the week.pdf" target="blank">MECHANICALLY BONDED RADITORS</a>
+        <a href="./pdfs/Content required for the week.pdf" target="blank">SAASWAD HEAT TRANSFER - MECHANICALLY BONDED RADITORS</a>
         <a href="./pdfs/Content required for the week.pdf"> <span class="fa fa-file-pdf-o"></span></a>
       </div>
       <div class="down">
-        <a href="./pdfs/Website_Layout.pdf" target="blank">GENERATOR RADIATORS</a>
+        <a href="./pdfs/Website_Layout.pdf" target="blank">SAASWAD HEAT TRANSFER - GENERATOR RADIATORS</a>
         <a href="./pdfs/Website_Layout.pdf"> <span class="fa fa-file-pdf-o"></span></a>
       </div>
     </div>
@@ -391,7 +415,7 @@
     <div class="text d-flex">
       <h2 class="h3">Contact Us or Get a Quotation</h2>
       <div class="ml-auto btn-wrap">
-        <a href="get-quote.html" class="btn-cta btn btn-outline-white">Get A Quote</a>
+        <a href="contact.html" class="btn-cta btn btn-outline-white">Contact Us</a>
       </div>
     </div>
   </section>
