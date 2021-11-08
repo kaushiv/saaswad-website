@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Our Products</title>
+  <title>Our Products | Saaswad Heat Transfer and Engineering Pvt. Ltd.</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -55,189 +55,282 @@
         display: none;
       }
     }
+
+
+
+details {
+  width: 75%;
+  min-height: 5px;
+  max-width: 700px;
+  padding: 5px 70px 5px 25px;
+  position: relative;
+  font-size: 22px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: all .3s;
+}
+
+details + details {
+  margin-top: 20px;
+}
+
+details[open] {
+  min-height: 50px;
+  background-color: #f6f7f8;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+
+details p {
+  color: #96999d;
+  font-weight: 300;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+summary:focus {
+  outline: none;
+  
+}
+
+summary:focus::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+.control-icon {
+  fill: red;
+  transition: .3s ease;
+  pointer-events: none;
+}
+
+.control-icon-close {
+  display: none;
+}
+
+details[open] .control-icon-close {
+  display: initial;
+  transition: .3s ease;
+}
+
+details[open] .control-icon-expand {
+  display: none;
+}
+
   </style>
 
 </head>
 
 <body>
+<!-- Top Bar Start -->
+<div class="top-bar">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-lg-4 col-md-12">
+        <div class="logo">
+          <a href="index.html">
+            <!-- <h1>Builderz</h1> -->
+            <img src="img/logo.jpg" alt="Logo">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-7 d-none d-lg-block">
+        <div class="row">
+          <div class="col-2">
 
-  <!-- Top Bar Start -->
-  <div class="top-bar">
-    <div class="container-fluid">
-      <div class="row align-items-center">
-        <div class="col-lg-4 col-md-12">
-          <div class="logo">
-            <a href="index.html">
-              <!-- <h1>Builderz</h1> -->
-              <img src="img/logo.jpg" alt="Logo">
+          </div>
+
+          <div class="col-3" id="topbar">
+          <div class="top-bar-item">
+            <div class="top-bar-icon">
+              <!-- <i class="flaticon-call"></i> -->
+              <a href="tel:+91 9336116247"><img src="./img/call_icon.jpeg" width="50vw" alt=""></a>
+            </div>
+            <div class="top-bar-text">
+              <a href="tel:+91 9336116247">
+              <h3 style="color: #c42e36;"><b>Call Us</b></h3>
             </a>
+              <a href="tel:+91 9336116247">
+              <p>+91 9336116247</p>
+            </a>
+            </div>
           </div>
         </div>
-        <div class="col-lg-8 col-md-7 d-none d-lg-block">
-          <div class="row">
-            <div class="col-2">
-
+        <div class="col-3" id="topbar">
+          <div class="top-bar-item">
+            <div class="top-bar-icon">
+              <!-- <i class="flaticon-send-mail"></i> -->
+              <a href="mailto:info@saaswad.com"><img src="./img/mail_icon.jpeg" width="50vw" alt=""></a>
             </div>
-
-            <div class="col-3" id="topbar">
-            <div class="top-bar-item">
-              <div class="top-bar-icon">
-                <!-- <i class="flaticon-call"></i> -->
-                <a href="tel:+91 9336116247"><img src="./img/call_icon.jpeg" width="50vw" alt=""></a>
-              </div>
-              <div class="top-bar-text">
-                <a href="tel:+91 9336116247">
-                <h3 style="color: #c42e36;"><b>Call Us</b></h3>
+            <div class="top-bar-text">
+              <a href="mailto:info@saaswad.com">
+                <h3 style="color: #c42e36;"><b>Email Us</b></h3>
               </a>
-                <a href="tel:+91 9336116247">
-                <p>+91 9336116247</p>
+              <a href="mailto:info@saaswad.com">
+                <p>info@saaswad.com</p>
               </a>
-              </div>
             </div>
           </div>
-          <div class="col-3" id="topbar">
+        </div>
+
+          <div class="col-4">
             <div class="top-bar-item">
               <div class="top-bar-icon">
-                <!-- <i class="flaticon-send-mail"></i> -->
-                <a href="mailto:info@saaswad.com"><img src="./img/mail_icon.jpeg" width="50vw" alt=""></a>
+                <ul class="list-unstyled footer-link d-flex footer-social" id="icon4">
+                  <li><a href="https://twitter.com/saaswadheat?lang=en" target="blank" class="p-2"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="https://www.facebook.com/SaaswadHeatTransfer" target="blank" class="p-2"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" target="blank" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="https://www.instagram.com/saaswadheattransfer/" target="blank" class="p-2"><span class="fa fa-instagram"></span></a></li>
+                  
+                </ul>
               </div>
               <div class="top-bar-text">
-                <a href="mailto:info@saaswad.com">
-                  <h3 style="color: #c42e36;"><b>Email Us</b></h3>
-                </a>
-                <a href="mailto:info@saaswad.com">
-                  <p>info@saaswad.com</p>
-                </a>
+                <a class="btn btn-danger" id="con" href="contact.html">Contact Us</a>
               </div>
-            </div>
-          </div>
 
-            <div class="col-4">
-              <div class="top-bar-item">
-                <div class="top-bar-icon">
-                  <ul class="list-unstyled footer-link d-flex footer-social" id="icon4">
-                    <li><a href="https://twitter.com/saaswadheat?lang=en" target="blank" class="p-2"><span class="fa fa-twitter"></span></a></li>
-                    <li><a href="https://www.facebook.com/SaaswadHeatTransfer" target="blank" class="p-2"><span class="fa fa-facebook"></span></a></li>
-                    <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" target="blank" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-                    <li><a href="https://www.instagram.com/saaswadheattransfer/" target="blank" class="p-2"><span class="fa fa-instagram"></span></a></li>
-                  </ul>
-                </div>
-                <div class="top-bar-text">
-                  <a class="btn btn-danger" id="con" href="contact.html">Contact Us</a>
-                </div>
-
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Top Bar End -->
+</div>
+<!-- Top Bar End -->
 
-  <!-- Nav Bar Start -->
-  <div class="nav-bar">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <a href="#" class="navbar-brand">MENU</a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<!-- Nav Bar Start -->
+<div class="nav-bar">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <a href="#" class="navbar-brand">MENU</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-          <div class="navbar-nav mr-auto">
-            <a href="index.html" class="nav-item nav-link">Home</a>
-            <div class="nav-item dropdown" style="outline: none;">
-              <a href="company.html" class="nav-link dropdown-toggle">Company</a>
-              <div class="dropdown-menu">
-                <a href="company.html" class="dropdown-item">About Us</a>
-                <a href="cert.html" class="dropdown-item">Certifications</a>
-                <a href="fac.html" class="dropdown-item">Facilities</a>
-              </div>
-            </div>
-            <a href="products.html" class="nav-item nav-link active">Products</a>
-            <ul class="main-navigation dropdown">
-                <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
-                  <ul>
-                    <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
-                      <ul>
-                        <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
-                        <li><a href="construction.html" class="dropdown-item">Construction</a></li>
-                        <li><a href="defence.html" class="dropdown-item">Defence</a></li>
-                        <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
-                        <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
-                      <ul>
-                        <li><a href="railway.html" class="dropdown-item">Railway</a></li>
-                        <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <div class="nav-item dropdown">
-                <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
-                <div class="dropdown-menu">
-                  <a href="expertise.html" class="dropdown-item">Designing</a>
-                  <a href="eng.html" class="dropdown-item">Engineering</a>
-                  <a href="man.html" class="dropdown-item">Manufacturings</a>
-                  <a href="afs.html" class="dropdown-item">After Sales Support</a>
-                  <a href="otf.html" class="dropdown-item">Our testing Facility</a>
-                </div>
-              </div>
-
-            <div class="nav-item dropdown">
-              <a href="people.html" class="nav-link dropdown-toggle">People</a>
-              <div class="dropdown-menu">
-                <a href="people.html" class="dropdown-item">Our Team</a>
-                <a href="career.html" class="dropdown-item">Career</a>
-                <a href="ws.html" class="dropdown-item">Workspace</a>
-              </div>
-            </div>
-            <a href="blogs.html" class="nav-item nav-link">Blogs</a>
-            <a href="downloads.html" class="nav-item nav-link">Downloads</a>
-
-          </div>
-          <div class="ml-auto">
-            <div class="searchbar">
-              <div class="container">
-
-                <div class="dropdown">
-                  <input class="form-control" id="myInput" type="text" placeholder="search" data-toggle="dropdown">
-
-                  <span class="caret"></span></button>
-                  <ul class="dropdown-menu" id="dd">
-                    <li><a href="company.html" class="dropdown-item">About Us</a></li>
-                    <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
-                    <li><a href="achiev.html" class="dropdown-item">Achievements</a></li>
-                    <li><a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a></li>
-                    <li><a href="heat-exchangers.html" class="dropdown-item">Customized Heat Exchangers</a></li>
-                    <li><a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a></li>
-                    <li><a href="air-coolers.html" class="dropdown-item">Charge Air Coolers</a></li>
-                    <li><a href="bonded-radiators.html" class="dropdown-item">Mechanically Bonded Radiators</a></li>
-                    <li><a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a></li>
-                    <li><a href="application-1.html" class="dropdown-item">Oil cooling</a></li>
-                    <li><a href="#" class="dropdown-item">Radiators for crane</a></li>
-                    <li><a href="#" class="dropdown-item">Locomotive and Power generation</a></li>
-                    <li><a href="people.html" class="dropdown-item">Our Team</a></li>
-                    <li><a href="career.html" class="dropdown-item">Career</a></li>
-                    <li><a href="ws.html" class="dropdown-item">Workspace</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="icon">
-                <i class="fa fa-search"></i>
-              </div>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav mr-auto">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <div class="nav-item dropdown" style="outline: none;">
+            <a href="company.html" class="nav-link dropdown-toggle">Company</a>
+            <div class="dropdown-menu">
+              <a href="company.html" class="dropdown-item">About Us</a>
+              <a href="cert.html" class="dropdown-item">Certifications</a>
+              <a href="fac.html" class="dropdown-item">Facilities</a>
+              
             </div>
           </div>
+
+          <div class="nav-item dropdown">
+            <a href="products.html" class="nav-link dropdown-toggle active">Products</a>
+            <div class="dropdown-menu">
+              <a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a>
+              <a href="heat-exchangers.html" class="dropdown-item">Heat Exchangers</a>
+              <a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a>
+              <a href="air-coolers.html" class="dropdown-item">Air Coolers</a>
+              <a href="bonded-radiators.html" class="dropdown-item">MB Radiators</a>
+              <a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a>
+            </div>
+          </div> 
+         
+
+          <ul class="main-navigation dropdown">
+              <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
+                <ul>
+                  <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
+                    <ul>
+                      <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
+                      <li><a href="construction.html" class="dropdown-item">Construction</a></li>
+                      <li><a href="defence.html" class="dropdown-item">Defence</a></li>
+                      <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
+                      <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
+                    <ul>
+                      <li><a href="railway.html" class="dropdown-item">Railway</a></li>
+                      <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+          <div class="nav-item dropdown">
+            <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
+            <div class="dropdown-menu">
+              <a href="expertise.html" class="dropdown-item">Designing</a>
+              <a href="eng.html" class="dropdown-item">Engineering</a>
+              <a href="man.html" class="dropdown-item">Manufacturings</a>
+              <a href="afs.html" class="dropdown-item">After Sales Support</a>
+              <a href="otf.html" class="dropdown-item">Our testing Facility</a>
+            </div>
+          </div>
+          
+
+          <div class="nav-item dropdown">
+            <a href="people.html" class="nav-link dropdown-toggle">People</a>
+            <div class="dropdown-menu">
+              <a href="people.html" class="dropdown-item">Our Team</a>
+              <a href="career.html" class="dropdown-item">Career</a>
+              <a href="ws.html" class="dropdown-item">Workspace</a>
+            </div>
+          </div>
+          <a href="blogs.html" class="nav-item nav-link">Blogs</a>
+          <a href="downloads.html" class="nav-item nav-link">Downloads</a>
 
         </div>
-      </nav>
-    </div>
+        <div class="ml-auto">
+          <div class="searchbar">
+            <div class="container">
+
+              <div class="dropdown">
+                <input class="form-control" id="myInput" type="text" placeholder="search" data-toggle="dropdown">
+
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu" id="dd">
+                  <li><a href="company.html" class="dropdown-item">About Us</a></li>
+                  <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
+                  <li><a href="achiev.html" class="dropdown-item">Achievements</a></li>
+                  <li><a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a></li>
+                  <li><a href="heat-exchangers.html" class="dropdown-item">Customized Heat Exchangers</a></li>
+                  <li><a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a></li>
+                  <li><a href="air-coolers.html" class="dropdown-item">Charge Air Coolers</a></li>
+                  <li><a href="bonded-radiators.html" class="dropdown-item">Mechanically Bonded Radiators</a></li>
+                  <li><a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a></li>
+                  <li><a href="application-1.html" class="dropdown-item">Oil cooling</a></li>
+                  <li><a href="#" class="dropdown-item">Radiators for crane</a></li>
+                  <li><a href="#" class="dropdown-item">Locomotive and Power generation</a></li>
+                  <li><a href="people.html" class="dropdown-item">Our Team</a></li>
+                  <li><a href="career.html" class="dropdown-item">Career</a></li>
+                  <li><a href="ws.html" class="dropdown-item">Workspace</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="icon">
+              <i class="fa fa-search"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </nav>
   </div>
-  <!-- Nav Bar End -->
+</div>
+<!-- Nav Bar End -->
 
 
   <section class="page-top-section" style="
@@ -325,15 +418,7 @@
                   required>
                 <input class="form-control" style="margin-bottom: 20px;" type="text" name="name"
                   placeholder="Phone number" required>
-                  <select class="form-select"  style="margin-bottom: 20px;" id="product-type">
-                    <option selected>Select Product</option>
-                    <option value="1">Radiator</option>
-                    <option value="2">Heat Exchanger</option>
-                    <option value="3">Oil Coolers</option>
-                    <option value="4">Air Coolers</option>
-                    <option value="5">Mechanically Bonded Radiator</option>
-                    <option value="6">Generator Radiator</option>
-                  </select>
+                 
               </div>
               <a href="/" type="submit" class="btn btn-danger" onclick="checkProduct()" target="_blank">Submit</a>
 
@@ -462,7 +547,7 @@
         <div class="service_details_left">
           <h2 style="margin-bottom: 50px; color: black;">Our Products</h2>
           <h3><b>Heat Transfer</b></h3>
-          <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-bottom: 100px;">
             <a class="" id="v-industrial-radiators" data-toggle="pill" href="#industrial-radiators" role="tab"
               aria-controls="v-industrial-radiators" aria-selected="true">Radiators</a>
             <a class="" id="v-heat-exchangers" data-toggle="pill" href="#heat-exchangers" role="tab"
@@ -471,19 +556,23 @@
               aria-controls="v-oil-coolers" aria-selected="false">Oil Coolers</a>
             <a class="" id="v-air-coolers" data-toggle="pill" href="#air-coolers" role="tab"
               aria-controls="v-air-coolers" aria-selected="false">Charge Air Coolers</a>
-            <br>
-            <br>
-            <h3><b>Air Conditioning</b></i></h3>
-            <a class="" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators" role="tab"
+              <a class="" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators" role="tab"
               aria-controls="v-bonded-radiators" aria-selected="false">Mechanically Bonded Radiators</a>
             <a class="active" id="v-generator-radiators" data-toggle="pill" href="#generator-radiators" role="tab"
               aria-controls="v-generator-radiators" aria-selected="false">Generator Radiators</a>
+            <br>
+            <br>
+            <h3><b>Air Conditioning</b></i></h3>
+            <a class="" id="v-cabAC" data-toggle="pill" href="#cabAC" role="tab"
+            aria-controls="v-cabAC" aria-selected="false">Cab AC</a>
+          <a class="" id="v-standard-RMPU" data-toggle="pill" href="#standard-RMPU" role="tab"
+            aria-controls="v-standard-RMPU" aria-selected="false">Standard RMPU</a>
           </div>
         </div>
       </div>
       <div class="col-lg-8 col-md-8">
         <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade" id="industrial-radiators" role="tabpanel"
+          <div class="tab-pane fade " id="industrial-radiators" role="tabpanel"
             aria-labelledby="v-industrial-radiators">
             <div class="service_details_info">
               <h3><u>Radiators</u></h3>
@@ -499,12 +588,14 @@
                 can also be customized according to the customer's requirement.
 
               </p>
+
               <ul>
-                <li style="list-style-type: square;">Material: Aluminum & Copper Brass</li>
-                <li style="list-style-type: square;">Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power
-                </li>
-                <li style="list-style-type: square;">Generation Engines :125 KVA to 1250 KVA</li>
-                <li style="list-style-type: square;">Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
+                <p><span>&#8226;</span>  Material: Aluminum & Copper Brass</p>
+                <p><span>&#8226;</span>  Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</p>
+
+                <p><span>&#8226;</span>  Generation Engines :125 KVA to 1250 KVA</p>
+                <p><span>&#8226;</span>  Locomotive Engine : 1350 HP TO 4500 HP Radiators</p>
+
               </ul>
               <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
               <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
@@ -579,62 +670,60 @@
               </div>
 
             </div>
-            <div class="accordion_area">
-              <div class="faq_ask">
-                <h3>Frequently ask</h3>
-                <div id="accordion">
-                  <div class="card">
-                    <div class="card-header" id="headingTwo">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                          aria-expanded="false" aria-controls="collapseTwo">
-                          Adieus who direct esteem <span>It esteems
-                            luckily?</span>
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
-                          aria-expanded="false" aria-controls="collapseOne">
-                          Who direct esteem It esteems?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                          aria-expanded="false" aria-controls="collapseThree">
-                          Duis consectetur feugiat auctor?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+
+<h2 style="margin-bottom: 20px;">Frequently Asked Questions</h2>
+
+<div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 24 24" id="expand-more">
+      <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+    <symbol viewBox="0 0 24 24" id="close">
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+  </svg>
+</div>
+
+<details>
+  <summary>
+    Which type of product is this?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>It is a type of heat transfer equipment used to transfer excessive heat from the application and prevent the application from overheating.</p>
+</details>
+
+<details>
+
+  <summary>
+    Where has it been used?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>This product is generally used in Industrial generator 200 kVa-2000 kVa </p>
+</details>
+
+<details>
+  <summary>
+    What is the expected life?    
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>The expected life of this product is upto 15 years, although we provide warranty of 12 months which is our standard warranty but it can be extended as per clients’ requirement.</p>
+</details>
+
+<details>
+    <summary>
+        What level of customization can be done?   
+      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+    </summary>
+    <p>We can customize this product as per clients’ requirements, the parameters can be coolant type, mounting requirements & power capacity of the application in which it is being used.</p>
+  </details>
+
+
+
           </div>
           <div class="tab-pane fade" id="heat-exchangers" role="tabpanel" aria-labelledby="v-heat-exchangers">
             <div class="service_details_info">
@@ -654,18 +743,18 @@
                 customer's requirement.
               </p>
 
-              <ul style="list-style-type: square;">
-                <li style="list-style-type: square;">The custom manufactured engine cooling systems include all
-                  components, as listed below, needed to install and connect the heat exchanger to respective engines
-                </li>
-                <li style="list-style-type: square;">Drive kit with premium belts, pulleys, and stub shaft</li>
-                <li style="list-style-type: square;">Pipe kit with custom-formed pipes to interface with engine
-                  specifications > Radiator base designed to interface with specific engine rail</li>
-                <li style="list-style-type: square;">Optional galvanized steel and heat exchanger coatings for enhanced
-                  corrosion protection
-                </li>
-              </ul>
+              <ul>
 
+                <p><span>&#8226;</span>  The custom manufactured engine cooling systems include all
+                  components, as listed below, needed to install and connect the heat exchanger to respective engines</p>
+                <p><span>&#8226;</span>  Drive kit with premium belts, pulleys, and stub shaft</p>
+
+                <p><span>&#8226;</span>  Pipe kit with custom-formed pipes to interface with engine
+                  specifications > Radiator base designed to interface with specific engine rail</p>
+                <p><span>&#8226;</span>  Optional galvanized steel and heat exchanger coatings for enhanced
+                  corrosion protection</p>
+
+              </ul>
               <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
               <a href="#" class="btn btn-outline-danger button" data-toggle="modal" data-target="#downloadModal" style="margin: 3px;">Download Brochure</a>
               <a href="#" target="_blank" class="btn btn-outline-danger" data-toggle="modal" data-target="#heatExchanger-Modal"
@@ -724,63 +813,55 @@
               </div>
 
             </div>
-            <div class="accordion_area">
-              <div class="faq_ask">
-                <h3>Frequently ask</h3>
-                <div id="accordion">
-                  <div class="card">
-                    <div class="card-header" id="headingTwo1">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo1"
-                          aria-expanded="false" aria-controls="collapseTwo">
-                          Adieus who direct esteem <span>It esteems
-                            luckily?</span>
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOne2">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne2"
-                          aria-expanded="false" aria-controls="collapseOne">
-                          Who direct esteem It esteems?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree3">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree3"
-                          aria-expanded="false" aria-controls="collapseThree">
-                          Duis consectetur feugiat auctor?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h2 style="margin-bottom: 20px;">Frequently Asked Questions</h2>
 
+<div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 24 24" id="expand-more">
+      <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+    <symbol viewBox="0 0 24 24" id="close">
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+  </svg>
+</div>
+
+<details>
+  <summary>
+    Which type of product is this?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>It is a type of heat transfer equipment used to transfer excessive heat from the application and prevent the application from overheating.</p>
+</details>
+
+<details>
+
+  <summary>
+    Where has it been used?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>This product is generally used in  industries like power generation etc. </p>
+</details>
+
+<details>
+  <summary>
+    What is the expected life?    
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>The expected life of this product is upto 15 years, although we provide warranty of 12 months which is our standard warranty but it can be extended as per clients’ requirement.</p>
+</details>
+
+<details>
+    <summary>
+        What level of customization can be done?   
+      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+    </summary>
+    <p>We can customize this product as per clients’ requirements, the parameters can be coolant type, mounting requirements & power capacity of the application in which it is being used.</p>
+  </details>
           </div>
 
 
@@ -801,11 +882,14 @@
                 customer's requirement.</p>
 
               <ul>
-                <li style="list-style-type: square;">Material: Aluminum</li>
-                <li style="list-style-type: square;">Design Types: Fin & Tube / Bar & Plate</li>
-                <li style="list-style-type: square;">Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers
-                  and Concrete Mixtures etc.</li>
-                <li style="list-style-type: square;">Industrial Power Generation Engines: 250 KVA - 2000 KVA</li>
+
+                <p><span>&#8226;</span>  Material: Aluminum</p>
+                <p><span>&#8226;</span>  Design Types: Fin & Tube / Bar & Plate</p>
+
+                <p><span>&#8226;</span>  Off-Road / Construction Equipment: Backhoe Loaders, Dumpers, Dozers
+                  and Concrete Mixtures etc.</p>
+                <p><span>&#8226;</span>  Industrial Power Generation Engines: 250 KVA - 2000 KVA</p>
+
               </ul>
 
               <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
@@ -862,62 +946,55 @@
               </div>
 
             </div>
-            <div class="accordion_area">
-              <div class="faq_ask">
-                <h3>Frequently ask</h3>
-                <div id="accordion">
-                  <div class="card">
-                    <div class="card-header" id="headingTwo">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoa"
-                          aria-expanded="false" aria-controls="collapseTwo">
-                          Adieus who direct esteem <span>It esteems
-                            luckily?</span>
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneb"
-                          aria-expanded="false" aria-controls="collapseOneb">
-                          Who direct esteem It esteems?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreev"
-                          aria-expanded="false" aria-controls="collapseThree">
-                          Duis consectetur feugiat auctor?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h2 style="margin-bottom: 20px;">Frequently Asked Questions</h2>
+
+<div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 24 24" id="expand-more">
+      <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+    <symbol viewBox="0 0 24 24" id="close">
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+  </svg>
+</div>
+
+<details>
+  <summary>
+    Which type of product is this?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>It is a type of heat transfer equipment used to transfer excessive heat from the application and prevent the application from overheating.</p>
+</details>
+
+<details>
+
+  <summary>
+    Where has it been used?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>This product is generally used in locomotive engine and as well as industrial application.</p>
+</details>
+
+<details>
+  <summary>
+    What is the expected life?    
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>The expected life of this product is upto 15 years, although we provide warranty of 12 months which is our standard warranty but it can be extended as per clients’ requirement.</p>
+</details>
+
+<details>
+    <summary>
+        What level of customization can be done?   
+      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+    </summary>
+    <p>We can customize this product as per clients’ requirements, the parameters can be coolant type, mounting requirements & power capacity of the application in which it is being used.</p>
+  </details>
 
           </div>
 
@@ -937,11 +1014,14 @@
                 Mechanical bonded process in following categories :-</p>
 
               <ul>
-                <li style="list-style-type: square;">Material: Aluminum & Copper brass</li>
-                <li style="list-style-type: square;">Design Types: Fin & Tube / Bar & Plate</li>
-                <li style="list-style-type: square;">Off-Road / Construction Equipment Backhoe Loaders, Dumpers, Dozers
-                  and Concrete Mixtures, Locomotives, DG Sets etc.</li>
-                <li style="list-style-type: square;">Industrial Power Generation Engines: 125 KVA-3000 KVA</li>
+
+                <p><span>&#8226;</span>  Material: Aluminum & Copper brass</p>
+                <p><span>&#8226;</span>  Design Types: Fin & Tube / Bar & Plate</p>
+
+                <p><span>&#8226;</span>  Off-Road / Construction Equipment Backhoe Loaders, Dumpers, Dozers
+                  and Concrete Mixtures, Locomotives, DG Sets etc.</p>
+                <p><span>&#8226;</span>  Industrial Power Generation Engines: 125 KVA-3000 KVA</p>
+
               </ul>
 
               <a href="#" class="btn btn-danger button" style="margin: 3px;" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
@@ -962,62 +1042,55 @@
                 to our customer requirement for any climate and any industries.
               </p>
             </div>
-            <div class="accordion_area">
-              <div class="faq_ask">
-                <h3>Frequently ask</h3>
-                <div id="accordion">
-                  <div class="card">
-                    <div class="card-header" id="headingTwoa">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoa"
-                          aria-expanded="false" aria-controls="collapseTwo">
-                          Adieus who direct esteem <span>It esteems
-                            luckily?</span>
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneb"
-                          aria-expanded="false" aria-controls="collapseOneb">
-                          Who direct esteem It esteems?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreev"
-                          aria-expanded="false" aria-controls="collapseThree">
-                          Duis consectetur feugiat auctor?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h2 style="margin-bottom: 20px;">Frequently Asked Questions</h2>
+
+<div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 24 24" id="expand-more">
+      <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+    <symbol viewBox="0 0 24 24" id="close">
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+  </svg>
+</div>
+
+<details>
+  <summary>
+    Which type of product is this?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>It is a type of heat transfer equipment used to transfer excessive heat from the application and prevent the application from overheating.</p>
+</details>
+
+<details>
+
+  <summary>
+    Where has it been used?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>This product is generally used in locomotive engine and as well as industrial application. </p>
+</details>
+
+<details>
+  <summary>
+    What is the expected life?    
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>The expected life of this product is upto 15 years, although we provide warranty of 12 months which is our standard warranty but it can be extended as per clients’ requirement.</p>
+</details>
+
+<details>
+    <summary>
+        What level of customization can be done?   
+      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+    </summary>
+    <p>We can customize this product as per clients’ requirements, the parameters can be coolant type, mounting requirements & power capacity of the application in which it is being used.</p>
+  </details>
 
           </div>
 
@@ -1042,10 +1115,14 @@
               </p>
 
               <ul>
-                <li style="list-style-type: square;">Material: Aluminum & Copper Brass</li>
-                <li style="list-style-type: square;">Design Types Fin & Tube/Bar & Plate</li>
-                <li style="list-style-type: square;">Industrial Power Generation Engines :125 KVA to 1250 KVA</li>
-                <li style="list-style-type: square;">Locomotive Engine : 1350 HP TO 4500 HP Radiators</li>
+
+                <p><span>&#8226;</span>  Material: Aluminum & Copper brass</p>
+                <p><span>&#8226;</span>  Design Types: Fin & Tube / Bar & Plate</p>
+
+                <p><span>&#8226;</span>  Industrial Power Generation Engines :125 KVA to 1250 KVA</p>
+                <p><span>&#8226;</span>  Locomotive Engine : 1350 HP TO 4500 HP Radiators</p>
+
+    
               </ul>
 
               
@@ -1057,63 +1134,55 @@
 
             </div>
 
-            <div class="accordion_area">
-              <div class="faq_ask">
-                <h3>Frequently ask</h3>
-                <div id="accordion">
-                  <div class="card">
-                    <div class="card-header" id="headingTwoa">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoa"
-                          aria-expanded="false" aria-controls="collapseTwo">
-                          Adieus who direct esteem <span>It esteems
-                            luckily?</span>
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneb"
-                          aria-expanded="false" aria-controls="collapseOneb">
-                          Who direct esteem It esteems?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreev"
-                          aria-expanded="false" aria-controls="collapseThree">
-                          Duis consectetur feugiat auctor?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h2 style="margin-bottom: 20px;">Frequently Asked Questions</h2>
 
+<div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 24 24" id="expand-more">
+      <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+    <symbol viewBox="0 0 24 24" id="close">
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+  </svg>
+</div>
+
+<details>
+  <summary>
+    Which type of product is this?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>It is a type of heat transfer equipment used to transfer excessive heat from the application and prevent the application from overheating.</p>
+</details>
+
+<details>
+
+  <summary>
+    Where has it been used?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>This product is generally used in locomotive engines. </p>
+</details>
+
+<details>
+  <summary>
+    What is the expected life?    
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>The expected life of this product is upto 15 years, although we provide warranty of 12 months which is our standard warranty but it can be extended as per clients’ requirement.</p>
+</details>
+
+<details>
+    <summary>
+        What level of customization can be done?   
+      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+    </summary>
+    <p>We can customize this product as per clients’ requirements, the parameters can be coolant type, mounting requirements & power capacity of the application in which it is being used.</p>
+  </details>
           </div>
 
 
@@ -1133,11 +1202,13 @@
               </p>
 
               <ul>
-                <li style="list-style-type: square;">Material: Aluminum & Copper Brass</li>
-                <li style="list-style-type: square;">Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power
-                </li>
-                <li style="list-style-type: square;">Generation Engines :125 KVA to 1250 KVA</li>
-                <li style="list-style-type: square;">Locomotive Engine : 1350 HP TO 4500 HP Generator Radiators</li>
+
+                <p><span>&#8226;</span>  Material: Aluminum & Copper brass</p>
+                <p><span>&#8226;</span>  Design Types: Fin & Tube/Bar & Plate Equipment: Industrial Power</p>
+
+                <p><span>&#8226;</span>  Generation Engines :125 KVA to 1250 KVA</p>
+                <p><span>&#8226;</span>  Locomotive Engine : 1350 HP TO 4500 HP Generator Radiators</p>
+
               </ul>
 
               
@@ -1149,63 +1220,70 @@
 
             </div>
 
-            <div class="accordion_area">
-              <div class="faq_ask">
-                <h3>Frequently ask</h3>
-                <div id="accordion">
-                  <div class="card">
-                    <div class="card-header" id="headingTwoa">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoa"
-                          aria-expanded="false" aria-controls="collapseTwo">
-                          Adieus who direct esteem <span>It esteems
-                            luckily?</span>
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOneb"
-                          aria-expanded="false" aria-controls="collapseOneb">
-                          Who direct esteem It esteems?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreev"
-                          aria-expanded="false" aria-controls="collapseThree">
-                          Duis consectetur feugiat auctor?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev" data-parent="#accordion"
-                      style="">
-                      <div class="card-body">Esteem spirit temper too say adieus who
-                        direct esteem esteems luckily or picture placing drawing.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h2 style="margin-bottom: 20px;">Frequently Asked Questions</h2>
+
+<div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 24 24" id="expand-more">
+      <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+    <symbol viewBox="0 0 24 24" id="close">
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+    </symbol>
+  </svg>
+</div>
+
+<details>
+  <summary>
+    Which type of product is this?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>It is a type of heat transfer equipment used to transfer excessive heat from the application and prevent the application from overheating.</p>
+</details>
+
+<details>
+
+  <summary>
+    Where has it been used?
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>This product is generally used in Industrial generator 200 kVa-2000 kVa </p>
+</details>
+
+<details>
+  <summary>
+    What is the expected life?    
+    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+  </summary>
+  <p>The expected life of this product is upto 15 years, although we provide warranty of 12 months which is our standard warranty but it can be extended as per clients’ requirement.</p>
+</details>
+
+<details>
+    <summary>
+        What level of customization can be done?   
+      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+    </summary>
+    <p>We can customize this product as per clients’ requirements, the parameters can be coolant type, mounting requirements & power capacity of the application in which it is being used.</p>
+  </details>
+
+
           </div>
+
+          <div class="tab-pane fade" id="cabAC" role="tabpanel" aria-labelledby="v-cabAC">
+              <img src="img/coming-soon.jpg" class="img-fluid" alt="Responsive image">
+              
+          </div>
+
+          <div class="tab-pane fade" id="standard-RMPU" role="tabpanel" aria-labelledby="v-standard-RMPU">
+            <img src="img/coming-soon.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+
+
+
         </div>
       </div>
     </div>
@@ -1214,87 +1292,120 @@
 
 <p>&nbsp;</p>
 
-<section class="container cta-overlap">
-  <div class="text d-flex">
-    <h2 class="h3">Contact Us or Get a Quotation</h2>
-    <div class="ml-auto btn-wrap">
-      <a href="get-quote.html" class="btn-cta btn btn-outline-white">Get A Quote</a>
-    </div>
+<!-- Estimate_area start  -->
+<div class="Estimate_area overlay" style="background-color: #ddd;">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-5">
+              <div class="Estimate_info">
+                  <h3>Get free Estimate</h3>
+                  <p>Our Marketing team will get in touch with you!</p>
+                  <a href="tel:+91 9336116247" class="boxed-btn3">Call Us now</a>
+              </div>
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-7">
+              <div class="form">
+                  <form action="#">
+                      <div class="row">
+                          <div class="col-xl-6">
+                              <div class="input_field">
+                                  <input type="text" placeholder="Your name">
+                              </div>
+                          </div>
+                          <div class="col-xl-6">
+                              <div class="input_field">
+                                  <input type="email" placeholder="Email">
+                              </div>
+                          </div>
+                          
+                          <div class="col-xl-12">
+                              <div class="input_field">
+                                  <textarea placeholder="Message"></textarea>
+                              </div>
+                          </div>
+                          <div class="col-xl-12">
+                              <div class="input_field">
+                                  <button class="boxed-btn3-line" type="submit">Send Estimate</button>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
   </div>
-</section>
+</div>
+<!-- Estimate_area end  -->
+
+
 
 <!-- END section -->
 
-<footer class="site-footer" role="contentinfo" style="background-color: #000000b3;">
+<footer class="site-footer" role="contentinfo" style="background-color: #000000b3; padding-top: 3%;" >
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <h3 class="text-white" style="font-size: large;"><b>Saaswad Heat Transfer And Engineering Pvt. Ltd.</b></h3>
+        <h3 class="text" style="font-size: large; color: white;"><b>Saaswad Heat Transfer And Engineering Pvt. Ltd.</b></h3>
         <p class="text-white" style="line-height: 1.6;">
           We introduce ourselves as one of the Leading Manufacturers of Industrial Radiators, Oil Coolers, Heat
           Exchangers and Charge Air Coolers in India since 1987. We are known for manufacturing quality products and
           providing complete solutions through technical expertise and after-sales service to our customers.
         </p>
-
         <ul class="list-unstyled footer-link d-flex footer-social">
-          <li><a href="https://twitter.com/saaswadheat?lang=en" class="p-2" target="_blank"><span
-                class="fa fa-twitter"></span></a></li>
-          <li><a href="https://www.facebook.com/SaaswadHeatTransfer" class="p-2" target="_blank"><span
-                class="fa fa-facebook"></span></a></li>
-          <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" class="p-2"
-              target="_blank"><span class="fa fa-linkedin"></span></a></li>
-          <li><a href="https://www.instagram.com/saaswadheattransfer/" class="p-2" target="_blank"><span
-                class="fa fa-instagram"></span></a></li>
+          <li style="list-style-type: none;"><a href="https://twitter.com/saaswadheat?lang=en" class="p-2" target="_blank"><span class="fa fa-twitter"></span></a></li>
+          <li style="list-style-type: none;"><a href="https://www.facebook.com/SaaswadHeatTransfer" class="p-2" target="_blank"><span class="fa fa-facebook"></span></a></li>
+          <li style="list-style-type: none;"><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" class="p-2" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+          <li style="list-style-type: none;"><a href="https://www.instagram.com/saaswadheattransfer/" class="p-2" target="_blank"><span class="fa fa-instagram"></span></a></li>
+          <li style="list-style-type: none;"><a href="https://www.youtube.com/channel/UCn_TyzQi1bqj8pi0CGGUrIA" target="blank" class="p-2"><span class="fa fa-youtube"></span></a></li>
+          <li style="list-style-type: none;"><a href="https://www.indiamart.com/saaswadheat-transfer-and-engineering/profile.html" class="p-2" target="_blank"><span class="fa fa-shopping-cart"></span></a></li>
         </ul>
+       
 
       </div>
 
       <div class="col-md-3">
         <h3 class="text-white" style="font-size: large;">Our Products</h3>
         <ul class="list-unstyled footer-link">
-          <li><a href="industrial-radiators.html">Industrial Radiators</a></li>
-          <li><a href="heat-exchangers.html">Customized Heat Exchangers</a></li>
-          <li><a href="oil-coolers.html">Oil Coolers</a></li>
-          <li><a href="air-coolers.html">Charge Air Coolers</a></li>
-          <li><a href="bonded-radiators.html">Mechanically Bonded Radiators</a></li>
-          <li><a href="generator-radiators.html">Generator Radiators</a></li>
+          <li style="list-style-type: none;"><a href="industrial-radiators.html">Industrial Radiators</a></li>
+          <li style="list-style-type: none;"><a href="heat-exchangers.html">Customized Heat Exchangers</a></li>
+          <li style="list-style-type: none;"><a href="oil-coolers.html">Oil Coolers</a></li>
+          <li style="list-style-type: none;"><a href="air-coolers.html">Charge Air Coolers</a></li>
+          <li style="list-style-type: none;"><a href="bonded-radiators.html">Mechanically Bonded Radiators</a></li>
+          <li style="list-style-type: none;"><a href="generator-radiators.html">Generator Radiators</a></li>
         </ul>
       </div>
 
       <div class="col-md-3">
         <h3 class="text-white" style="font-size: large;">Quick Links</h3>
         <ul class="list-unstyled footer-link">
-          <li><a href="company.html">Company</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="application.html">Applications</a></li>
-          <li><a href="expertise.html">Expertise</a></li>
-          <li><a href="people.html">People</a></li>
-          <li><a href="blogs.html">Blogs</a></li>
-          <li><a href="downloads.html">Downloads</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li style="list-style-type: none;"><a href="company.html">Company</a></li>
+          <li style="list-style-type: none;"><a href="products.html">Products</a></li>
+          <li style="list-style-type: none;"><a href="application.html">Applications</a></li>
+          <li style="list-style-type: none;"><a href="expertise.html">Expertise</a></li>
+          <li style="list-style-type: none;"><a href="people.html">People</a></li>
+          <li style="list-style-type: none;"><a href="blogs.html">Blogs</a></li>
+          <li style="list-style-type: none;"><a href="downloads.html">Downloads</a></li>
+          <li style="list-style-type: none;"><a href="contact.html">Contact</a></li>
         </ul>
       </div>
       <div class="col-md-3">
-        <h3 class="text-white" style="font-size: large;">Contact Us</h3>
+        <h3 class="text-white" style="font-size: large;"><a href="contact.html" style="color: white;">Contact Us</a> </h3>
         <ul class="list-unstyled footer-link">
-          <li><span class="mr-3 d-block">Address:</span><span class="text-white"
+          <li style="list-style-type: none;"><span class="mr-3 d-block">Address:</span><span class="text-white"
               style="font-family: Montserrat;">B-38/47 PR,Tulsipur Mahmoorganj,Varanasi Uttar
               Pradesh,India-221010</span></li>
-          <li><span class="mr-3 d-block">Phone:</span><span class="text-white" style="font-family: Montserrat;">+91
-              9336116247</span></li>
-          <li><span class="mr-3 d-block">E-mail:</span><span class="text-white">info@saaswad.com</span></li>
+              <li style="list-style-type: none;"><span class="mr-3 d-block">Phone:</span><span class="text-white" style="font-family: Montserrat;"><a href="tel:+91 9336116247" style="color: white;">+91 9336116247</a></span></li>
+              <li style="list-style-type: none;"><span class="mr-3 d-block">E-mail:</span><span class="text-white" style="font-family: Montserrat;"><a href="mailto:info@saaswad.com" style="color: white;">info@saaswad.com</a></span></li>
         </ul>
       </div>
     </div>
-    <div class="col-md-12 col-lg-12" style="padding-top: 25px;">
-      <p class="text-center">
-        Copyright &copy;
-        <script>
-          document.write(new Date().getFullYear());
-        </script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
-        </a>
-      </p>
-    </div>
+      <div class="col-md-12 col-lg-12" style="padding-top: 25px;">
+        <p class="text-center">
+          Copyright &copy;
+          <script>document.write(new Date().getFullYear());</script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
+          </a>
+        </p>
+      </div>
 
   </div>
 
@@ -1335,13 +1446,7 @@
   });
 
   function checkProduct(){
-  var productValue = $('#product-type').find(":selected").val();
-
-  if(productValue === '1'){
-    window.open('pdfs/industrial-radiator.pdf');
-  } else if(productValue === '2'){
-    window.open('pdfs/company-brochure-shte-comp.pdf')
-  }
+    window.open('pdfs/company-brochure-shte-comp.pdf');
   }
 
   
