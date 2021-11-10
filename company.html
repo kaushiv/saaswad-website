@@ -46,6 +46,24 @@
   <link rel="stylesheet" href="product_css/style.css">
 
   <style>
+    @media (max-width:320px) {
+      .dropdown-menu {
+        display: none;
+      }
+    }
+
+    @media (max-width:480px) {
+      .dropdown-menu {
+        display: none;
+      }
+    }
+
+    @media (min-width:321px) and (max-width:768px) {
+      .dropdown-menu {
+        display: none;
+      }
+    }
+
     /* The Modal (background) */
     .modal {
       display: none;
@@ -435,38 +453,38 @@
                 <a href="bonded-radiators.html" class="dropdown-item">MB Radiators</a>
                 <a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a>
               </div>
-            </div> 
+            </div>
             <ul class="main-navigation dropdown">
-                <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
-                  <ul>
-                    <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
-                      <ul>
-                        <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
-                        <li><a href="construction.html" class="dropdown-item">Construction</a></li>
-                        <li><a href="defence.html" class="dropdown-item">Defence</a></li>
-                        <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
-                        <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
-                      <ul>
-                        <li><a href="railway.html" class="dropdown-item">Railway</a></li>
-                        <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <div class="nav-item dropdown">
-                <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
-                <div class="dropdown-menu">
-                  <a href="expertise.html" class="dropdown-item">Designing</a>
-                  <a href="eng.html" class="dropdown-item">Engineering</a>
-                  <a href="man.html" class="dropdown-item">Manufacturings</a>
-                  <a href="afs.html" class="dropdown-item">After Sales Support</a>
-                  <a href="otf.html" class="dropdown-item">Our testing Facility</a>
-                </div>
+              <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
+                <ul>
+                  <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
+                    <ul>
+                      <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
+                      <li><a href="construction.html" class="dropdown-item">Construction</a></li>
+                      <li><a href="defence.html" class="dropdown-item">Defence</a></li>
+                      <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
+                      <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
+                    <ul>
+                      <li><a href="railway.html" class="dropdown-item">Railway</a></li>
+                      <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="nav-item dropdown">
+              <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
+              <div class="dropdown-menu">
+                <a href="expertise.html" class="dropdown-item">Designing</a>
+                <a href="eng.html" class="dropdown-item">Engineering</a>
+                <a href="man.html" class="dropdown-item">Manufacturings</a>
+                <a href="afs.html" class="dropdown-item">After Sales Support</a>
+                <a href="otf.html" class="dropdown-item">Our testing Facility</a>
               </div>
+            </div>
 
             <div class="nav-item dropdown">
               <a href="people.html" class="nav-link dropdown-toggle">People</a>
@@ -605,7 +623,7 @@ height: 500px;
                     <span class="flaticon-crane icon"></span>
                     <div class="media-body">
                       <h3 class="mt-0 text-black" style="font-weight: 600;">Our Mission</h3>
-                      <h5 >Our Mission is to build and supply optimized quality heat transfer
+                      <h5>Our Mission is to build and supply optimized quality heat transfer
                         equipment for diesel, gas and electric application.</h5>
                       <!-- <p><a href="#" class="btn btn-outline-danger btn-sm">Learn More</a></p> -->
                     </div>
@@ -923,7 +941,8 @@ height: 500px;
           <div class="row align-items-center">
             <div class="col-md-6 pr-lg-5 mb-5 mb-md-0  element-animate">
               <div class="pr-lg-5">
-                <h2 class="heading text-uppercase border-bottom mb-4 text-left" style="font-family: 'Raleway', sans-serif;">
+                <h2 class="heading text-uppercase border-bottom mb-4 text-left"
+                  style="font-family: 'Raleway', sans-serif;">
                   Our Clients in various Industries
                 </h2>
                 <p>We supply various industries such as Indian Railways, Power Generation, Construction,
@@ -932,10 +951,10 @@ height: 500px;
                   improvement over time, effecient in-house production and state of art testing capabilities gives us a
                   competetive advantage in the market place.</p>
                 <ul>
-                  <p><span>&#8226;</span>  Markets: Railway, Off-Highway, Industrial, and Power Generation</p>
-                <p><span>&#8226;</span>  Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</p>
+                  <p><span>&#8226;</span> Markets: Railway, Off-Highway, Industrial, and Power Generation</p>
+                  <p><span>&#8226;</span> Design Types Fin & Tube/Bar & Plate Equipment: Industrial Power</p>
 
-              
+
                 </ul>
               </div>
             </div>
@@ -949,23 +968,29 @@ height: 500px;
       <section class="section" style="margin-bottom: 50px;">
         <div class="container">
           <div class="row align-items-center">
-            
+
             <div class="col-md-12 col-lg-6">
               <img src="img/c3.png" alt="Image placeholder" class="img-fluid">
             </div>
             <div class="col-md-6 pr-lg-5 mb-5 mb-md-0  element-animate">
               <div class="pr-lg-5">
-                <h2 class="heading text-uppercase border-bottom mb-4 text-left" style="font-family: 'Raleway', sans-serif;">
+                <h2 class="heading text-uppercase border-bottom mb-4 text-left"
+                  style="font-family: 'Raleway', sans-serif;">
                   Our Clients in various Industries
                 </h2>
-                <p>We at Saaswad aim to meet or exceed our customer’s expectations for performance, quality, delivery, and cost. Our departments of design and development have mastered the procedure of co-creating and performance as an extended team of clients. Our facilities are supported by some advanced and modern tools for designing, manufacturing and testing our products. Our assured operation, environment-friendly manufacturing methods, flawless automation, and systematic inspection certify high levels of quality and awareness.</p>
-            
+                <p>We at Saaswad aim to meet or exceed our customer’s expectations for performance, quality, delivery,
+                  and cost. Our departments of design and development have mastered the procedure of co-creating and
+                  performance as an extended team of clients. Our facilities are supported by some advanced and modern
+                  tools for designing, manufacturing and testing our products. Our assured operation,
+                  environment-friendly manufacturing methods, flawless automation, and systematic inspection certify
+                  high levels of quality and awareness.</p>
+
               </div>
             </div>
           </div>
         </div>
       </section>
-    
+
 
     </div>
 
@@ -1378,21 +1403,30 @@ height: 500px;
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h3 class="text" style="font-size: large; color: #d8323a;"><b>Saaswad Heat Transfer And Engineering Pvt. Ltd.</b></h3>
+          <h3 class="text" style="font-size: large; color: #d8323a;"><b>Saaswad Heat Transfer And Engineering Pvt.
+              Ltd.</b></h3>
           <p class="text-white" style="line-height: 1.6;">
             We introduce ourselves as one of the Leading Manufacturers of Industrial Radiators, Oil Coolers, Heat
             Exchangers and Charge Air Coolers in India since 1987. We are known for manufacturing quality products and
             providing complete solutions through technical expertise and after-sales service to our customers.
           </p>
           <ul class="list-unstyled footer-link d-flex footer-social">
-            <li style="list-style-type: none;"><a href="https://twitter.com/saaswadheat?lang=en" class="p-2" target="_blank"><span class="fa fa-twitter"></span></a></li>
-            <li style="list-style-type: none;"><a href="https://www.facebook.com/SaaswadHeatTransfer" class="p-2" target="_blank"><span class="fa fa-facebook"></span></a></li>
-            <li style="list-style-type: none;"><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" class="p-2" target="_blank"><span class="fa fa-linkedin"></span></a></li>
-            <li style="list-style-type: none;"><a href="https://www.instagram.com/saaswadheattransfer/" class="p-2" target="_blank"><span class="fa fa-instagram"></span></a></li>
-            <li style="list-style-type: none;"><a href="https://www.youtube.com/channel/UCn_TyzQi1bqj8pi0CGGUrIA" target="blank" class="p-2"><span class="fa fa-youtube"></span></a></li>
-            <li style="list-style-type: none;"><a href="https://www.indiamart.com/saaswadheat-transfer-and-engineering/profile.html" class="p-2" target="_blank"><span class="fa fa-shopping-cart"></span></a></li>
+            <li style="list-style-type: none;"><a href="https://twitter.com/saaswadheat?lang=en" class="p-2"
+                target="_blank"><span class="fa fa-twitter"></span></a></li>
+            <li style="list-style-type: none;"><a href="https://www.facebook.com/SaaswadHeatTransfer" class="p-2"
+                target="_blank"><span class="fa fa-facebook"></span></a></li>
+            <li style="list-style-type: none;"><a
+                href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" class="p-2"
+                target="_blank"><span class="fa fa-linkedin"></span></a></li>
+            <li style="list-style-type: none;"><a href="https://www.instagram.com/saaswadheattransfer/" class="p-2"
+                target="_blank"><span class="fa fa-instagram"></span></a></li>
+            <li style="list-style-type: none;"><a href="https://www.youtube.com/channel/UCn_TyzQi1bqj8pi0CGGUrIA"
+                target="blank" class="p-2"><span class="fa fa-youtube"></span></a></li>
+            <li style="list-style-type: none;"><a
+                href="https://www.indiamart.com/saaswadheat-transfer-and-engineering/profile.html" class="p-2"
+                target="_blank"><span class="fa fa-shopping-cart"></span></a></li>
           </ul>
-         
+
 
         </div>
 
@@ -1422,20 +1456,27 @@ height: 500px;
           </ul>
         </div>
         <div class="col-md-3">
-          <h3 class="text-white" style="font-size: large;"><a href="contact.html" style="color: white;">Contact Us</a> </h3>
+          <h3 class="text-white" style="font-size: large;"><a href="contact.html" style="color: white;">Contact Us</a>
+          </h3>
           <ul class="list-unstyled footer-link">
             <li style="list-style-type: none;"><span class="mr-3 d-block">Address:</span><span class="text-white"
                 style="font-family: Montserrat;">B-38/47 PR,Tulsipur Mahmoorganj,Varanasi Uttar
                 Pradesh,India-221010</span></li>
-                <li style="list-style-type: none;"><span class="mr-3 d-block">Phone:</span><span class="text-white" style="font-family: Montserrat;"><a href="tel:+91 9336116247" style="color: white;">+91 9336116247</a></span></li>
-                <li style="list-style-type: none;"><span class="mr-3 d-block">E-mail:</span><span class="text-white" style="font-family: Montserrat;"><a href="mailto:info@saaswad.com" style="color: white;">info@saaswad.com</a></span></li>
+            <li style="list-style-type: none;"><span class="mr-3 d-block">Phone:</span><span class="text-white"
+                style="font-family: Montserrat;"><a href="tel:+91 9336116247" style="color: white;">+91
+                  9336116247</a></span></li>
+            <li style="list-style-type: none;"><span class="mr-3 d-block">E-mail:</span><span class="text-white"
+                style="font-family: Montserrat;"><a href="mailto:info@saaswad.com"
+                  style="color: white;">info@saaswad.com</a></span></li>
           </ul>
         </div>
       </div>
       <div class="col-md-12 col-lg-12" style="padding-top: 25px;">
         <p class="text-center">
           Copyright &copy;
-          <script>document.write(new Date().getFullYear());</script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
+          <script>
+            document.write(new Date().getFullYear());
+          </script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
           </a>
         </p>
       </div>
@@ -1457,8 +1498,8 @@ height: 500px;
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/main.js"></script>
