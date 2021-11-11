@@ -1913,13 +1913,10 @@ display: inline-block;
   width: 100vw;
 }
 
-
 .points ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 100%;
-  margin: auto;
   justify-content:center;
   align-items: center;
 }
