@@ -128,7 +128,7 @@
                                 </ul>
                               </div>
                               <div class="top-bar-text">
-                                <a class="btn btn-danger" id="con" href="contact.html">Contact Us</a>
+                                <a class="btn btn-danger" id="con" href="contact.php">Contact Us</a>
                             </div>
                              
                           </div>
@@ -140,116 +140,120 @@
   </div>
   <!-- Top Bar End -->
 
-  <!-- Nav Bar Start -->
-  <div class="nav-bar">
-      <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-              <a href="#" class="navbar-brand">MENU</a>
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
+   <!-- Nav Bar Start -->
+   <div class="nav-bar">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <a href="#" class="navbar-brand">MENU</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-              <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                  <div class="navbar-nav mr-auto">
-                      <a href="index.html" class="nav-item nav-link ">Home</a>
-                      <div class="nav-item dropdown">
-                        <a href="company.html" class="nav-link dropdown-toggle">Company</a>
-                        <div class="dropdown-menu">
-                            <a href="company.html" class="dropdown-item">About Us</a>
-                            <a href="cert.html" class="dropdown-item">Certifications</a>
-                            <a href="fac.html" class="dropdown-item">Facilities</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                      <a href="products.html" class="nav-link dropdown-toggle">Products</a>
-                      <div class="dropdown-menu">
-                        <a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a>
-                        <a href="heat-exchangers.html" class="dropdown-item">Heat Exchangers</a>
-                        <a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a>
-                        <a href="air-coolers.html" class="dropdown-item">Air Coolers</a>
-                        <a href="bonded-radiators.html" class="dropdown-item">MB Radiators</a>
-                        <a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a>
-                      </div>
-                    </div> 
-                      <ul class="main-navigation dropdown">
-                        <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
-                          <ul>
-                            <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
-                              <ul>
-                                <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
-                                <li><a href="construction.html" class="dropdown-item">Construction</a></li>
-                                <li><a href="defence.html" class="dropdown-item">Defence</a></li>
-                                <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
-                                <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
-                              </ul>
-                            </li>
-                            <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
-                              <ul>
-                                <li><a href="railway.html" class="dropdown-item">Railway</a></li>
-                                <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <div class="nav-item dropdown">
-                        <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
-                        <div class="dropdown-menu">
-                          <a href="expertise.html" class="dropdown-item">Designing</a>
-                          <a href="eng.html" class="dropdown-item">Engineering</a>
-                          <a href="man.html" class="dropdown-item">Manufacturings</a>
-                          <a href="afs.html" class="dropdown-item">After Sales Support</a>
-                          <a href="otf.html" class="dropdown-item">Our testing Facility</a>
-                        </div>
-                      </div>
-                     
-                      <div class="nav-item dropdown">
-                        <a href="people.html" class="nav-link dropdown-toggle active">People</a>
-                        <div class="dropdown-menu">
-                            <a href="people.html" class="dropdown-item">Our Team</a>
-                            <a href="career.html" class="dropdown-item">Career</a>
-                            <a href="ws.html" class="dropdown-item">Workspace</a>
-                        </div>
-                    </div>
-                    <a href="blogs.html" class="nav-item nav-link">Blogs</a>
-
-                      <a href="downloads.html" class="nav-item nav-link">Downloads</a>
-                  
-                  </div>
-                  <div class="ml-auto">
-                    <div class="searchbar">
-                      <div class="container">
-                       
-                        <div class="dropdown">
-                          <input class="form-control" id="myInput" type="text" placeholder="search" data-toggle="dropdown">
-                          
-                          <span class="caret"></span></button>
-                          <ul class="dropdown-menu" id="dd">
-                            <li><a href="company.html" class="dropdown-item">About Us</a></li>
-                            <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
-                            <li><a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a></li>
-                            <li><a href="heat-exchangers.html" class="dropdown-item">Customized Heat Exchangers</a></li>
-                            <li><a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a></li>
-                            <li><a href="air-coolers.html" class="dropdown-item">Charge Air Coolers</a></li>
-                            <li><a href="bonded-radiators.html" class="dropdown-item">Mechanically Bonded Radiators</a></li>
-                            <li><a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a></li>
-                            <li><a href="application-1.html" class="dropdown-item">Oil cooling</a></li>
-                            <li><a href="#" class="dropdown-item">Radiators for crane</a></li>
-                            <li><a href="#" class="dropdown-item">Locomotive and Power generation</a></li>
-                            <li><a href="people.html" class="dropdown-item">Our Team</a></li>
-                            <li><a href="career.html" class="dropdown-item">Career</a></li>
-                            <li><a href="ws.html" class="dropdown-item">Workspace</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="icon">
-                          <i class="fa fa-search"></i>
-                      </div>
-                  </div>
-                  </div>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="navbar-nav mr-auto">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <div class="nav-item dropdown" style="outline: none;">
+              <a href="company.html" class="nav-link dropdown-toggle">Company</a>
+              <div class="dropdown-menu">
+                <a href="company.html" class="dropdown-item">About Us</a>
+                <a href="cert.html" class="dropdown-item">Certifications</a>
+                <a href="fac.html" class="dropdown-item">Facilities</a>
+                
               </div>
-          </nav>
-      </div>
+            </div>
+
+            <div class="nav-item dropdown">
+              <a href="products.html" class="nav-link dropdown-toggle">Products</a>
+              <div class="dropdown-menu">
+                <a href="industrial-radiators.php" class="dropdown-item">Industrial Radiators</a>
+                <a href="heat-exchangers.php" class="dropdown-item">Heat Exchangers</a>
+                <a href="oil-coolers.php" class="dropdown-item">Oil Coolers</a>
+                <a href="air-coolers.php" class="dropdown-item">Air Coolers</a>
+                <a href="bonded-radiators.php" class="dropdown-item">MB Radiators</a>
+                <a href="generator-radiators.php" class="dropdown-item">Generator Radiators</a>
+              </div>
+            </div> 
+           
+
+            <ul class="main-navigation dropdown">
+                <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
+                  <ul>
+                    <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
+                      <ul>
+                        <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
+                        <li><a href="construction.html" class="dropdown-item">Construction</a></li>
+                        <li><a href="defence.html" class="dropdown-item">Defence</a></li>
+                        <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
+                        <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
+                      <ul>
+                        <li><a href="railway.html" class="dropdown-item">Railway</a></li>
+                        <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            
+            <div class="nav-item dropdown">
+              <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
+              <div class="dropdown-menu">
+                <a href="expertise.html" class="dropdown-item">Designing</a>
+                <a href="eng.html" class="dropdown-item">Engineering</a>
+                <a href="man.html" class="dropdown-item">Manufacturings</a>
+                <a href="afs.html" class="dropdown-item">After Sales Support</a>
+                <a href="otf.html" class="dropdown-item">Our testing Facility</a>
+              </div>
+            </div>
+            
+
+            <div class="nav-item dropdown">
+              <a href="people.php" class="nav-link dropdown-toggle active">People</a>
+              <div class="dropdown-menu">
+                <a href="people.php" class="dropdown-item">Our Team</a>
+                <a href="career.php" class="dropdown-item">Career</a>
+                <a href="ws.php" class="dropdown-item">Workspace</a>
+              </div>
+            </div>
+            <a href="blogs.html" class="nav-item nav-link">Blogs</a>
+            <a href="downloads.html" class="nav-item nav-link">Downloads</a>
+
+          </div>
+          <div class="ml-auto">
+            <div class="searchbar">
+              <div class="container">
+
+                <div class="dropdown">
+                  <input class="form-control" id="myInput" type="text" placeholder="search" data-toggle="dropdown">
+
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" id="dd">
+                    <li><a href="company.html" class="dropdown-item">About Us</a></li>
+                    <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
+                    <li><a href="achiev.html" class="dropdown-item">Achievements</a></li>
+                    <li><a href="industrial-radiators.php" class="dropdown-item">Industrial Radiators</a></li>
+                    <li><a href="heat-exchangers.php" class="dropdown-item">Customized Heat Exchangers</a></li>
+                    <li><a href="oil-coolers.php" class="dropdown-item">Oil Coolers</a></li>
+                    <li><a href="air-coolers.php" class="dropdown-item">Charge Air Coolers</a></li>
+                    <li><a href="bonded-radiators.php" class="dropdown-item">Mechanically Bonded Radiators</a></li>
+                    <li><a href="generator-radiators.php" class="dropdown-item">Generator Radiators</a></li>
+                    <li><a href="people.php" class="dropdown-item">Our Team</a></li>
+                    <li><a href="career.php" class="dropdown-item">Career</a></li>
+                    <li><a href="ws.php" class="dropdown-item">Workspace</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </div>
   </div>
   <!-- Nav Bar End -->
 
@@ -437,6 +441,22 @@
           </div>
           
         </div>
+
+        <?php
+					$Msg = "";
+					if (isset($_GET['error'])) {
+						$Msg = " Please Fill in the Blanks ";
+						echo '<div class="alert alert-danger">' . $Msg . '</div>';
+						echo "<script>alert(' Please Fill in the Blanks ')</script>";
+					}
+
+					if (isset($_GET['success'])) {
+						$Msg = " Your Message Has Been Sent ";
+						echo '<div class="alert alert-success">' . $Msg . '</div>';
+						echo "<script>alert(' Your Message Has Been Sent ')</script>";
+					}
+
+					?>
         
         <section class="section" style="padding-top: 2%;">
           <div class="container">
@@ -446,43 +466,43 @@
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <label for="fname">Name:</label>
-                      <input type="text" class="form-control form-control-lg" id="fname">
+                      <input type="text" class="form-control form-control-lg" id="fname" name="UName">
                     </div>
                     <div class="col-md-6 form-group">
                       <label for="email">Email:</label>
-                      <input type="email" class="form-control form-control-lg" id="email">
+                      <input type="email" class="form-control form-control-lg" id="email" name="Email">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <label for="contact_no">Contact Number:</label>
-                      <input type="text" id="contact_no" class="form-control form-control-lg">
+                      <input type="text" id="contact_no" class="form-control form-control-lg" name="no">
                     </div>
                     <div class="col-md-6 form-group">
                       <label for="address">Address:</label>
-                      <input type="text" id="address" class="form-control form-control-lg">
+                      <input type="text" id="address" class="form-control form-control-lg" name="address">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
                       <label for="subject">Role of work:</label>
-                      <input type="text" id="subject" class="form-control form-control-lg">
+                      <input type="text" id="subject" class="form-control form-control-lg" name="Role">
                     </div>
       
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
                       <label for="message">Message</label>
-                      <textarea name="message" id="message" class="form-control form-control-lg" cols="30"
+                      <textarea name="msg" id="message" class="form-control form-control-lg" cols="30"
                         rows="8"></textarea>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <input type="submit" value="Send Message" class="btn btn-danger btn-lg btn-block">
+                      <input type="submit" value="Send Message" class="btn btn-danger btn-lg btn-block" name="btn-career">
                     </div>
                     <div class="col-md-6 form-group">
-                      <input type="submit" value="Upload CV" class="btn btn-danger btn-lg btn-block">
+                      <input type="submit" value="Upload CV" class="btn btn-danger btn-lg btn-block" name="cv">
                     </div>
                   </div>
                   
@@ -651,22 +671,23 @@
     <!-- END section -->
 
    
-    <section class="container cta-overlap">
-      <div class="text d-flex">
-        <h2 class="h3">Contact Us or Get a Quotation</h2>
-        <div class="ml-auto btn-wrap">
-          <a href="contact.html" class="btn-cta btn btn-outline-white">CONTACT US</a>
-        </div>
+     <!-- END section -->
+  <section class="container cta-overlap">
+    <div class="text d-flex">
+      <h2 class="h3">Contact Us or Get a Quotation</h2>
+      <div class="ml-auto btn-wrap">
+        <a href="contact.php" class="btn-cta btn btn-outline-white">Contact Us</a>
       </div>
-    </section>
-  
-    <!-- END section -->
-  
-    <footer class="site-footer" role="contentinfo" style="background-color: #000000b3;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h3 class="text" style="font-size: large; color: #ee424b;"><b>Saaswad Heat Transfer And Engineering Pvt. Ltd.</b></h3>
+    </div>
+  </section>
+
+  <!-- END section -->
+
+  <footer class="site-footer" role="contentinfo" style="background-color: #000000b3;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3 class="text" style="font-size: large; color: #ee424b;"><b>Saaswad Heat Transfer And Engineering Pvt. Ltd.</b></h3>
           <p class="text-white" style="line-height: 1.6;">
             We introduce ourselves as one of the Leading Manufacturers of Industrial Radiators, Oil Coolers, Heat
             Exchangers and Charge Air Coolers in India since 1987. We are known for manufacturing quality products and
@@ -687,12 +708,12 @@
         <div class="col-md-3">
           <h3 class="text-white" style="font-size: large;">Our Products</h3>
           <ul class="list-unstyled footer-link">
-            <li><a href="industrial-radiators.html">Industrial Radiators</a></li>
-            <li><a href="heat-exchangers.html">Customized Heat Exchangers</a></li>
-            <li><a href="oil-coolers.html">Oil Coolers</a></li>
-            <li><a href="air-coolers.html">Charge Air Coolers</a></li>
-            <li><a href="bonded-radiators.html">Mechanically Bonded Radiators</a></li>
-            <li><a href="generator-radiators.html">Generator Radiators</a></li>
+            <li><a href="industrial-radiators.php">Industrial Radiators</a></li>
+            <li><a href="heat-exchangers.php">Customized Heat Exchangers</a></li>
+            <li><a href="oil-coolers.php">Oil Coolers</a></li>
+            <li><a href="air-coolers.php">Charge Air Coolers</a></li>
+            <li><a href="bonded-radiators.php">Mechanically Bonded Radiators</a></li>
+            <li><a href="generator-radiators.php">Generator Radiators</a></li>
           </ul>
         </div>
 
@@ -703,37 +724,39 @@
             <li><a href="products.html">Products</a></li>
             <li><a href="application.html">Applications</a></li>
             <li><a href="expertise.html">Expertise</a></li>
-            <li><a href="people.html">People</a></li>
+            <li><a href="people.php">People</a></li>
             <li><a href="blogs.html">Blogs</a></li>
             <li><a href="downloads.html">Downloads</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-3">
-          <h3 class="text-white" style="font-size: large;"><a href="contact.html" style="color: white;">Contact Us</a> </h3>
+          <h3 class="text-white" style="font-size: large;"><a href="contact.php" style="color: white;">Contact Us</a> </h3>
           <ul class="list-unstyled footer-link">
             <li><span class="mr-3 d-block">Address:</span><span class="text-white"
                 style="font-family: Montserrat;">B-38/47 PR,Tulsipur Mahmoorganj,Varanasi Uttar
                 Pradesh,India-221010</span></li>
             <li><span class="mr-3 d-block">Phone:</span><span class="text-white" style="font-family: Montserrat;"><a href="tel:+91 9336116247" style="color: white;">+91 9336116247</a></span></li>
             <li><span class="mr-3 d-block">E-mail:</span><span class="text-white" style="font-family: Montserrat;"><a href="mailto:info@saaswad.com" style="color: white;">info@saaswad.com</a></span></li>
-            </ul>
-          </div>
+           
+          </ul>
         </div>
-          <div class="col-md-12 col-lg-12" style="padding-top: 25px;">
-            <p class="text-center">
-              Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
-              </a>
-            </p>
-          </div>
-  
       </div>
-  
-  
-  
-    </footer>
-    <!-- END footer -->
+        <div class="col-md-12 col-lg-12" style="padding-top: 25px;">
+          <p class="text-center">
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
+            </a>
+          </p>
+        </div>
+
+    </div>
+
+
+
+  </footer>
+  <!-- END footer -->
+
 
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
