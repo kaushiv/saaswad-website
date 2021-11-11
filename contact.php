@@ -217,11 +217,17 @@ position:absolute;
             
 
             <div class="nav-item dropdown">
-              <a href="people.html" class="nav-link dropdown-toggle">People</a>
+              <a href="people.php" class="nav-link dropdown-toggle">People</a>
               <div class="dropdown-menu">
+<<<<<<< HEAD
+                <a href="people.php" class="dropdown-item">Our Team</a>
+                <a href="career.html" class="dropdown-item">Career</a>
+                <a href="ws.php" class="dropdown-item">Workspace</a>
+=======
                 <a href="people.html" class="dropdown-item">Our Team</a>
                 <a href="career.php" class="dropdown-item">Career</a>
                 <a href="ws.html" class="dropdown-item">Workspace</a>
+>>>>>>> 6e096321465679a1612910d055ef3f61e859ec28
               </div>
             </div>
             <a href="blogs.html" class="nav-item nav-link">Blogs</a>
@@ -240,6 +246,20 @@ position:absolute;
                     <li><a href="company.html" class="dropdown-item">About Us</a></li>
                     <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
                     <li><a href="achiev.html" class="dropdown-item">Achievements</a></li>
+<<<<<<< HEAD
+                    <li><a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a></li>
+                    <li><a href="heat-exchangers.html" class="dropdown-item">Customized Heat Exchangers</a></li>
+                    <li><a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a></li>
+                    <li><a href="air-coolers.html" class="dropdown-item">Charge Air Coolers</a></li>
+                    <li><a href="bonded-radiators.html" class="dropdown-item">Mechanically Bonded Radiators</a></li>
+                    <li><a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a></li>
+                    <li><a href="application-1.html" class="dropdown-item">Oil cooling</a></li>
+                    <li><a href="#" class="dropdown-item">Radiators for crane</a></li>
+                    <li><a href="#" class="dropdown-item">Locomotive and Power generation</a></li>
+                    <li><a href="people.php" class="dropdown-item">Our Team</a></li>
+                    <li><a href="career.html" class="dropdown-item">Career</a></li>
+                    <li><a href="ws.php" class="dropdown-item">Workspace</a></li>
+=======
                     <li><a href="industrial-radiators.php" class="dropdown-item">Industrial Radiators</a></li>
                     <li><a href="heat-exchangers.php" class="dropdown-item">Customized Heat Exchangers</a></li>
                     <li><a href="oil-coolers.php" class="dropdown-item">Oil Coolers</a></li>
@@ -249,6 +269,7 @@ position:absolute;
                     <li><a href="people.html" class="dropdown-item">Our Team</a></li>
                     <li><a href="career.php" class="dropdown-item">Career</a></li>
                     <li><a href="ws.html" class="dropdown-item">Workspace</a></li>
+>>>>>>> 6e096321465679a1612910d055ef3f61e859ec28
                   </ul>
                 </div>
               </div>
@@ -527,7 +548,7 @@ position:absolute;
             <li><a href="products.html">Products</a></li>
             <li><a href="application.html">Applications</a></li>
             <li><a href="expertise.html">Expertise</a></li>
-            <li><a href="people.html">People</a></li>
+            <li><a href="people.php">People</a></li>
             <li><a href="blogs.html">Blogs</a></li>
             <li><a href="downloads.html">Downloads</a></li>
             <li><a href="contact.html">Contact</a></li>

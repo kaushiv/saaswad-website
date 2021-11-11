@@ -1893,12 +1893,9 @@ display: inline-block;
   margin-bottom: 7rem;
 }
 
-.points ul, ol{
-  list-style-type: disc !important;
-}
-
-.points li{
-  list-style-type: disc !important;
+.points ul{
+  list-style-type:square;
+  color: #d9534f;
 }
 
 .app-detail .img-con {
@@ -1916,7 +1913,6 @@ display: inline-block;
   width: 100vw;
 }
 
-
 .points ul {
   display: flex;
   flex-wrap: wrap;
@@ -1927,6 +1923,7 @@ display: inline-block;
 
 .points li p {
   margin-top: -1.2rem;
+  color: #6c757d;
   width: fit-content;
 }
 
