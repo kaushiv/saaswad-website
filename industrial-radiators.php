@@ -7,7 +7,7 @@
 
   <meta name="description"
     content="Saaswad provides with products such as Heat Exchanger, Oil coolers, Industrial Radiators etc." />
-  <meta name="keywords" content="products saaswad heat transfer, saaswad products industrial radiator, custom designed heat exchanger, Mechanically bonded radiators cabAC" />
+  <meta name="keywords" content="products saaswad heat transfer, saaswad products industrial radiator, custom designed heat exchanger, genset radiator air coolers" />
   
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -142,201 +142,197 @@ details[open] .control-icon-expand {
 </head>
 
 <body>
-<!-- Top Bar Start -->
-<div class="top-bar">
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      <div class="col-lg-4 col-md-12">
-        <div class="logo">
-          <a href="index.html">
-            <!-- <h1>Builderz</h1> -->
-            <img src="img/logo.jpg" alt="Logo">
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-8 col-md-7 d-none d-lg-block">
-        <div class="row">
-          <div class="col-2">
-
-          </div>
-
-          <div class="col-3" id="topbar">
-          <div class="top-bar-item">
-            <div class="top-bar-icon">
-              <!-- <i class="flaticon-call"></i> -->
-              <a href="tel:+91 9336116247"><img src="./img/call_icon.jpeg" width="50vw" alt=""></a>
-            </div>
-            <div class="top-bar-text">
-              <a href="tel:+91 9336116247">
-              <h3 style="color: #c42e36;"><b>Call Us</b></h3>
+   <!-- Top Bar Start -->
+   <div class="top-bar">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-12">
+          <div class="logo">
+            <a href="index.html">
+              <!-- <h1>Builderz</h1> -->
+              <img src="img/logo.jpg" alt="Logo">
             </a>
-              <a href="tel:+91 9336116247">
-              <p>+91 9336116247</p>
-            </a>
-            </div>
           </div>
         </div>
-        <div class="col-3" id="topbar">
-          <div class="top-bar-item">
-            <div class="top-bar-icon">
-              <!-- <i class="flaticon-send-mail"></i> -->
-              <a href="mailto:info@saaswad.com"><img src="./img/mail_icon.jpeg" width="50vw" alt=""></a>
-            </div>
-            <div class="top-bar-text">
-              <a href="mailto:info@saaswad.com">
-                <h3 style="color: #c42e36;"><b>Email Us</b></h3>
-              </a>
-              <a href="mailto:info@saaswad.com">
-                <p>info@saaswad.com</p>
-              </a>
-            </div>
-          </div>
-        </div>
+        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+          <div class="row">
+            <div class="col-2">
 
-          <div class="col-4">
+            </div>
+
+            <div class="col-3" id="topbar">
             <div class="top-bar-item">
               <div class="top-bar-icon">
-                <ul class="list-unstyled footer-link d-flex footer-social" id="icon4">
-                  <li><a href="https://twitter.com/saaswadheat?lang=en" target="blank" class="p-2"><span class="fa fa-twitter"></span></a></li>
-                  <li><a href="https://www.facebook.com/SaaswadHeatTransfer" target="blank" class="p-2"><span class="fa fa-facebook"></span></a></li>
-                  <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" target="blank" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-                  <li><a href="https://www.instagram.com/saaswadheattransfer/" target="blank" class="p-2"><span class="fa fa-instagram"></span></a></li>
-                  
-                </ul>
+                <!-- <i class="flaticon-call"></i> -->
+                <a href="tel:+91 9336116247"><img src="./img/call_icon.jpeg" width="50vw" alt=""></a>
               </div>
               <div class="top-bar-text">
-                <a class="btn btn-danger" id="con" href="contact.html">Contact Us</a>
+                <a href="tel:+91 9336116247">
+                <h3 style="color: #c42e36;"><b>Call Us</b></h3>
+              </a>
+                <a href="tel:+91 9336116247">
+                <p>+91 9336116247</p>
+              </a>
               </div>
+            </div>
+          </div>
+          <div class="col-3" id="topbar">
+            <div class="top-bar-item">
+              <div class="top-bar-icon">
+                <!-- <i class="flaticon-send-mail"></i> -->
+                <a href="mailto:info@saaswad.com"><img src="./img/mail_icon.jpeg" width="50vw" alt=""></a>
+              </div>
+              <div class="top-bar-text">
+                <a href="mailto:info@saaswad.com">
+                  <h3 style="color: #c42e36;"><b>Email Us</b></h3>
+                </a>
+                <a href="mailto:info@saaswad.com">
+                  <p>info@saaswad.com</p>
+                </a>
+              </div>
+            </div>
+          </div>
 
+            <div class="col-4">
+              <div class="top-bar-item">
+                <div class="top-bar-icon">
+                  <ul class="list-unstyled footer-link d-flex footer-social" id="icon4">
+                    <li><a href="https://twitter.com/saaswadheat?lang=en" target="blank" class="p-2"><span class="fa fa-twitter"></span></a></li>
+                    <li><a href="https://www.facebook.com/SaaswadHeatTransfer" target="blank" class="p-2"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" target="blank" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+                    <li><a href="https://www.instagram.com/saaswadheattransfer/" target="blank" class="p-2"><span class="fa fa-instagram"></span></a></li>
+                    
+                  </ul>
+                </div>
+                <div class="top-bar-text">
+                  <a class="btn btn-danger" id="con" href="contact.php">Contact Us</a>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Top Bar End -->
+  <!-- Top Bar End -->
 
-<!-- Nav Bar Start -->
-<div class="nav-bar">
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <a href="#" class="navbar-brand">MENU</a>
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- Nav Bar Start -->
+  <div class="nav-bar">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <a href="#" class="navbar-brand">MENU</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-        <div class="navbar-nav mr-auto">
-          <a href="index.html" class="nav-item nav-link">Home</a>
-          <div class="nav-item dropdown" style="outline: none;">
-            <a href="company.html" class="nav-link dropdown-toggle">Company</a>
-            <div class="dropdown-menu">
-              <a href="company.html" class="dropdown-item">About Us</a>
-              <a href="cert.html" class="dropdown-item">Certifications</a>
-              <a href="fac.html" class="dropdown-item">Facilities</a>
-              
-            </div>
-          </div>
-
-          <div class="nav-item dropdown">
-            <a href="products.html" class="nav-link dropdown-toggle active">Products</a>
-            <div class="dropdown-menu">
-              <a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a>
-              <a href="heat-exchangers.html" class="dropdown-item">Heat Exchangers</a>
-              <a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a>
-              <a href="air-coolers.html" class="dropdown-item">Air Coolers</a>
-              <a href="bonded-radiators.html" class="dropdown-item">MB Radiators</a>
-              <a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a>
-            </div>
-          </div> 
-         
-
-          <ul class="main-navigation dropdown">
-              <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
-                <ul>
-                  <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
-                    <ul>
-                      <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
-                      <li><a href="construction.html" class="dropdown-item">Construction</a></li>
-                      <li><a href="defence.html" class="dropdown-item">Defence</a></li>
-                      <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
-                      <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
-                    <ul>
-                      <li><a href="railway.html" class="dropdown-item">Railway</a></li>
-                      <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          
-          <div class="nav-item dropdown">
-            <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
-            <div class="dropdown-menu">
-              <a href="expertise.html" class="dropdown-item">Designing</a>
-              <a href="eng.html" class="dropdown-item">Engineering</a>
-              <a href="man.html" class="dropdown-item">Manufacturings</a>
-              <a href="afs.html" class="dropdown-item">After Sales Support</a>
-              <a href="otf.html" class="dropdown-item">Our testing Facility</a>
-            </div>
-          </div>
-          
-
-          <div class="nav-item dropdown">
-            <a href="people.html" class="nav-link dropdown-toggle">People</a>
-            <div class="dropdown-menu">
-              <a href="people.html" class="dropdown-item">Our Team</a>
-              <a href="career.html" class="dropdown-item">Career</a>
-              <a href="ws.html" class="dropdown-item">Workspace</a>
-            </div>
-          </div>
-          <a href="blogs.html" class="nav-item nav-link">Blogs</a>
-          <a href="downloads.html" class="nav-item nav-link">Downloads</a>
-
-        </div>
-        <div class="ml-auto">
-          <div class="searchbar">
-            <div class="container">
-
-              <div class="dropdown">
-                <input class="form-control" id="myInput" type="text" placeholder="search" data-toggle="dropdown">
-
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu" id="dd">
-                  <li><a href="company.html" class="dropdown-item">About Us</a></li>
-                  <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
-                  <li><a href="achiev.html" class="dropdown-item">Achievements</a></li>
-                  <li><a href="industrial-radiators.html" class="dropdown-item">Industrial Radiators</a></li>
-                  <li><a href="heat-exchangers.html" class="dropdown-item">Customized Heat Exchangers</a></li>
-                  <li><a href="oil-coolers.html" class="dropdown-item">Oil Coolers</a></li>
-                  <li><a href="air-coolers.html" class="dropdown-item">Charge Air Coolers</a></li>
-                  <li><a href="bonded-radiators.html" class="dropdown-item">Mechanically Bonded Radiators</a></li>
-                  <li><a href="generator-radiators.html" class="dropdown-item">Generator Radiators</a></li>
-                  <li><a href="application-1.html" class="dropdown-item">Oil cooling</a></li>
-                  <li><a href="#" class="dropdown-item">Radiators for crane</a></li>
-                  <li><a href="#" class="dropdown-item">Locomotive and Power generation</a></li>
-                  <li><a href="people.html" class="dropdown-item">Our Team</a></li>
-                  <li><a href="career.html" class="dropdown-item">Career</a></li>
-                  <li><a href="ws.html" class="dropdown-item">Workspace</a></li>
-                </ul>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="navbar-nav mr-auto">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <div class="nav-item dropdown" style="outline: none;">
+              <a href="company.html" class="nav-link dropdown-toggle">Company</a>
+              <div class="dropdown-menu">
+                <a href="company.html" class="dropdown-item">About Us</a>
+                <a href="cert.html" class="dropdown-item">Certifications</a>
+                <a href="fac.html" class="dropdown-item">Facilities</a>
+                
               </div>
             </div>
-            <div class="icon">
-              <i class="fa fa-search"></i>
+
+            <div class="nav-item dropdown">
+              <a href="products.html" class="nav-link dropdown-toggle">Products</a>
+              <div class="dropdown-menu">
+                <a href="industrial-radiators.php" class="dropdown-item">Industrial Radiators</a>
+                <a href="heat-exchangers.php" class="dropdown-item">Heat Exchangers</a>
+                <a href="oil-coolers.php" class="dropdown-item">Oil Coolers</a>
+                <a href="air-coolers.php" class="dropdown-item">Air Coolers</a>
+                <a href="bonded-radiators.php" class="dropdown-item">MB Radiators</a>
+                <a href="generator-radiators.php" class="dropdown-item">Generator Radiators</a>
+              </div>
+            </div> 
+           
+
+            <ul class="main-navigation dropdown">
+                <li><a href="application.html" class=" nav-item nav-link dropdown">Applications</a>
+                  <ul>
+                    <li><a href="heat-transfer.html" class="dropdown-item">HEAT TRANSFER SOLUTIONS</a>
+                      <ul>
+                        <li><a href="power-gen.html" class="dropdown-item">Power and Generation</a></li>
+                        <li><a href="construction.html" class="dropdown-item">Construction</a></li>
+                        <li><a href="defence.html" class="dropdown-item">Defence</a></li>
+                        <li><a href="industrial.html" class="dropdown-item">Industrial</a></li>
+                        <li><a href="heavy-equip.html" class="dropdown-item">Heavy Equipments</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="air-condition.html" class="dropdown-item">AIR CONDITIONING</a>
+                      <ul>
+                        <li><a href="railway.html" class="dropdown-item">Railway</a></li>
+                        <li><a href="metro.html" class="dropdown-item">Metro Railway</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            
+            <div class="nav-item dropdown">
+              <a href="expertise.html" class="nav-link dropdown-toggle">Expertise</a>
+              <div class="dropdown-menu">
+                <a href="expertise.html" class="dropdown-item">Designing</a>
+                <a href="eng.html" class="dropdown-item">Engineering</a>
+                <a href="man.html" class="dropdown-item">Manufacturings</a>
+                <a href="afs.html" class="dropdown-item">After Sales Support</a>
+                <a href="otf.html" class="dropdown-item">Our testing Facility</a>
+              </div>
+            </div>
+            
+
+            <div class="nav-item dropdown">
+              <a href="people.html" class="nav-link dropdown-toggle">People</a>
+              <div class="dropdown-menu">
+                <a href="people.html" class="dropdown-item">Our Team</a>
+                <a href="career.php" class="dropdown-item">Career</a>
+                <a href="ws.html" class="dropdown-item">Workspace</a>
+              </div>
+            </div>
+            <a href="blogs.html" class="nav-item nav-link">Blogs</a>
+            <a href="downloads.html" class="nav-item nav-link">Downloads</a>
+
+          </div>
+          <div class="ml-auto">
+            <div class="searchbar">
+              <div class="container">
+
+                <div class="dropdown">
+                  <input class="form-control" id="myInput" type="text" placeholder="search" data-toggle="dropdown">
+
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" id="dd">
+                    <li><a href="company.html" class="dropdown-item">About Us</a></li>
+                    <li><a href="cert.html" class="dropdown-item">Certifications</a></li>
+                    <li><a href="achiev.html" class="dropdown-item">Achievements</a></li>
+                    <li><a href="industrial-radiators.php" class="dropdown-item">Industrial Radiators</a></li>
+                    <li><a href="heat-exchangers.php" class="dropdown-item">Customized Heat Exchangers</a></li>
+                    <li><a href="oil-coolers.php" class="dropdown-item">Oil Coolers</a></li>
+                    <li><a href="air-coolers.php" class="dropdown-item">Charge Air Coolers</a></li>
+                    <li><a href="bonded-radiators.php" class="dropdown-item">Mechanically Bonded Radiators</a></li>
+                    <li><a href="generator-radiators.php" class="dropdown-item">Generator Radiators</a></li>
+                    <li><a href="people.html" class="dropdown-item">Our Team</a></li>
+                    <li><a href="career.php" class="dropdown-item">Career</a></li>
+                    <li><a href="ws.html" class="dropdown-item">Workspace</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
             </div>
           </div>
+
         </div>
-
-      </div>
-    </nav>
+      </nav>
+    </div>
   </div>
-</div>
-<!-- Nav Bar End -->
-
+  <!-- Nav Bar End -->
 
   <section class="page-top-section" style="
   background: linear-gradient(
@@ -373,16 +369,16 @@ details[open] .control-icon-expand {
           </button>
         </div>
         <div class="modal-body">
-          <form action="/">
+          <form action="process-products.php" method="post">
             <div class="form-group">
               <div>
-                <input class="fname form-control" style="margin-bottom: 20px;" type="text" name="name"
+                <input class="fname form-control" style="margin-bottom: 20px;" type="text" name="UName"
                   placeholder="Full name" required>
-                <input class="form-control" style="margin-bottom: 20px;" type="text" name="name" placeholder="Email"
+                <input class="form-control" style="margin-bottom: 20px;" type="text" name="Email" placeholder="Email"
                   required>
-                <input class="form-control" style="margin-bottom: 20px;" type="text" name="name"
+                <input class="form-control" style="margin-bottom: 20px;" type="text" name="no"
                   placeholder="Phone number" required>
-                  <select class="form-select"  style="margin-bottom: 20px;">
+                  <select class="form-select"  style="margin-bottom: 20px;" name="product">
                     <option selected>Select Product</option>
                     <option value="1">Radiator</option>
                     <option value="2">Heat Exchanger</option>
@@ -392,7 +388,7 @@ details[open] .control-icon-expand {
                     <option value="6">Generator Radiator</option>
                   </select>
               </div>
-              <a href="/" type="submit" class="btn btn-danger">Submit</a>
+              <a href="industrial-radiators.php" type="submit" class="btn btn-danger" name="btn-getQuote">Submit</a>
 
             </div>
           </form>
@@ -414,18 +410,18 @@ details[open] .control-icon-expand {
           </button>
         </div>
         <div class="modal-body">
-          <form action="/">
+          <form action="process-products.php" method="post">
             <div class="form-group">
               <div>
-                <input class="fname form-control" style="margin-bottom: 20px;" type="text" name="name"
+                <input class="fname form-control" style="margin-bottom: 20px;" type="text" name="UName"
                   placeholder="Full name" required>
-                <input class="form-control" style="margin-bottom: 20px;" type="text" name="name" placeholder="Email"
+                <input class="form-control" style="margin-bottom: 20px;" type="text" name="Email" placeholder="Email"
                   required>
-                <input class="form-control" style="margin-bottom: 20px;" type="text" name="name"
+                <input class="form-control" style="margin-bottom: 20px;" type="text" name="no"
                   placeholder="Phone number" required>
                  
               </div>
-              <a href="/" type="submit" class="btn btn-danger" onclick="checkProduct()" target="_blank">Submit</a>
+              <a href="industrial-radiators.php" type="submit" class="btn btn-danger" onclick="checkProduct()" target="_blank" name="btn-downloadBrochure">Submit</a>
 
             </div>
           </form>
@@ -544,6 +540,22 @@ details[open] .control-icon-expand {
     </div>
   </div>
 
+  <?php
+  $Msg = "";
+  if (isset($_GET['error'])) {
+    $Msg = " Please Fill in the Blanks ";
+    echo '<div class="alert alert-danger">' . $Msg . '</div>';
+    echo "<script>alert(' Please Fill in the Blanks ')</script>";
+  }
+
+  if (isset($_GET['success'])) {
+    $Msg = " Your Message Has Been Sent ";
+    echo '<div class="alert alert-success">' . $Msg . '</div>';
+    echo "<script>alert(' Your Message Has Been Sent ')</script>";
+  }
+
+  ?>
+
 <!-- service_details_start  -->
 <div class="service_details_area">
   <div class="container">
@@ -553,7 +565,7 @@ details[open] .control-icon-expand {
           <h2 style="margin-bottom: 50px; color: black;">Our Products</h2>
           <h3><b>Heat Transfer</b></h3>
           <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-bottom: 100px;">
-            <a class="" id="v-industrial-radiators" data-toggle="pill" href="#industrial-radiators" role="tab"
+            <a class=" active" id="v-industrial-radiators" data-toggle="pill" href="#industrial-radiators" role="tab"
               aria-controls="v-industrial-radiators" aria-selected="true">Radiators</a>
             <a class="" id="v-heat-exchangers" data-toggle="pill" href="#heat-exchangers" role="tab"
               aria-controls="v-heat-exchangers" aria-selected="false">Heat Exchangers</a>
@@ -561,7 +573,7 @@ details[open] .control-icon-expand {
               aria-controls="v-oil-coolers" aria-selected="false">Oil Coolers</a>
             <a class="" id="v-air-coolers" data-toggle="pill" href="#air-coolers" role="tab"
               aria-controls="v-air-coolers" aria-selected="false">Charge Air Coolers</a>
-              <a class="active" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators" role="tab"
+              <a class="" id="v-bonded-radiators" data-toggle="pill" href="#bonded-radiators" role="tab"
               aria-controls="v-bonded-radiators" aria-selected="false">Mechanically Bonded Radiators</a>
             <a class="" id="v-generator-radiators" data-toggle="pill" href="#generator-radiators" role="tab"
               aria-controls="v-generator-radiators" aria-selected="false">Generator Radiators</a>
@@ -577,7 +589,7 @@ details[open] .control-icon-expand {
       </div>
       <div class="col-lg-8 col-md-8">
         <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade " id="industrial-radiators" role="tabpanel"
+          <div class="tab-pane fade show active" id="industrial-radiators" role="tabpanel"
             aria-labelledby="v-industrial-radiators">
             <div class="service_details_info">
               <h3><u>Radiators</u></h3>
@@ -1101,7 +1113,7 @@ details[open] .control-icon-expand {
 
 
 
-          <div class="tab-pane fade show active" id="bonded-radiators" role="tabpanel" aria-labelledby="v-bonded-radiators">
+          <div class="tab-pane fade" id="bonded-radiators" role="tabpanel" aria-labelledby="v-bonded-radiators">
             <div class="service_details_info">
               <h3><u>Mechanically Bonded Radiators</u></h3>
 
@@ -1310,27 +1322,27 @@ details[open] .control-icon-expand {
           </div>
           <div class="col-xl-8 col-lg-8 col-md-7">
               <div class="form">
-                  <form action="#">
+                  <form action="process-products.php" method="post">
                       <div class="row">
                           <div class="col-xl-6">
                               <div class="input_field">
-                                  <input type="text" placeholder="Your name">
+                                  <input type="text" placeholder="Your name" name="UName">
                               </div>
                           </div>
                           <div class="col-xl-6">
                               <div class="input_field">
-                                  <input type="email" placeholder="Email">
+                                  <input type="email" placeholder="Email" name="Email">
                               </div>
                           </div>
                           
                           <div class="col-xl-12">
                               <div class="input_field">
-                                  <textarea placeholder="Message"></textarea>
+                                  <textarea placeholder="Message" name="msg"></textarea>
                               </div>
                           </div>
                           <div class="col-xl-12">
                               <div class="input_field">
-                                  <button class="boxed-btn3-line" type="submit">Send Estimate</button>
+                                  <button class="boxed-btn3-line" type="submit" name="btn-info">Send Estimate</button>
                               </div>
                           </div>
                       </div>
@@ -1343,83 +1355,84 @@ details[open] .control-icon-expand {
 <!-- Estimate_area end  -->
 
 
+  <!-- END section -->
 
-<!-- END section -->
+  <footer class="site-footer" role="contentinfo" style="background-color: #000000b3;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3 class="text" style="font-size: large; color: #ee424b;"><b>Saaswad Heat Transfer And Engineering Pvt. Ltd.</b></h3>
+          <p class="text-white" style="line-height: 1.6;">
+            We introduce ourselves as one of the Leading Manufacturers of Industrial Radiators, Oil Coolers, Heat
+            Exchangers and Charge Air Coolers in India since 1987. We are known for manufacturing quality products and
+            providing complete solutions through technical expertise and after-sales service to our customers.
+          </p>
 
-<footer class="site-footer" role="contentinfo" style="background-color: #000000b3; padding-top: 3%;" >
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <h3 class="text" style="font-size: large; color: #ee424b;"><b>Saaswad Heat Transfer And Engineering Pvt. Ltd.</b></h3>
-        <p class="text-white" style="line-height: 1.6;">
-          We introduce ourselves as one of the Leading Manufacturers of Industrial Radiators, Oil Coolers, Heat
-          Exchangers and Charge Air Coolers in India since 1987. We are known for manufacturing quality products and
-          providing complete solutions through technical expertise and after-sales service to our customers.
-        </p>
-        <ul class="list-unstyled footer-link d-flex footer-social">
-          <li style="list-style-type: none;"><a href="https://twitter.com/saaswadheat?lang=en" class="p-2" target="_blank"><span class="fa fa-twitter"></span></a></li>
-          <li style="list-style-type: none;"><a href="https://www.facebook.com/SaaswadHeatTransfer" class="p-2" target="_blank"><span class="fa fa-facebook"></span></a></li>
-          <li style="list-style-type: none;"><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" class="p-2" target="_blank"><span class="fa fa-linkedin"></span></a></li>
-          <li style="list-style-type: none;"><a href="https://www.instagram.com/saaswadheattransfer/" class="p-2" target="_blank"><span class="fa fa-instagram"></span></a></li>
-          <li style="list-style-type: none;"><a href="https://www.youtube.com/channel/UCn_TyzQi1bqj8pi0CGGUrIA" target="blank" class="p-2"><span class="fa fa-youtube"></span></a></li>
-          <li style="list-style-type: none;"><a href="https://www.indiamart.com/saaswadheat-transfer-and-engineering/profile.html" class="p-2" target="_blank"><span class="fa fa-shopping-cart"></span></a></li>
-        </ul>
-       
+          <ul class="list-unstyled footer-link d-flex footer-social">
+            <li><a href="https://twitter.com/saaswadheat?lang=en" class="p-2" target="_blank"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="https://www.facebook.com/SaaswadHeatTransfer" class="p-2" target="_blank"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" class="p-2" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="https://www.instagram.com/saaswadheattransfer/" class="p-2" target="_blank"><span class="fa fa-instagram"></span></a></li>
+            <li><a href="https://www.youtube.com/channel/UCn_TyzQi1bqj8pi0CGGUrIA" target="blank" class="p-2"><span class="fa fa-youtube"></span></a></li>
+            <li><a href="https://www.indiamart.com/saaswadheat-transfer-and-engineering/profile.html" class="p-2" target="_blank"><span class="fa fa-shopping-cart"></span></a></li>
+          </ul>
 
+        </div>
+
+        <div class="col-md-3">
+          <h3 class="text-white" style="font-size: large;">Our Products</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="industrial-radiators.php">Industrial Radiators</a></li>
+            <li><a href="heat-exchangers.php">Customized Heat Exchangers</a></li>
+            <li><a href="oil-coolers.php">Oil Coolers</a></li>
+            <li><a href="air-coolers.php">Charge Air Coolers</a></li>
+            <li><a href="bonded-radiators.php">Mechanically Bonded Radiators</a></li>
+            <li><a href="generator-radiators.php">Generator Radiators</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h3 class="text-white" style="font-size: large;">Quick Links</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="company.html">Company</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="application.html">Applications</a></li>
+            <li><a href="expertise.html">Expertise</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3 class="text-white" style="font-size: large;"><a href="contact.php" style="color: white;">Contact Us</a> </h3>
+          <ul class="list-unstyled footer-link">
+            <li><span class="mr-3 d-block">Address:</span><span class="text-white"
+                style="font-family: Montserrat;">B-38/47 PR,Tulsipur Mahmoorganj,Varanasi Uttar
+                Pradesh,India-221010</span></li>
+            <li><span class="mr-3 d-block">Phone:</span><span class="text-white" style="font-family: Montserrat;"><a href="tel:+91 9336116247" style="color: white;">+91 9336116247</a></span></li>
+            <li><span class="mr-3 d-block">E-mail:</span><span class="text-white" style="font-family: Montserrat;"><a href="mailto:info@saaswad.com" style="color: white;">info@saaswad.com</a></span></li>
+           
+          </ul>
+        </div>
       </div>
+        <div class="col-md-12 col-lg-12" style="padding-top: 25px;">
+          <p class="text-center">
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
+            </a>
+          </p>
+        </div>
 
-      <div class="col-md-3">
-        <h3 class="text-white" style="font-size: large;">Our Products</h3>
-        <ul class="list-unstyled footer-link">
-          <li style="list-style-type: none;"><a href="industrial-radiators.html">Industrial Radiators</a></li>
-          <li style="list-style-type: none;"><a href="heat-exchangers.html">Customized Heat Exchangers</a></li>
-          <li style="list-style-type: none;"><a href="oil-coolers.html">Oil Coolers</a></li>
-          <li style="list-style-type: none;"><a href="air-coolers.html">Charge Air Coolers</a></li>
-          <li style="list-style-type: none;"><a href="bonded-radiators.html">Mechanically Bonded Radiators</a></li>
-          <li style="list-style-type: none;"><a href="generator-radiators.html">Generator Radiators</a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-3">
-        <h3 class="text-white" style="font-size: large;">Quick Links</h3>
-        <ul class="list-unstyled footer-link">
-          <li style="list-style-type: none;"><a href="company.html">Company</a></li>
-          <li style="list-style-type: none;"><a href="products.html">Products</a></li>
-          <li style="list-style-type: none;"><a href="application.html">Applications</a></li>
-          <li style="list-style-type: none;"><a href="expertise.html">Expertise</a></li>
-          <li style="list-style-type: none;"><a href="people.html">People</a></li>
-          <li style="list-style-type: none;"><a href="blogs.html">Blogs</a></li>
-          <li style="list-style-type: none;"><a href="downloads.html">Downloads</a></li>
-          <li style="list-style-type: none;"><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <h3 class="text-white" style="font-size: large;"><a href="contact.html" style="color: white;">Contact Us</a> </h3>
-        <ul class="list-unstyled footer-link">
-          <li style="list-style-type: none;"><span class="mr-3 d-block">Address:</span><span class="text-white"
-              style="font-family: Montserrat;">B-38/47 PR,Tulsipur Mahmoorganj,Varanasi Uttar
-              Pradesh,India-221010</span></li>
-              <li style="list-style-type: none;"><span class="mr-3 d-block">Phone:</span><span class="text-white" style="font-family: Montserrat;"><a href="tel:+91 9336116247" style="color: white;">+91 9336116247</a></span></li>
-              <li style="list-style-type: none;"><span class="mr-3 d-block">E-mail:</span><span class="text-white" style="font-family: Montserrat;"><a href="mailto:info@saaswad.com" style="color: white;">info@saaswad.com</a></span></li>
-        </ul>
-      </div>
     </div>
-      <div class="col-md-12 col-lg-12" style="padding-top: 25px;">
-        <p class="text-center">
-          Copyright &copy;
-          <script>document.write(new Date().getFullYear());</script> | Saaswad Heat Transfer And Engineering Pvt. Ltd.
-          </a>
-        </p>
-      </div>
-
-  </div>
 
 
 
-</footer>
-<!-- END footer -->
-
-<!-- loader -->
+  </footer>
+  <!-- END footer -->
+  
+  
+  <!-- loader -->
 <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
     <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
     <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" />

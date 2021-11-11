@@ -447,6 +447,22 @@
           </div>
           
         </div>
+
+        <?php
+					$Msg = "";
+					if (isset($_GET['error'])) {
+						$Msg = " Please Fill in the Blanks ";
+						echo '<div class="alert alert-danger">' . $Msg . '</div>';
+						echo "<script>alert(' Please Fill in the Blanks ')</script>";
+					}
+
+					if (isset($_GET['success'])) {
+						$Msg = " Your Message Has Been Sent ";
+						echo '<div class="alert alert-success">' . $Msg . '</div>';
+						echo "<script>alert(' Your Message Has Been Sent ')</script>";
+					}
+
+					?>
         
         <section class="section" style="padding-top: 2%;">
           <div class="container">
@@ -456,43 +472,43 @@
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <label for="fname">Name:</label>
-                      <input type="text" class="form-control form-control-lg" id="fname">
+                      <input type="text" class="form-control form-control-lg" id="fname" name="UName">
                     </div>
                     <div class="col-md-6 form-group">
                       <label for="email">Email:</label>
-                      <input type="email" class="form-control form-control-lg" id="email">
+                      <input type="email" class="form-control form-control-lg" id="email" name="Email">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <label for="contact_no">Contact Number:</label>
-                      <input type="text" id="contact_no" class="form-control form-control-lg">
+                      <input type="text" id="contact_no" class="form-control form-control-lg" name="no">
                     </div>
                     <div class="col-md-6 form-group">
                       <label for="address">Address:</label>
-                      <input type="text" id="address" class="form-control form-control-lg">
+                      <input type="text" id="address" class="form-control form-control-lg" name="address">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
                       <label for="subject">Role of work:</label>
-                      <input type="text" id="subject" class="form-control form-control-lg">
+                      <input type="text" id="subject" class="form-control form-control-lg" name="Role">
                     </div>
       
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
                       <label for="message">Message</label>
-                      <textarea name="message" id="message" class="form-control form-control-lg" cols="30"
+                      <textarea name="msg" id="message" class="form-control form-control-lg" cols="30"
                         rows="8"></textarea>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <input type="submit" value="Send Message" class="btn btn-danger btn-lg btn-block">
+                      <input type="submit" value="Send Message" class="btn btn-danger btn-lg btn-block" name="btn-career">
                     </div>
                     <div class="col-md-6 form-group">
-                      <input type="submit" value="Upload CV" class="btn btn-danger btn-lg btn-block">
+                      <input type="submit" value="Upload CV" class="btn btn-danger btn-lg btn-block" name="cv">
                     </div>
                   </div>
                   

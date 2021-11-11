@@ -307,7 +307,21 @@ position:absolute;
     </div>
   </section>
 
+  <?php
+					$Msg = "";
+					if (isset($_GET['error'])) {
+						$Msg = " Please Fill in the Blanks ";
+						echo '<div class="alert alert-danger">' . $Msg . '</div>';
+						echo "<script>alert(' Please Fill in the Blanks ')</script>";
+					}
 
+					if (isset($_GET['success'])) {
+						$Msg = " Your Message Has Been Sent ";
+						echo '<div class="alert alert-success">' . $Msg . '</div>';
+						echo "<script>alert(' Your Message Has Been Sent ')</script>";
+					}
+
+					?>
 
 
 
@@ -315,32 +329,31 @@ position:absolute;
     <div class="container">
       <div class="row">
         <div class="col-md-7">
-          
           <form action="process-contact.php" method="post">
             <div class="row">
               <div class="col-md-6 form-group">
                 <label for="fname">Name:</label>
-                <input type="text" class="form-control form-control-lg" id="fname" name="UName">
+                <input type="text" class="form-control form-control-lg" id="fname">
               </div>
               <div class="col-md-6 form-group">
                 <label for="email">Email:</label>
-                <input type="email" class="form-control form-control-lg" id="email" name="Email">
+                <input type="email" class="form-control form-control-lg" id="email">
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 form-group">
                 <label for="contact_no">Contact Number:</label>
-                <input type="text" id="contact_no" class="form-control form-control-lg" name="no">
+                <input type="text" id="contact_no" class="form-control form-control-lg">
               </div>
               <div class="col-md-6 form-group">
                 <label for="address">Address:</label>
-                <input type="text" id="address" class="form-control form-control-lg" name="address">
+                <input type="text" id="address" class="form-control form-control-lg">
               </div>
             </div>
             <div class="row">
               <div class="col-md-12 form-group">
                 <label for="subject">Subject:</label>
-                <input type="text" id="subject" class="form-control form-control-lg" name="Subject">
+                <input type="text" id="subject" class="form-control form-control-lg">
               </div>
 
             </div>
@@ -353,7 +366,7 @@ position:absolute;
             </div>
             <div class="row">
               <div class="col-md-6 form-group">
-                <input type="submit" value="Send Message" class="btn btn-danger btn-lg btn-block" name="btn-send">
+                <input type="submit" value="Send Message" class="btn btn-danger btn-lg btn-block" name="btn-contact">
               </div>
             </div>
           </form>
