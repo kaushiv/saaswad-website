@@ -228,7 +228,7 @@ details[open] .control-icon-expand {
 
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <div class="navbar-nav mr-auto">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="index.html" class="nav-item nav-link">Home</a>
             <div class="nav-item dropdown" style="outline: none;">
               <a href="company.html" class="nav-link dropdown-toggle">Company</a>
               <div class="dropdown-menu">
@@ -240,7 +240,7 @@ details[open] .control-icon-expand {
             </div>
 
             <div class="nav-item dropdown">
-              <a href="products.html" class="nav-link dropdown-toggle">Products</a>
+              <a href="products.html" class="nav-link dropdown-toggle active">Products</a>
               <div class="dropdown-menu">
                 <a href="industrial-radiators.php" class="dropdown-item">Industrial Radiators</a>
                 <a href="heat-exchangers.php" class="dropdown-item">Heat Exchangers</a>
