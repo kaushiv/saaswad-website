@@ -87,9 +87,7 @@ position:absolute;
         </div>
         <div class="col-lg-8 col-md-7 d-none d-lg-block">
           <div class="row">
-            <div class="col-2">
-
-            </div>
+            
 
             <div class="col-3" id="topbar">
             <div class="top-bar-item">
@@ -106,6 +104,9 @@ position:absolute;
               </a>
               </div>
             </div>
+          </div>
+          <div class="col-2">
+
           </div>
           <div class="col-3" id="topbar">
             <div class="top-bar-item">
@@ -132,6 +133,7 @@ position:absolute;
                     <li><a href="https://www.facebook.com/SaaswadHeatTransfer" target="blank" class="p-2"><span class="fa fa-facebook"></span></a></li>
                     <li><a href="https://www.linkedin.com/company/saaswad-heat-transfer-and-engineering/" target="blank" class="p-2"><span class="fa fa-linkedin"></span></a></li>
                     <li><a href="https://www.instagram.com/saaswadheattransfer/" target="blank" class="p-2"><span class="fa fa-instagram"></span></a></li>
+                    
                   </ul>
                 </div>
                 <div class="top-bar-text">
@@ -146,6 +148,7 @@ position:absolute;
     </div>
   </div>
   <!-- Top Bar End -->
+
 
    <!-- Nav Bar Start -->
    <div class="nav-bar">

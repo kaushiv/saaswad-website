@@ -142,8 +142,9 @@ details[open] .control-icon-expand {
 </head>
 
 <body>
+
    <!-- Top Bar Start -->
-   <div class="top-bar">
+  <div class="top-bar">
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-lg-4 col-md-12">
@@ -156,9 +157,7 @@ details[open] .control-icon-expand {
         </div>
         <div class="col-lg-8 col-md-7 d-none d-lg-block">
           <div class="row">
-            <div class="col-2">
-
-            </div>
+            
 
             <div class="col-3" id="topbar">
             <div class="top-bar-item">
@@ -175,6 +174,9 @@ details[open] .control-icon-expand {
               </a>
               </div>
             </div>
+          </div>
+          <div class="col-2">
+
           </div>
           <div class="col-3" id="topbar">
             <div class="top-bar-item">
