@@ -88,9 +88,7 @@
               </div>
               <div class="col-lg-8 col-md-7 d-none d-lg-block">
                   <div class="row">
-                      <div class="col-2">
-                        
-                      </div>
+                      
                       
                      <div class="col-3" id="topbar">
             <div class="top-bar-item">
@@ -108,6 +106,9 @@
               </div>
             </div>
           </div>
+          <div class="col-2">
+                      
+                    </div>
           <div class="col-3" id="topbar">
             <div class="top-bar-item">
               <div class="top-bar-icon">
